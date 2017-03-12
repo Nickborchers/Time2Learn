@@ -1,12 +1,30 @@
+# Format of letter valuetable : [alphabetArray, languagesArray, values for each language in order array]  
+
 letterTable = []
-languages = ["0","1","2","3","4","5","6"]
-letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m"]
-letterValues1 = [0,0,0,0,0,0,0,0,0,0,0,0,0]
-letterValues2 = [1,1,1,1,1,1,1,1,1,1,1,1,1]
+languages = []
+letters = []
+dutchValue = []
+spanishValue = []
 
-letterTable.append(languages)
+import xml.etree.ElementTree as ET
+tree = ET.parse('letterValuesXML.xml');
+root = tree.getroot()
+
+for child in root:
+    for child2 in child:
+        if child2.tag == 'Letter':
+            letters.append(child2.text)
+            
+        if child2.tag == 'ValueDutch':
+            dutchValue.append(child2.text)
+            
+        if child2.tag == 'ValueSpnish':
+            spanishValue.append(child2.text)
+            
+languages.append("Dutch")
+languages.append("Spanish")
+
 letterTable.append(letters)
-letterTable.append(letterValues1)
-letterTable.append(letterValues2)
-
-print(letterTable)
+letterTable.append(languages)
+letterTable.append(dutchValue)
+letterTable.append(spanishValue)

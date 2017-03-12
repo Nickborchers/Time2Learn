@@ -1,10 +1,6 @@
 import word
 import wordValueTable
 
-#read xml
-import xml.etree.ElementTree
-e = xml.etree.ElementTree.parse('words2.xml').getroot()
-
 # make array of words
 
 # create new sorted array of words
@@ -12,8 +8,16 @@ e = xml.etree.ElementTree.parse('words2.xml').getroot()
 
 #wordValue = frequencyOfLetterinLanguage + wordlenght + correlation
 #correlation = common letters + letters in same place - missplaced letters 
-w = word.makeWord("trololo","","","","","",0)
-print(w.originalWord);
+#print letterTable
+#w = word.makeWord("trololo","","","","","",0)
+#print(w.originalWord);
+language = "Dutch" #language can be taken from word object xml
+letterTable = wordValueTable.letterTable
+letterValues = []
+print letterTable[1].index(language)
+valuesPosition = 2+letterTable[1].index(language);
+letterValues = letterTable[valuesPosition]
+print letterValues
 
 #word length
 #value of the word
