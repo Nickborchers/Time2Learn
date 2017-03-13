@@ -33,12 +33,15 @@ for word in words:
     letterValues = letterTable[valuesPosition]
     word.wordValue = len(word.originalWord)
     for c in word.originalWord:
-        word.wordValue += float(letterValues[ord(c)-ord("a")])
+		word.wordValue += 1
+		#word.wordValue += float(letterValues[ord(c)-ord("a")])
     word.wordValue = correlation(word.originalWord,word.translatedWord)  #minimal correltion will be further developed
     
 
 
 for word in words:
     q.put((word.wordValue,word))
-    
-print q[0].word
+
+ #first item without dequeue -> now prints 'word object'
+temp = q
+print temp.get(word)
