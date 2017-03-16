@@ -23,8 +23,19 @@ def correlation(originalWord,translation):
             n+=1
     return n
     
-#def correlation(originalWord, translation):
-#	print numpy.corrcoef(originalWord, translation)[0, 1]
+def correlation(originalWord,translation):
+	originalWord = list(originalWord)
+	translation = list(translation)
+	maxLength = max(len(originalWord), len(translation))
+	for i in range(0,maxLength):
+		if len(originalWord)-1 >= i:
+			originalWord[i] = ord(originalWord[i])
+		if  len(translation)-1 >= i:
+			translation[i] = ord(translation[i])
+	result = numpy.corrcoef(originalWord, translation)[0, 1]
+	print result
+	return result
+    
 
 # Create and populate word queue
 q = Q.PriorityQueue()
