@@ -39,7 +39,16 @@
   <Word>
       <Language>Dutch</Language>
       <Word>een</Word>
-      <Translation>a/an</Translation>
+      <Translation>a</Translation>
+      <Category></Category>
+      <Word_Difficulty></Word_Difficulty>
+      <Extensions></Extensions>
+  </Word>
+  
+    <Word>
+      <Language>Dutch</Language>
+      <Word>een</Word>
+      <Translation>an</Translation>
       <Category></Category>
       <Word_Difficulty></Word_Difficulty>
       <Extensions></Extensions>
@@ -515,8 +524,17 @@
   
   <Word>
       <Language>Spanish</Language>
-      <Word>un/una</Word>
-      <Translation>a/an</Translation>
+      <Word>un</Word>
+      <Translation>a</Translation>
+      <Category></Category>
+      <Word_Difficulty></Word_Difficulty>
+      <Extensions></Extensions>
+  </Word>
+  
+    <Word>
+      <Language>Spanish</Language>
+      <Word>una</Word>
+      <Translation>a</Translation>
       <Category></Category>
       <Word_Difficulty></Word_Difficulty>
       <Extensions></Extensions>
