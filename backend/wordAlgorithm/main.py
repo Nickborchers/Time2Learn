@@ -20,7 +20,7 @@ tempQueue = Q.PriorityQueue()
     #tempQueue.put(w)
 
 # Create reulting XML from Priority Queue
-for i in range (0,queue.qsize()):
+for i in range (0, queue.qsize()):
     w = queue.get()
     doc = ET.SubElement(root, "Word")
     ET.SubElement(doc,"Language").text = w[1].language

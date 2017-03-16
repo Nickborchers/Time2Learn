@@ -1,41 +1,34 @@
 import word
-#import numpy
 import wordValueTable
 try:
     import Queue as Q  # ver. < 3.0
 except ImportError:
     import queue as Q
 
-# make array of words
+# This algorithm makes an array of words and creates a new sorted array of words
 
-# create new sorted array of words
-# soting based on 
-
-#wordValue = frequencyOfLetterinLanguage + wordlenght + correlation
-#correlation = common letters + letters in same place - missplaced letters 
-
-# Correlation calculation
-def correlation(originalWord,translation):
-    n = 0
-    u = zip(originalWord,translation)
-    for i,j in u:
-        if i!=j:
-            n+=1
-    return n
+# Correlation calculation according to the Levenshtein-Algorithm (multiplied with the correct factor)
+def correlation(originalWord, translation):
+    originalWord = list(originalWord)
+    translation = list(translation)
+    lenOrignalWord = len(originalWord)+1
+    lenTranslation = len(translation)+1
+    matrix = [[0 for x in range(lenTranslation)] for y in range(lenOrignalWord)] 
+    for i in range(1, lenOrignalWord):
+        matrix[i][0] = i
+    for j in range(1, lenTranslation):
+        matrix[0][j] = j
     
-def correlation(originalWord,translation):
-	originalWord = list(originalWord)
-	translation = list(translation)
-	maxLength = max(len(originalWord), len(translation))
-	for i in range(0,maxLength):
-		if len(originalWord)-1 >= i:
-			originalWord[i] = ord(originalWord[i])
-		if  len(translation)-1 >= i:
-			translation[i] = ord(translation[i])
-	result = numpy.corrcoef(originalWord, translation)[0, 1]
-	print result
-	return result
-    
+    for j in range (1, lenTranslation):
+        for i in range (1, lenOrignalWord):
+            if (originalWord[i-1] == translation[j-1]):
+                cost = 0
+            else:
+                cost = 1
+            matrix[i][j] = min(matrix[i-1][j]+1, matrix[i][j-1]+1, matrix[i-1][j-1] + cost)
+
+    return 100*matrix[i][j] 
+
 
 # Create and populate word queue
 q = Q.PriorityQueue()
@@ -43,7 +36,12 @@ words = word.words
 letterTable = wordValueTable.letterTable
 letterValues = []
 
-# Populate word queue
+# Populate word queue with word values
+# Word values depend on:
+# 1. number of letters in a word
+# 2. frequency of letters in a language (according to a table) compared with the word
+# 3. the correlation of the word with its translation
+# 4. how common a word is (yet to be implemented)
 for word in words:
     language = word.language
     valuesPosition = 2+letterTable[1].index(language);
@@ -51,9 +49,9 @@ for word in words:
     word.wordValue = len(word.originalWord)
     for c in word.originalWord:
         word.wordValue += float(letterValues[ord(c)-ord("a")])
-    word.wordValue = correlation(word.originalWord,word.translatedWord)  #minimal correltion will be further developed
+
+    word.wordValue += correlation(word.originalWord,word.translatedWord)  
     
-    
-    
+# Put the word objects in the queue in increasing order of the word value    
 for w in words:
-    q.put((w.wordValue,w))
+    q.put((w.wordValue, w))

@@ -15,17 +15,17 @@ words = []
 
 # Word object
 class Word(object):
-    originalWord="";
+    originalWord = "";
     language = ""
-    translatedWord="";
-    category="";
-    wordValue=0;
-    extensions=[]
+    translatedWord = "";
+    category = "";
+    wordValue = 0;
+    extensions = []
     progress = 0;
     wordDifficulty = 0;
     
 # Word constructor
-def makeWord(language,originalWord,translatedWord,category,extensions,wordDifficulty):
+def makeWord(language, originalWord, translatedWord, category, extensions, wordDifficulty):
     word = Word()
     word.originalWord = originalWord
     word.translatedWord = translatedWord
@@ -35,6 +35,7 @@ def makeWord(language,originalWord,translatedWord,category,extensions,wordDiffic
     word.language = language
     return word
 
+# Returns the value if
 def checkExistance (value):
     if not (value is None):
         return value
@@ -43,12 +44,12 @@ def checkExistance (value):
 # Word printer
 def printWord(word):
     print 
-    print "Language: ",word.language
-    print "Original Word: ",word.originalWord
-    print "Translated Word: " , word.translatedWord
-    print "Category: " , word.category
-    print "Extensions: " , word.extensions
-    print "Word Difficulty: " , word.wordDifficulty
+    print "Language: ", word.language
+    print "Original Word: ", word.originalWord
+    print "Translated Word: ", word.translatedWord
+    print "Category: ", word.category
+    print "Extensions: ", word.extensions
+    print "Word Difficulty: ", word.wordDifficulty
 
 
 language = ""
