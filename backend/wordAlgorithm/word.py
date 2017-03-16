@@ -76,10 +76,10 @@ for child in root:
         if child1.tag == "Category":
             category = child1.text
             
-        if child1.tag == "Word_Difficulty":
+        if child1.tag == "Extensions":
             extensions = child1.text
             
-        if child1.tag == "Extensions":
+        if child1.tag == "Word_Difficulty":
             wordDifficulty = child1.text
     words.append(makeWord(language,originalWord,translatedWord,category,extensions,wordDifficulty))
         

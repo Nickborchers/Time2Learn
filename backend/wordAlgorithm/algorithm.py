@@ -1,5 +1,5 @@
 import word
-import numpy
+#import numpy
 import wordValueTable
 try:
     import Queue as Q  # ver. < 3.0
