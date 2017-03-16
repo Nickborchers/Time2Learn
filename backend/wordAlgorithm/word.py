@@ -13,6 +13,7 @@
 
 words = []
 
+# Word object
 class Word(object):
     originalWord="";
     language = ""
@@ -23,6 +24,7 @@ class Word(object):
     progress = 0;
     wordDifficulty = 0;
     
+# Word constructor
 def makeWord(language,originalWord,translatedWord,category,extensions,wordDifficulty):
     word = Word()
     word.originalWord = originalWord
@@ -33,6 +35,20 @@ def makeWord(language,originalWord,translatedWord,category,extensions,wordDiffic
     word.language = language
     return word
 
+def checkExistance (value):
+    if not (value is None):
+        return value
+    return ""
+
+# Word printer
+def printWord(word):
+    print "Language: " + checkExistance(word.language)
+    print "Original Word: " + checkExistance(word.originalWord)
+    print "Translated Word: " + checkExistance(word.translatedWord)
+    print "Category: " + checkExistance(word.category)
+    print "Extensions: " + checkExistance(word.extensions)
+    print "Word Difficulty: " + checkExistance(word.wordDifficulty)
+
 
 language = ""
 originalWord = ""
@@ -40,6 +56,8 @@ translatedWord = ""
 category = 0
 extensions = ""
 wordDifficulty = ""
+
+# XML parsing
 import xml.etree.ElementTree as ET
 tree = ET.parse('words.xml');
 root = tree.getroot()

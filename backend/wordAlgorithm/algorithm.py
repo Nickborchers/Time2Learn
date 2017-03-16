@@ -13,7 +13,7 @@ except ImportError:
 #wordValue = frequencyOfLetterinLanguage + wordlenght + correlation
 #correlation = common letters + letters in same place - missplaced letters 
 
-
+# Correlation calculation
 def correlation(originalWord,translation):
     n = 0
     u = zip(originalWord,translation)
@@ -21,27 +21,26 @@ def correlation(originalWord,translation):
         if i!=j:
             n+=1
     return n
-        
+
+# Create and populate word queue
 q = Q.PriorityQueue()
 words = word.words
 letterTable = wordValueTable.letterTable
 letterValues = []
 
+
+# Populate word queue
 for word in words:
     language = word.language
     valuesPosition = 2+letterTable[1].index(language);
     letterValues = letterTable[valuesPosition]
     word.wordValue = len(word.originalWord)
     for c in word.originalWord:
-		word.wordValue += 1
-		#word.wordValue += float(letterValues[ord(c)-ord("a")])
+                word.wordValue += 1
+                #word.wordValue += float(letterValues[ord(c)-ord("a")])
     word.wordValue = correlation(word.originalWord,word.translatedWord)  #minimal correltion will be further developed
     
 
 
-for word in words:
-    q.put((word.wordValue,word))
-
- #first item without dequeue -> now prints 'word object'
-temp = q
-print temp.get(word)
+for w in words:
+    q.put((w.wordValue,w))
