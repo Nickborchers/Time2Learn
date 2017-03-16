@@ -42,12 +42,13 @@ def checkExistance (value):
 
 # Word printer
 def printWord(word):
-    print "Language: " + checkExistance(word.language)
-    print "Original Word: " + checkExistance(word.originalWord)
-    print "Translated Word: " + checkExistance(word.translatedWord)
-    print "Category: " + checkExistance(word.category)
-    print "Extensions: " + checkExistance(word.extensions)
-    print "Word Difficulty: " + checkExistance(word.wordDifficulty)
+    print 
+    print "Language: ",word.language
+    print "Original Word: ",word.originalWord
+    print "Translated Word: " , word.translatedWord
+    print "Category: " , word.category
+    print "Extensions: " , word.extensions
+    print "Word Difficulty: " , word.wordDifficulty
 
 
 language = ""
