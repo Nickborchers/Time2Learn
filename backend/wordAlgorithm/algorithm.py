@@ -1,4 +1,5 @@
 import word
+import numpy
 import wordValueTable
 try:
     import Queue as Q  # ver. < 3.0
@@ -21,13 +22,15 @@ def correlation(originalWord,translation):
         if i!=j:
             n+=1
     return n
+    
+#def correlation(originalWord, translation):
+#	print numpy.corrcoef(originalWord, translation)[0, 1]
 
 # Create and populate word queue
 q = Q.PriorityQueue()
 words = word.words
 letterTable = wordValueTable.letterTable
 letterValues = []
-
 
 # Populate word queue
 for word in words:
@@ -36,11 +39,10 @@ for word in words:
     letterValues = letterTable[valuesPosition]
     word.wordValue = len(word.originalWord)
     for c in word.originalWord:
-                word.wordValue += 1
-                #word.wordValue += float(letterValues[ord(c)-ord("a")])
+				word.wordValue += float(letterValues[ord(c)-ord("a")])
     word.wordValue = correlation(word.originalWord,word.translatedWord)  #minimal correltion will be further developed
     
-
-
+    
+    
 for w in words:
     q.put((w.wordValue,w))

@@ -18,7 +18,7 @@ for child in root:
         if child2.tag == 'ValueDutch':
             dutchValue.append(child2.text)
             
-        if child2.tag == 'ValueSpnish':
+        if child2.tag == 'ValueSpanish':
             spanishValue.append(child2.text)
             
 languages.append("Dutch")

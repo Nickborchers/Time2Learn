@@ -80,8 +80,7 @@ for child in root:
             
         if child1.tag == "Extensions":
             wordDifficulty = child1.text
-            
-        words.append(makeWord(language,originalWord,translatedWord,category,extensions,wordDifficulty))
+    words.append(makeWord(language,originalWord,translatedWord,category,extensions,wordDifficulty))
         
 
         
