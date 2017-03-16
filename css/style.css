@@ -25,6 +25,10 @@ html,body {
 	background-image: url('../assets/background.png');
 	background-size: 360px 360px;
 }
+
+.flagButton:ACTIVE{
+	 transform: translateY(4px);
+}
 #frenchFlag{
 position: absolute;
 z-index: 5;
@@ -250,6 +254,7 @@ background-size: 100px 80px;
 	width: 360px;
 	height: 60px;
 }
+
 
 #backButtonInSettings {
 	width: 360px;

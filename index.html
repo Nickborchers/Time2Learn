@@ -11,22 +11,25 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
    <!-- <script data-main="js/build/main-built.js" src="js/lib/require.js"></script> -->
     <script data-main="js/app/main.js" src="js/lib/require.js"></script> 
+    <!--<script type="text/javascript" src="js/app/selectLanguages.js""></script>-->
 </head>
 
 <body>
 
 	<div id="languageFlags" style="display: block;">
-		<div id="frenchFlag" type="button">	
+		<div id="frenchFlag" class="flagButton">	
+		<!--  <button type="button" id="revealButton" style="z-index: 2; position:absolute; left:0px; top:300;" value=""></button>-->
 		</div>
 		
-		<div id="germanFlag">	
+		<div id="germanFlag" class="flagButton">	
 		</div>
-		<div id="spanishFlag">	
+		<div id="spanishFlag" class="flagButton">	
 		</div>
-		<div id="dutchFlag">	
+		<div id="dutchFlag" class="flagButton">	
 		</div>
 	</div>
 
+<!--   skip the login for now, if want to see the login screen "display: block"-->
 <div id="loginPage" style="display: block;">
 		<div id="loginPopup">
 			<canvas id="loginPopupCanvas" width="360" height="360">
