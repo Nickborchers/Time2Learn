@@ -17,7 +17,57 @@ html,body {
 	background-image: url('../assets/login_background.png');
 	background-size: 360px 360px;
 }
+#languageFlags {
+	position: relative;
+	z-index: 1;
+	width: 360px;
+	height: 360px;
+	background-image: url('../assets/background.png');
+	background-size: 360px 360px;
+}
+#frenchFlag{
+position: absolute;
+z-index: 5;
+top: 80px;
+left: 70px;
+width: 100px;
+height: 80px;
+background-image: url('../assets/frenchFlag.png');
+background-size: 100px 80px;
+}
 
+
+#germanFlag{
+position: absolute;
+z-index: 5;
+top: 80px;
+right: 70px;
+width: 100px;
+height: 80px;
+background-image: url('../assets/germanFlag.png');
+background-size: 100px 80px;
+}
+#spanishFlag{
+position: absolute;
+z-index: 5;
+bottom: 80px;
+left: 70px;
+width: 100px;
+height: 80px;
+background-image: url('../assets/spanishFlag.png');
+background-size: 100px 80px;
+}
+
+#dutchFlag{
+position: absolute;
+z-index: 5;
+bottom: 80px;
+right: 70px;
+width: 100px;
+height: 80px;
+background-image: url('../assets/dutchFlag.png');
+background-size: 100px 80px;
+}
 #loginHeader {
 	width: 360px;
 	height: 70px;

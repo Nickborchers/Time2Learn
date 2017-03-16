@@ -49,6 +49,8 @@ define(['userData', 'popup'], function(userData, popup) {
 		document.getElementById("mainPage").style.display = "block";
 	}
 	
+	
+	
 	function printCodeNumber(position, number){
 		ctx = document.getElementById("digitsCanvas").getContext("2d");
 
@@ -149,7 +151,7 @@ define(['userData', 'popup'], function(userData, popup) {
 	return function login(checkLogin) {
 
 		// uncomment this line to skip login
-//		localStorage.setItem("accountCode", "58924983");
+//		localStorage.setItem("accountCode", "59961147");
 		// only valid codes will be saved
 		if (localStorage.getItem("accountCode") !== null) {
 			userData.load();
