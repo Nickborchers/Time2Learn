@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="urn:schemas-microsoft-com:office:excel2" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+ <x:ExcelWorkbook>
+  <x:ActiveSheet>0</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <o:DocumentProperties />
+ <o:OfficeDocumentSettings>
+  <o:Colors>
+   <o:Color>
+    <o:Index>0</o:Index>
+    <o:RGB>#800000</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>1</o:Index>
+    <o:RGB>#006600</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>2</o:Index>
+    <o:RGB>#000080</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>3</o:Index>
+    <o:RGB>#996600</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>4</o:Index>
+    <o:RGB>#800080</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>5</o:Index>
+    <o:RGB>#008080</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>6</o:Index>
+    <o:RGB>#C0C0C0</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>7</o:Index>
+    <o:RGB>#808080</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>8</o:Index>
+    <o:RGB>#9999FF</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>9</o:Index>
+    <o:RGB>#993366</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>10</o:Index>
+    <o:RGB>#FFFFCC</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>11</o:Index>
+    <o:RGB>#CCFFFF</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>12</o:Index>
+    <o:RGB>#660066</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>13</o:Index>
+    <o:RGB>#FF8080</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>14</o:Index>
+    <o:RGB>#0066CC</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>15</o:Index>
+    <o:RGB>#DDDDDD</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>16</o:Index>
+    <o:RGB>#000080</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>17</o:Index>
+    <o:RGB>#FF00FF</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>18</o:Index>
+    <o:RGB>#FFFF00</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>19</o:Index>
+    <o:RGB>#00FFFF</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>20</o:Index>
+    <o:RGB>#800080</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>21</o:Index>
+    <o:RGB>#800000</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>22</o:Index>
+    <o:RGB>#008080</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>23</o:Index>
+    <o:RGB>#0000FF</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>24</o:Index>
+    <o:RGB>#00CCFF</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>25</o:Index>
+    <o:RGB>#CCFFFF</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>26</o:Index>
+    <o:RGB>#CCFFCC</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>27</o:Index>
+    <o:RGB>#FFFF99</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>28</o:Index>
+    <o:RGB>#99CCFF</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>29</o:Index>
+    <o:RGB>#FF99CC</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>30</o:Index>
+    <o:RGB>#CC99FF</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>31</o:Index>
+    <o:RGB>#FFCCCC</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>32</o:Index>
+    <o:RGB>#3366FF</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>33</o:Index>
+    <o:RGB>#33CCCC</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>34</o:Index>
+    <o:RGB>#99CC00</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>35</o:Index>
+    <o:RGB>#FFCC00</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>36</o:Index>
+    <o:RGB>#FF9900</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>37</o:Index>
+    <o:RGB>#FF6600</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>38</o:Index>
+    <o:RGB>#666699</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>39</o:Index>
+    <o:RGB>#969696</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>40</o:Index>
+    <o:RGB>#003366</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>41</o:Index>
+    <o:RGB>#339966</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>42</o:Index>
+    <o:RGB>#003300</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>43</o:Index>
+    <o:RGB>#333300</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>44</o:Index>
+    <o:RGB>#993300</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>45</o:Index>
+    <o:RGB>#993366</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>46</o:Index>
+    <o:RGB>#333399</o:RGB>
+   </o:Color>
+   <o:Color>
+    <o:Index>47</o:Index>
+    <o:RGB>#333333</o:RGB>
+   </o:Color>
+  </o:Colors>
+ </o:OfficeDocumentSettings>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S37">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S38">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="13.5" ss:DefaultColumnWidth="48" ss:ExpandedRowCount="27" ss:ExpandedColumnCount="256">
+   <Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="69" />
+   <Column ss:Index="2" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="90" />
+   <Column ss:Index="3" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="126" />
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="31.5" />
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="42.75" />
+   <Column ss:Index="6" ss:Span="250" ss:AutoFitWidth="0" ss:Width="60.75" />
+   <Row ss:Index="1" ss:Height="12.8">
+    <Cell><Data ss:Type="String">Letter</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="String">Frequency Dutch</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="String">Frequency Spanish</Data>
+    </Cell>
+    <Cell ss:StyleID="S38"><Data ss:Type="String">Dutch</Data>
+    </Cell>
+    <Cell ss:StyleID="S38"><Data ss:Type="String">Spanish</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="2" ss:Height="12.8">
+    <Cell><Data ss:Type="String">a</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">7.49</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">11.53</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">12.51</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">8.47</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="3" ss:Height="12.8">
+    <Cell><Data ss:Type="String">b</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">1.58</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">2.22</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">18.42</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">17.78</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="4" ss:Height="12.8">
+    <Cell><Data ss:Type="String">c</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">1.24</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">4.02</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">18.76</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">15.98</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="5" ss:Height="12.8">
+    <Cell><Data ss:Type="String">d</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">5.93</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">5.01</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">14.07</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">14.99</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="6" ss:Height="12.8">
+    <Cell><Data ss:Type="String">e</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">18.91</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">12.18</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">1.09</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">7.82</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="7" ss:Height="12.8">
+    <Cell><Data ss:Type="String">f</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.81</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.69</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.19</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.31</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="8" ss:Height="12.8">
+    <Cell><Data ss:Type="String">g</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">3.40</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">1.77</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">16.60</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">18.23</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="9" ss:Height="12.8">
+    <Cell><Data ss:Type="String">h</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">2.38</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.70</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">17.62</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.30</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="10" ss:Height="12.8">
+    <Cell><Data ss:Type="String">I</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">6.50</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">6.25</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">13.50</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">13.75</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="11" ss:Height="12.8">
+    <Cell><Data ss:Type="String">j</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">1.46</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.49</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">18.54</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.51</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="12" ss:Height="12.8">
+    <Cell><Data ss:Type="String">k</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">2.25</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.01</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">17.75</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.99</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="13" ss:Height="12.8">
+    <Cell><Data ss:Type="String">l</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">3.57</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">4.97</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">16.43</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">15.03</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="14" ss:Height="12.8">
+    <Cell><Data ss:Type="String">m</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">2.21</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">3.16</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">17.79</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">16.84</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="15" ss:Height="12.8">
+    <Cell><Data ss:Type="String">n</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">10.03</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">6.71</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">9.97</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">13.29</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="16" ss:Height="12.8">
+    <Cell><Data ss:Type="String">o</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">6.06</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">8.68</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">13.94</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">11.32</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="17" ss:Height="12.8">
+    <Cell><Data ss:Type="String">p</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">1.57</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">2.51</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">18.43</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">17.49</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="18" ss:Height="12.8">
+    <Cell><Data ss:Type="String">q</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.01</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.88</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.99</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.12</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="19" ss:Height="12.8">
+    <Cell><Data ss:Type="String">r</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">6.41</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">6.87</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">13.59</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">13.13</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="20" ss:Height="12.8">
+    <Cell><Data ss:Type="String">s</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">3.73</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">7.98</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">16.27</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">12.02</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="21" ss:Height="12.8">
+    <Cell><Data ss:Type="String">t</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">6.79</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">4.63</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">13.21</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">15.37</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="22" ss:Height="12.8">
+    <Cell><Data ss:Type="String">u</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">1.99</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">2.93</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">18.01</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">17.07</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="23" ss:Height="12.8">
+    <Cell><Data ss:Type="String">v</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">2.85</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">1.14</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">17.15</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">18.86</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="24" ss:Height="12.8">
+    <Cell><Data ss:Type="String">w</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">1.52</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.02</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">18.48</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.98</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="25" ss:Height="12.8">
+    <Cell><Data ss:Type="String">x</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.04</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.22</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.96</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.78</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="26" ss:Height="12.8">
+    <Cell><Data ss:Type="String">y</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.04</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">1.01</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.96</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">18.99</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="27" ss:Height="12.8">
+    <Cell><Data ss:Type="String">z</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">1.39</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="Number">0.47</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">18.61</Data>
+    </Cell>
+    <Cell ss:Formula="=20-RC[-2]"><Data ss:Type="Number">19.53</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:StartPageNumber="1" />
+    <Header x:Margin="0.7875" x:Data="&amp;C&amp;&quot;Times New Roman,Regular&quot;&amp;12&amp;A" />
+    <Footer x:Margin="0.7875" x:Data="&amp;C&amp;&quot;Times New Roman,Regular&quot;&amp;12Page &amp;P" />
+    <PageMargins x:Top="1.05277777777778" x:Bottom="1.05277777777778" x:Left="0.7875" x:Right="0.7875" />
+   </PageSetup>
+   <FitToPage />
+   <Print>
+    <ValidPrinterInfo />
+    <PaperSizeIndex>9</PaperSizeIndex>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>22</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+     <RangeSelection>R23C12</RangeSelection>
+    </Pane>
+   </Panes>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
