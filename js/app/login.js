@@ -64,16 +64,16 @@ define(['userData', 'popup'], function(userData, popup) {
     function selectLanguages(){
     	console.log("In select languages");
     	 document.getElementById("frenchFlag").addEventListener("click", function() {
- 	        goToMainPage();
+ 	       // goToMainPage();
  	    });
     	 document.getElementById("germanFlag").addEventListener("click", function() {
-  	        goToMainPage();
+  	       // goToMainPage();
   	    });
     	 document.getElementById("spanishFlag").addEventListener("click", function() {
-  	        goToMainPage();
+  	        //goToMainPage();
   	    });
     	 document.getElementById("dutchFlag").addEventListener("click", function() {
-  	        goToMainPage();
+  	       // goToMainPage();
   	    });
     }
 
