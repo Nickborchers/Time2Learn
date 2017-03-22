@@ -53,6 +53,11 @@ define(['userData', 'popup'], function(userData, popup) {
     var SKIP_LOGIN=true;
 
     var NUMBER_OF_CODE_NUMBERS_ON_PAGE = 4;
+    
+    /* create a new anonymous user you must provide a unique id and a password for that user: */ 
+	var GET_USERID_ENDPOINT = "https://github.com/mircealungu/Zeeguu-API-2/blob/master/zeeguu_api/api/sessions.py#L32";
+	/* re-login in the future with the same anonymous user: */ 
+	var ANONYMOUS_USER_LOGIN_ENDPOINT = "https://github.com/mircealungu/Zeeguu-API-2/blob/master/zeeguu_api/api/sessions.py#L77"
 
     function goToMainPage() {
         document.getElementById("loginPage").style.display = "none";
@@ -60,11 +65,36 @@ define(['userData', 'popup'], function(userData, popup) {
         document.getElementById("mainPage").style.display = "block";
     	
     }
-    
+
+    function createAnonumous(language) {
+    	var accountCode;
+    	try {
+    		var xhr = new XMLHttpRequest();
+        	xhr.open('GET', GET_USERID_ENDPOINT + "language?=" + language);
+        	xhr.onload = function () {
+        		try {
+            		var obj = JSON.parse(this.responseText);
+            		accountCode = obj[0]
+					status = "SUCCES";
+        		} catch(err) {
+				// the session number is unknown to the server
+				status = "WRONG_SESSION_NUMBER";
+				}
+        	};
+        	xhr.send();
+        } catch(err) {
+    		// the session number is unknown to the server
+    		status = "NO_CONNECTION";
+		}
+		// We now have the accountcode and want to store it in the local storage
+        userData.setAccountNumber(accountCode);
+    }
+
     function selectLanguages(){
     	console.log("In select languages");
     	 document.getElementById("frenchFlag").addEventListener("click", function() {
- 	        goToMainPage();
+    		 createAnonumous("french");
+    		 goToMainPage();
  	    });
     	 document.getElementById("germanFlag").addEventListener("click", function() {
   	        goToMainPage();

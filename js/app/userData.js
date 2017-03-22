@@ -144,22 +144,29 @@ define(['events', 'clickTracker'], function(events, clickTracker) {
 			sessionPopupShown = bool;
 		},
 
-		increaseBackgroundNumber: function() {
-			localStorage.setItem("backgroundNumber", parseInt(localStorage.getItem("backgroundNumber"))+1);
+		setBackgroundNumber: function(background_number) {
+			localStorage.setItem("backgroundNumber", background_number);
 		},
 
 		getBackgroundNumber: function() {
 			return parseInt(localStorage.getItem("backgroundNumber"));
 		},
 
-		setBackgroundNumber: function(background_number) {
-			localStorage.setItem("backgroundNumber", background_number);
+		increaseBackgroundNumber: function() {
+			localStorage.setItem("backgroundNumber", parseInt(localStorage.getItem("backgroundNumber"))+1);
 		},
 
+		setAccountNumber: function(accountNumber) {
+			localStorage.setItem("accountNumber", accountNumber);
+		},
+
+		getAccountNumber: function() {
+			return parseInt(localStorage.getItem("accountNumber"));
+		},
 		numberOfFlashcards: function() {
 			return NUMBER_OF_FLASHCARDS;
 		},
-		
+
 		clear: function() {
 			localStorage.clear();
 		}
