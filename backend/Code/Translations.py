@@ -1,11 +1,16 @@
-import requests
-import xml.etree.cElementTree as ET
-from dicttoxml import dicttoxml
-from xml.dom.minidom import parseString
+from query import query_site
+from files import xml_file_to_list, dict_to_xml_file
 from collections import defaultdict
 
-# Class that calls a translation API to translate words and stores the
-# translations as an xml file
+"""
+
+Class that calls a translation API to translate words and stores the
+translations as an xml file
+
+"""
+
+GLOSBE = 0
+LINGUEE = 1
 
 LANG = "Spanish"
 FROM = "es"
@@ -16,44 +21,52 @@ PATH = "/Users/PhoenixQoH/Desktop/Words/"
 
 # Glosbe API parameters
 BASE_GLOSBE_URL = "https://glosbe.com/gapi/translate"
-gparams = {}
-gparams["pretty"] = "true"
-gparams["from"] = FROM
-gparams["dest"] = DEST
 
 # Linguee API parameters
 BASE_LINGUEE_URL = "https://linguee-api.herokuapp.com/api"
-lparams = {}
-lparams["src"] = FROM
-lparams["dst"] = DEST
 
-# This is the main function for making queries to the translation API.
-# A json document should be returned by the query.
-def query_site(url, params):
+def query_glosbe_by_word(url, word, from_lang, dest_lang, fmt="json"):
+    """Queries the Glosbe API for the translations of a word
 
-    r = requests.get(url, params=params)
-    #print ("requesting", r.url)
+    :param url:         -- string with base Glosbe url
+    :param word:        -- string with the word to translate
+    :param from_lang:   -- string with the iso code of the language of the word
+    :param dest_lang:   -- string with the iso code of the language to which to translate the word
+    :param fmt:         -- string with the format in which to receive the query response (default JSON)
+    :return:            -- a json object with the query response
 
-    if r.status_code == requests.codes.ok:
-        return r.json()
-    else:
-        r.raise_for_status()
-
-# This adds a word to the query parameters before making
-# an API call to the function above.
-def query_glosbe_by_word(url, params, word, fmt="json"):
+    """
+    params = {}
+    params["pretty"] = "true"
+    params["from"] = from_lang
+    params["dest"] = dest_lang
     params["phrase"] = word
     params["format"] = fmt
     return query_site(url, params)
 
-# This adds a word to the query parameters before making
-# an API call to the function above.
-def query_linguee_by_word(url, params, word):
+def query_linguee_by_word(url, word, from_lang, dest_lang):
+    """Queries the Linguee API for the translations of a word
+
+    :param url:         -- string with base Linguee url
+    :param word:        -- string with the word to translate
+    :param from_lang:   -- string with the iso code of the language of the word
+    :param dest_lang:   -- string with the iso code of the language to which to translate the word
+    :return:            -- a json object with the query response
+
+    """
+    params = {}
     params["q"] = word
+    params["src"] = from_lang
+    params["dst"] = dest_lang
     return query_site(url, params)
 
-# Store all returned translations by Linguee in a list
+
 def parse_linguee_result(input):
+    """Gets the word translations from a json object and stores them in a list
+
+    :param input:       -- json object with the response of the Linguee API
+    :return:            -- list with all the word translations
+    """
     list = []
     result = input["exact_matches"]
     if result == []:
@@ -65,8 +78,13 @@ def parse_linguee_result(input):
 
     return list
 
-# Store all returned translations by Glosbe in a list
 def parse_glosbe_result(input):
+    """Gets the word translations from a json object and stores them in a list
+
+    :param input:       -- json object with the response of the Glosbe API
+    :return:            -- list with all the word translations
+
+    """
     list = []
     result = input["tuc"]
 
@@ -78,30 +96,23 @@ def parse_glosbe_result(input):
 
     return list
 
-def query_glosbe(word):
-    result = query_glosbe_by_word(BASE_GLOSBE_URL, gparams, word)
-    meanings = parse_glosbe_result(result)
+def translate(word, from_lang, dest_lang, api):
+    """Gets all words translations from an API and stores them in a list
 
-    return meanings
+    :param word:        -- string with the word
+    :param from_lang:   -- string with the language of the word
+    :param dest_lang:   -- string with the language to which translate the word
+    :param api:         -- int with the API to use
+    :return:            -- list with all posibble translations of the word
 
-def query_linguee(word):
-    result = query_linguee_by_word(BASE_LINGUEE_URL, lparams, word)
-    meanings = parse_linguee_result(result)
-
-    return meanings
-
-# Transforms a dictionary to a xml (a path can be specified optionally)
-def dict_to_xml_file(dict, fname, path="."):
-    xml = dicttoxml(dict, custom_root=fname, attr_type=False)
-    dom = parseString(xml)
-    with open(path + '/' + fname + ".xml", 'w') as file:
-        file.write(dom.toprettyxml())
+    """
+    return {
+        GLOSBE: parse_glosbe_result(query_glosbe_by_word(BASE_GLOSBE_URL, word, from_lang, dest_lang)),
+        LINGUEE: parse_linguee_result(query_linguee_by_word(BASE_LINGUEE_URL, word, from_lang, dest_lang))
+    }[api]
 
 def main():
-    # Read the words from an xml file
-    tree = ET.ElementTree(file=PATH + LANG + ".xml")
-    root = tree.getroot()
-    words = root[0]
+    words = xml_file_to_list(PATH + LANG + ".xml")
 
     d = defaultdict(list)
 
@@ -112,9 +123,8 @@ def main():
             w.text = w.text[:indx]
 
         # Store the meanings in a dictionary
-        # Change the method call to use either Glosbe or Linguee APIS
-        meanings = query_glosbe(w.text)
-        #meanings = query_linguee(w.text)
+        # Change the method call to use either Glosbe or Linguee API
+        meanings = translate(w.text, FROM, DEST, GLOSBE)
 
         d[w.text] = meanings
 

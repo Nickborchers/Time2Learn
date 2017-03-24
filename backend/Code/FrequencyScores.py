@@ -1,12 +1,13 @@
-from bs4 import BeautifulSoup
-import requests
-from dicttoxml import dicttoxml
-from xml.dom.minidom import parseString
-import xmltodict
+from query import *
+from files import dict_to_xml_file
 import os
 
-# Class that retrieves the score of a letter in a specified language according
-# to its frequency
+"""
+
+Class that retrieves the score of a letter or combination of letters
+in a specified language according to its frequency
+
+"""
 
 # Base url of the requests
 BASE_URL = "http://www.sttmedia.com/"
@@ -14,115 +15,160 @@ CHARS = "characterfrequency"
 SYLLABLES = "syllablefrequency"
 
 # Select the min and max score values possible for any letter
-DEF_MIN = 1
-DEF_MAX = 20
+MIN_SCORE = 1
+MAX_SCORE = 20
 
 # Language from which to retrieve the letter scores (as it appears
 # in the web page)
 LANG = "nederlands"
 FOLDER = LANG + "Scores"
 
-# This is the main function for making queries.
-# An html document should be returned by the query.
-def query_site(url):
-    r = requests.get(url)
-    print ("requesting", r.url)
-
-    if r.status_code == requests.codes.ok:
-        return BeautifulSoup(r.text, "html.parser")
-    else:
-        r.raise_for_status()
-
-# This adds a language to the url before making
-# an API call to the function above.
 def query_by_lang(url, lang):
-    url = url + '-' + lang
-    return query_site(url)
+    """Adds a language to the url of the query
 
-# Functions to get the max and min value of a list previously sorted
-# from greater to smaller
+    :param url:         -- string with the base url of the query
+    :param lang:        -- string with the language to add
+    :return:            -- html object with the response to the query
+
+    """
+    return query_site(url + '-' + lang, {}, HTML)
+
 def find_min(list):
-    # Get last element of the list
+    """Gets the min element of a list sorted from greater to smaller
+
+    :param list:        -- list where to get the last element
+    :return:            -- last element of the list
+
+    """
     return find_value_at(list, -1)
 
 def find_max(list):
-    # Get first element of the list
+    """Gets the max element of a list sorted from greater to smaller
+
+    :param list:        -- list where to get the first element
+    :return:            -- first element of the list
+
+    """
     return find_value_at(list, 0)
 
-# Returns the value at position indx of list
 def find_value_at(list, indx):
+    """Gets a value of a html table list
+
+    :param list:        -- html table list in which to get the value
+    :param indx:        -- int with an index of the list
+    :return:            -- value at the index of the list
+    """
     row = list[indx]
     val = row.find_all("td")[1].string[:-1]
     return float(val.replace(',', '.'))
 
-# Maps val which is in a range of o_min to o_max to a new range between
-# n_min and n_max, making o_min map to n_max and o_max to n_min
-# (The higher val the smaller the new value)
-def map_to_range(val, o_min, o_max, n_min, n_max):
-    new_value = n_max - (val - o_min) * (n_max - n_min) / (o_max - o_min)
-    return new_value
+def map_to_range(val, old_min, old_max, new_min, new_max):
+    """Conversely maps a value in a range to a new range
 
-# Returns a dictionary with the letters as keys and their scores as values
-def create_dict(list, min, max, MIN, MAX):
-    dict = {}
+    :param val:         -- a real with the value to map
+    :param old_min:     -- the min value of the interval in which val is
+    :param old_max:     -- the max value of the interval in which val is
+    :param new_min:     -- the min value of the new interval to which val is mapped
+    :param new_max:     -- the max value of the new interval to which val is mapped
+    :return:            -- a real with val conversely mapped to the new interval
+
+    """
+    return new_max - (val - old_min) * (new_max - new_min) / (old_max - old_min)
+
+def create_dict(list, old_min, old_max, new_min, new_max):
+    """Creates a dictionary with the letters as keys and their scores as values
+
+    :param list:        -- html table list in which to get the letters and frequencies
+    :param old_min:     -- a real with the min frequency of the list
+    :param old_max:     -- a real with the max frequency of the list
+    :param new_min:     -- a real with the min score for a letter combination
+    :param new_max:     -- a real with the max score for a letter combination
+    :return:            -- a dictionary with the letter combinations as keys and their scores as values
+
+    """
+    d = {}
     for row in list:
         tds = row.find_all("td")
         letter = tds[0].string
         freq = tds[1].string[:-1]
         freq = float(freq.replace(',', '.'))
-        dict[letter] = map_to_range(freq, min, max, MIN, MAX)
+        d[letter] = map_to_range(freq, old_min, old_max, new_min, new_max)
 
-    return dict
+    return d
 
-# Transforms a dictionary to a xml (a path can be specified optionally)
-def dict_to_xml_file(dict, fname, path="."):
-    xml = dicttoxml(dict, custom_root=fname, attr_type=False)
-    dom = parseString(xml)
-    with open(path + '/' + fname + ".xml", 'w') as file:
-        file.write(dom.toprettyxml())
+def parse_scores(option, table_num, language, min_score, max_score):
+    """Gets the scores of letter combinations and stores them in a dictionary
 
-# Transforms a xml file to a dictionary (not used here but can be
-# used to read the scores back to a dictionary)
-def xml_file_to_dict(path, root):
-    with open(path, 'r') as file:
-        content = file.read()
-        dict = xmltodict.parse(content)[root]
-        return dict
+    :param option:          -- string indicating whether to query for CHARs or for SYLLABLEs
+    :param table_num:       -- int with the number of the table in the html page
+    :param language:        -- language for which to get the letter scores
+    :param min_score:         -- int with the minimum score
+    :param max_score:         -- int with the maximum score
+    :return:                -- dictionary with the letter combinations as keys and their scores as values
 
-# Option indicates whether to retrieve letter or syllable
-# frequencies, table num is used for parsing reasons
-def parse_frequencies(option, tableNum):
-    html = query_by_lang(BASE_URL + '/' + option, LANG)
-    table = html.find_all("table")[tableNum]
-    list = table.find_all("tr")[2:]
+    """
+    html = query_by_lang(BASE_URL + '/' + option, language)
+    table = html.find_all("table")[table_num]
+    freq_list = table.find_all("tr")[2:]
 
     # Create the dictionary
-    min = find_min(list)
-    max = find_max(list)
-    dict = create_dict(list, min, max, DEF_MIN, DEF_MAX)
-    return dict
+    list_min = find_min(freq_list)
+    list_max = find_max(freq_list)
+    return create_dict(freq_list, list_min, list_max, min_score, max_score)
 
-def retrieve_letter_frequencies():
-    # Get the letter table from the page
-    letterDict = parse_frequencies(CHARS, 1)
-    # Print it to an xml file in a folder in the current dir
-    dict_to_xml_file(letterDict, CHARS + '-' + LANG, FOLDER)
+def retrieve_scores(num_letters, language, folder, min_score, max_score):
+    """Gets the letter combinations of num_letters and their scores in a language and stores them in a xml file
 
-def retrieve_2letter_frequencies():
-    syllableDict = parse_frequencies(SYLLABLES, 1)
-    dict_to_xml_file(syllableDict, SYLLABLES + "2-" + LANG, FOLDER)
+    :param num_letters:     -- int with the letter combination length (ranges from 1 to 3)
+    :param language:        -- string with the language for which compute the letter scores
+    :param folder:          -- string with the folder name
+    :param min_score:       -- int with the min score
+    :param max_score:       -- int with the max score
 
-def retrieve_3letter_frequencies():
-    syllableDict = parse_frequencies(SYLLABLES, 3)
-    dict_to_xml_file(syllableDict, SYLLABLES + "3-" + LANG, FOLDER)
+    """
+    if (num_letters == 1):
+        return retrieve_letter_scores(1, language, folder, min_score, max_score)
+    elif (num_letters == 2):
+        return retrieve_syllable_scores(num_letters, 1, language, folder, min_score, max_score)
+    elif (num_letters == 3):
+        return retrieve_syllable_scores(num_letters, 3, language, folder, min_score, max_score)
+    else:
+        print("Error: incorrect number of letters. Value ranges from 1 to 3.\n")
+
+def retrieve_letter_scores(table_num, language, folder, min_score, max_score):
+    """Gets the letters and their scores in a language and stores them in a xml file
+
+    :param table_num:       -- int with the position of the table to parse
+    :param language:        -- string with the language for which compute the letter scores
+    :param folder:          -- string with the folder name
+    :param min_score:       -- int with the min score
+    :param max_score:       -- int with the max score
+
+    """
+    letter_dict = parse_scores(CHARS, table_num, language, min_score, max_score)
+    dict_to_xml_file(letter_dict, CHARS + '-' + language, folder)
+
+def retrieve_syllable_scores(num_letters, table_num, language, folder, min_score, max_score):
+    """Gets the letter combinations of num_letters and their scores in a language and stores them in a xml file
+
+    :param num_letters:     -- int with the letter combination length (ranges from 2 to 3)
+    :param table_num:       -- int with the position of the table to parse
+    :param language:        -- string with the language for which compute the letter scores
+    :param folder:          -- string with the folder name
+    :param min_score:       -- int with the min score
+    :param max_score:       -- int with the max score
+    """
+
+    syllableDict = parse_scores(SYLLABLES, table_num, language, min_score, max_score)
+    dict_to_xml_file(syllableDict, SYLLABLES + str(num_letters) + '-' + language, folder)
 
 def main():
     if not os.path.exists(FOLDER):
         os.makedirs(FOLDER)
 
-    retrieve_letter_frequencies()
-    retrieve_2letter_frequencies()
-    retrieve_3letter_frequencies()
+    retrieve_scores(1, LANG, FOLDER, MIN_SCORE, MAX_SCORE)
+    retrieve_scores(2, LANG, FOLDER, MIN_SCORE, MAX_SCORE)
+    retrieve_scores(3, LANG, FOLDER, MIN_SCORE, MAX_SCORE)
 
 if __name__ == "__main__":
     main()
