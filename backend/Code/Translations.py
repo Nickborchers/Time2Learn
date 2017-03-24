@@ -106,10 +106,10 @@ def translate(word, from_lang, dest_lang, api):
     :return:            -- list with all posibble translations of the word
 
     """
-    return {
-        GLOSBE: parse_glosbe_result(query_glosbe_by_word(BASE_GLOSBE_URL, word, from_lang, dest_lang)),
-        LINGUEE: parse_linguee_result(query_linguee_by_word(BASE_LINGUEE_URL, word, from_lang, dest_lang))
-    }[api]
+    if (api == GLOSBE):
+        return parse_glosbe_result(query_glosbe_by_word(BASE_GLOSBE_URL, word, from_lang, dest_lang))
+    elif (api == LINGUEE):
+        return parse_linguee_result(query_linguee_by_word(BASE_LINGUEE_URL, word, from_lang, dest_lang))
 
 def main():
     words = xml_file_to_list(PATH + LANG + ".xml")
