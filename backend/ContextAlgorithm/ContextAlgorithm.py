@@ -1,17 +1,22 @@
 import requests
 import xml.etree.cElementTree as et
 import string
+import os
+import operator
 
 OUTPUT_LANG = 'en'
 
 # These three values will be filled by the input when it will be implemented
 INPUT_LANG = 'es'
-WORD = 'cama'
-WORD_DIFFICULTY = 882
+WORD = ''
+WORD_DIFFICULTY = 0
 
-
-TITLE = 'SpanishWordFrequencies'
-PATH = "/home/antonio/Desktop/SE/FrecuencyList/" + TITLE + ".xml"
+POSSIBLE_TITLE_FREQ = ['SpanishWordFrequencies.xml', 'DutchWordFrequencies.xml', 'GermanWordFrequencies.xml']
+POSSIBLE_LANGUAGES = ['es', 'nl', 'de']
+TITLE_FREQ = 'SpanishWordFrequencies.xml'
+TITLE_SHORTED_WORDS = 'result.xml'
+PATH_FREQ_LIST = "/home/antonio/Desktop/SE/FrecuencyList/"
+PATH_INPUT_WORDS = ''
 MAX_LENGTH_SENTENCE = 15
 
 
@@ -38,6 +43,20 @@ class Sentence:
         return self.sentence_string
 
 
+def choose_language(language):
+    global INPUT_LANG, TITLE_FREQ
+    if language == 'Spanish':
+        INPUT_LANG = POSSIBLE_LANGUAGES[0]
+        TITLE_FREQ = POSSIBLE_TITLE_FREQ[0]
+    elif language == 'Dutch':
+        INPUT_LANG = POSSIBLE_LANGUAGES[1]
+        TITLE_FREQ = POSSIBLE_TITLE_FREQ[1]
+    else:
+        INPUT_LANG = POSSIBLE_LANGUAGES[2]
+        TITLE_FREQ = POSSIBLE_TITLE_FREQ[2]
+    return
+
+
 # Delete inneccesary symbols
 def clean_sentence(sentence):
     sentence = sentence.replace('[...] ', '')
@@ -52,6 +71,8 @@ def delete_punctuation(sentence):
     sentence = sentence.translate(punctuation_deleter)
     sentence = sentence.replace('¿', '')
     sentence = sentence.replace('¡', '')
+    sentence = sentence.replace('‘', '')
+    sentence = sentence.replace('’', '')
     return sentence
 
 
@@ -71,62 +92,83 @@ def calculate_sentence_words_value(root, sentence):
         try:
             word_values.append(int(root.find(sentence.words[j].lower()).text))
         except AttributeError:
-            word_values.append(WORD_DIFFICULTY)
+            word_values.append(0)
 
     return word_values
 
 
 # Returns the simpler and the most challenging sentences
 def better_sentences(possible_sentences):
-    challenging_sentence = ""
-    simplest_sentence = ""
-    min_difficulty = float("-inf")
-    max_difficulty = float("inf")
+    challenging_sentence = []
+    simplest_sentence = []
+    count = 0
 
-    for s in possible_sentences:
-        if s.difficulty > min_difficulty:
-            min_difficulty = s.difficulty
-            challenging_sentence = s.sentence_string
+    possible_sentences.sort(key=operator.attrgetter('difficulty'))
 
-        if s.difficulty < max_difficulty:
-            max_difficulty = s.difficulty
-            simplest_sentence = s.sentence_string
+    while count < 3 and count < len(possible_sentences):
+        challenging_sentence.append(possible_sentences[len(possible_sentences) - 1 - count])
+        simplest_sentence.append(possible_sentences[count])
+        count += 1
 
     return {"chall_sntnc": challenging_sentence, "smpl_sntnc": simplest_sentence}
 
 
 def main():
-    resp = requests.get('https://linguee-api.herokuapp.com/api?q='
-                        + WORD + '&src=' + INPUT_LANG + '&dst=' + OUTPUT_LANG)
+    global PATH_FREQ_LIST, PATH_INPUT_WORDS, WORD, WORD_DIFFICULTY
 
-    output = resp.json()
+    PATH_INPUT_WORDS = os.path.realpath(
+        os.path.join(os.getcwd(), os.path.dirname(TITLE_SHORTED_WORDS))) + '/' + TITLE_SHORTED_WORDS
 
-    sentences = []
+    root_input = et.parse(PATH_INPUT_WORDS).getroot()
 
-    try:
-        for example in output['real_examples']:
-            sentences.append(clean_sentence(sentence=example['src']))
-    except KeyError:
-        print("Word not found in api")
-        exit()
+    for word in root_input.findall('Word'):
+        WORD = word.find('Word').text
+        print(WORD)
+        WORD_DIFFICULTY = float(word.find('WordValue').text)
 
-    root = et.parse(PATH).getroot()
-    possible_sentences = []
+        language = word.find('Language').text
 
-    print("The possible sentences are:")
-    for i in range(0, len(sentences)):
-        sentence_words = delete_punctuation(sentences[i]).split()
-        sentence = Sentence(sentences[i], sentence_words)
-        sentence.add_values(calculate_sentence_words_value(root, sentence))
-        sentence.set_difficulty(error_calculation(sentence.words_values))
+        choose_language(language)
 
-        if len(sentence.words) <= MAX_LENGTH_SENTENCE and (int(sentence.difficulty)) <= WORD_DIFFICULTY:
-            possible_sentences.append(sentence)
-            print(sentence)
+        resp = requests.get('https://linguee-api.herokuapp.com/api?q='
+                            + WORD + '&src=' + INPUT_LANG + '&dst=' + OUTPUT_LANG)
 
-    useful_sentences = better_sentences(possible_sentences)
-    print("\nThe most challenging sentence is:\n", useful_sentences["chall_sntnc"], "\nThe simplest sentence is:\n",
-          useful_sentences["smpl_sntnc"])
+        output = resp.json()
+
+        sentences = []
+
+        try:
+            for example in output['real_examples']:
+                sentences.append(clean_sentence(sentence=example['src']))
+        except KeyError:
+            print("Word not found in api")
+            continue
+
+        root_freg = et.parse(PATH_FREQ_LIST + TITLE_FREQ).getroot()
+        possible_sentences = []
+
+        print("\nThe word is: " + WORD + "\n")
+
+        print("The possible sentences are:")
+        for i in range(0, len(sentences)):
+            sentence_words = delete_punctuation(sentences[i]).split()
+            sentence = Sentence(sentences[i], sentence_words)
+            sentence.add_values(calculate_sentence_words_value(root_freg, sentence))
+            sentence.set_difficulty(error_calculation(sentence.words_values))
+
+            if len(sentence.words) <= MAX_LENGTH_SENTENCE and (int(sentence.difficulty)) <= WORD_DIFFICULTY:
+                possible_sentences.append(sentence)
+                print(sentence)
+
+        useful_sentences = better_sentences(possible_sentences)
+
+        print("\nMost challenging sentences are: ")
+        for x in useful_sentences["chall_sntnc"]:
+            print(x)
+
+        print("\nThe simplest sentences are: ")
+        for x in useful_sentences["smpl_sntnc"]:
+            print(x)
 
 
 if __name__ == "__main__":
