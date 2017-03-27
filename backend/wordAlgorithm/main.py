@@ -26,6 +26,7 @@ for i in range (0, queue.qsize()):
     ET.SubElement(doc,"Language").text = w[1].language
     ET.SubElement(doc,"Word").text = w[1].originalWord
     ET.SubElement(doc,"Translation").text = w[1].translatedWord
+    ET.SubElement(doc,"WordValue").text = str(w[1].wordValue)
     ET.SubElement(doc,"Category").text = w[1].category
     ET.SubElement(doc,"Word_Difficulty").text = w[1].wordDifficulty
     ET.SubElement(doc,"Extensions").text = w[1].extensions
