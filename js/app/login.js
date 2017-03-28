@@ -79,7 +79,7 @@ define(['userData', 'popup'], function(userData, popup) {
     	document.getElementById("frenchFlag").addEventListener("click", function() {
     		requestAnonAccount(FRANCE);
     		if( localStorage.getItem("accountCode") !== null ){
-    			goToMainPage();
+    			//goToMainPage();
     		}else{
     			selectLanguages();
     		}
