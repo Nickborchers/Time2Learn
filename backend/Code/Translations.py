@@ -1,6 +1,8 @@
 from query import query_site
-from files import xml_file_to_list, dict_to_xml_file
+from files import xml_file_to_list, dict_to_xml_file, format
 from collections import defaultdict
+from time import sleep
+import os
 
 """
 
@@ -9,12 +11,19 @@ translations as an xml file
 
 """
 
+# First word from which to start translating
+BEGIN = 0
+# How many words to translate before storing them
+BATCH = 100
+
 GLOSBE = 0
 LINGUEE = 1
 
 LANG = "Spanish"
 FROM = "es"
 DEST = "en"
+
+FOLDER = LANG + "Translations"
 
 # Path of the xml file with the words
 PATH = "/Users/PhoenixQoH/Desktop/Words/"
@@ -103,7 +112,7 @@ def translate(word, from_lang, dest_lang, api):
     :param from_lang:   -- string with the language of the word
     :param dest_lang:   -- string with the language to which translate the word
     :param api:         -- int with the API to use
-    :return:            -- list with all posibble translations of the word
+    :return:            -- list with all possible translations of the word
 
     """
     if (api == GLOSBE):
@@ -112,23 +121,32 @@ def translate(word, from_lang, dest_lang, api):
         return parse_linguee_result(query_linguee_by_word(BASE_LINGUEE_URL, word, from_lang, dest_lang))
 
 def main():
+    if not os.path.exists(FOLDER):
+        os.makedirs(FOLDER)
+
     words = xml_file_to_list(PATH + LANG + ".xml")
 
     d = defaultdict(list)
+    word_list = []
 
+    count = 0
     for w in words:
-        # Remove adjective terminations
-        indx = w.text.find(',')
-        if (indx != -1):
-            w.text = w.text[:indx]
+        count = count + 1
+        if (count < BEGIN):
+            continue
 
-        # Store the meanings in a dictionary
-        # Change the method call to use either Glosbe or Linguee API
+        # Store the meanings in a list
         meanings = translate(w.text, FROM, DEST, GLOSBE)
+        word_list.append(format(LANG, w.text, meanings))
 
-        d[w.text] = meanings
+        if (count % 10 == 0):
+            sleep(1)
 
-    dict_to_xml_file(d, LANG + "-English")
+        if (count % BATCH == 0):
+            d["Words"] = word_list
+            dict_to_xml_file(d, LANG + "-English" + str(count), FOLDER, False)
+            word_list = []
+
 
 if __name__ == "__main__":
     main()
