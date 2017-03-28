@@ -204,4 +204,8 @@
 		<Letter>ñ</Letter>
 		<ValueSpanish>9.9</ValueSpanish>
 	</LetterValue>
+	<LetterValue>
+		<Letter>ß</Letter>
+		<ValueGerman>9.81</ValueGerman>
+	</LetterValue>
 </LetterValues>
