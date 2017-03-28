@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<LetterValues>
+   <LetterValue>
+	  <Letter>a</Letter>
+      <ValueDutch>6.39</ValueDutch>
+	  <ValueGerman>7.04</ValueGerman>
+      <ValueSpanish>2.31</ValueSpanish>
+   </LetterValue>
+    <LetterValue>
+	  <Letter>b</Letter>
+      <ValueDutch>9.36</ValueDutch>
+	  <ValueGerman>8.97</ValueGerman>
+      <ValueSpanish>9.03</ValueSpanish>
+   </LetterValue>
+</LetterValues>
