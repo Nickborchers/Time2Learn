@@ -60,9 +60,25 @@ define(['userData', 'popup'], function(userData, popup) {
     var CODE_FONT_COLOR = "black";
     
     var NUMBER_OF_CODE_NUMBERS_ON_PAGE = 4;
+    
+    var NUMBER_OF_LANGUAGES=6;
+    
+   /* var flagsData=[
+                   {
+                	   "top": "70px",
+                	   "left": "60px",
+                   		"background-image": "url('../assets/flags/fr.png')"
+                   },
+                   {
+                	   "top": "70px",
+                	   "right": "60px",
+                   		"background-image": "url('../assets/flags/de.png')"
+                   }
+                   ]*/
 
     /*
-     * goToMainPage() sets the right html "<div>" to display. The drawing of other elements is done by other functions.
+     * goToMainPage() sets the right html "<div>" to display. 
+     * The drawing of other elements is done by other functions.
      */
     
     function goToMainPage() {
@@ -71,11 +87,12 @@ define(['userData', 'popup'], function(userData, popup) {
     }
     
     /* 
-     * selectLanguages() handles flag presses from the selectLanguage menu. The corresponding country is passed on to
-     * the requestAnonAccount() function. 
+     * selectLanguages() handles flag presses from the selectLanguage menu. 
+     * The corresponding country is passed on to the requestAnonAccount() function. 
      */
     
     function selectLanguages(){
+    	selectNextLanguageScreens();
     	document.getElementById("frenchFlag").addEventListener("click", function() {
     		requestAnonAccount(FRANCE);
     		if( localStorage.getItem("accountCode") !== null ){
@@ -108,6 +125,36 @@ define(['userData', 'popup'], function(userData, popup) {
     			selectLanguages();
     		}
   	    });
+    }
+    
+    function selectNextLanguageScreens(){
+    
+    	checkIfDisplayNextBackButton();
+    	document.getElementById("nextLangButton").addEventListener("click",function(){
+    		document.getElementById("firstBlockOfFlags").style.display="none";
+    		document.getElementById("secondBlockOfFlags").style.display="block";
+    		checkIfDisplayNextBackButton();
+    		
+    	});
+    	
+    	document.getElementById("backLangButton").addEventListener("click",function(){
+    		document.getElementById("secondBlockOfFlags").style.display="none";
+    		document.getElementById("firstBlockOfFlags").style.display="block";
+    		checkIfDisplayNextBackButton();
+    	});
+    }
+    
+    function checkIfDisplayNextBackButton(){
+    	if(NUMBER_OF_LANGUAGES >4 && document.getElementById("firstBlockOfFlags").style.display=="block"){
+    		document.getElementById("nextLangButton").style.display="block";
+    	}
+    	else
+    		document.getElementById("nextLangButton").style.display="none";
+    	
+    	if(NUMBER_OF_LANGUAGES >4 && document.getElementById("firstBlockOfFlags").style.display=="none"){
+    		document.getElementById("backLangButton").style.display="block";
+    	}else
+    		document.getElementById("backLangButton").style.display="none";
     }
 
     /*
