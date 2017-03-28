@@ -49,7 +49,7 @@ top: 70px;
 left: 60px;
 width: 110px;
 height: 90px;
-background-image: url('../assets/frenchFlag.png');
+background-image: url('../assets/flags/fr.png');
 background-size: 110px 90px;
 }
 
@@ -61,7 +61,7 @@ top: 70px;
 right: 60px;
 width: 110px;
 height: 90px;
-background-image: url('../assets/germanFlag.png');
+background-image: url('../assets/flags/de.png');
 background-size: 110px 90px;
 }
 #spanishFlag{
@@ -71,7 +71,7 @@ bottom: 70px;
 left: 60px;
 width: 110px;
 height: 90px;
-background-image: url('../assets/spanishFlag.png');
+background-image: url('../assets/flags/es.png');
 background-size: 110px 90px;
 }
 
@@ -82,7 +82,7 @@ bottom: 70px;
 right: 60px;
 width: 110px;
 height: 90px;
-background-image: url('../assets/dutchFlag.png');
+background-image: url('../assets/flags/nl.png');
 background-size: 110px 90px;
 }
 #loginHeader {
