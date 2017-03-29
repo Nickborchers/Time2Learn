@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<Dutch>
+<dutch>
 	<words>
 		<item>aantonen</item>
 		<item>antiek</item>
 		<item>keer</item>
 		<item>gids</item>
 		<item>kledingstuk</item>
-		<item>pk</item>
-		<item>Geef</item>
+		<item>geef</item>
 		<item>klemtoon</item>
 		<item>gebouw</item>
 		<item>snijden</item>
@@ -16,11 +15,11 @@
 		<item>verhogen</item>
 		<item>schandaal</item>
 		<item>omtrent</item>
-		<item>Internet</item>
+		<item>internet</item>
 		<item>kolonel</item>
 		<item>ster</item>
 		<item>toestand</item>
-		<item>Cassatie</item>
+		<item>cassatie</item>
 		<item>systeem</item>
 		<item>ramp</item>
 		<item>versnelling</item>
@@ -31,11 +30,11 @@
 		<item>groepen</item>
 		<item>provinciaal</item>
 		<item>cliché</item>
-		<item>Baan</item>
-		<item>Water</item>
+		<item>baan</item>
+		<item>water</item>
 		<item>gevangen</item>
 		<item>koor</item>
-		<item>Internationaal</item>
+		<item>internationaal</item>
 		<item>financieren</item>
 		<item>spreiden</item>
 		<item>obsessie</item>
@@ -58,7 +57,7 @@
 		<item>achter</item>
 		<item>kostprijs</item>
 		<item>traag</item>
-		<item>Elk</item>
+		<item>elk</item>
 		<item>orkest</item>
 		<item>fors</item>
 		<item>champagne</item>
@@ -67,26 +66,25 @@
 		<item>afhankelijkheid</item>
 		<item>november</item>
 		<item>plaatsen</item>
-		<item>Vanaf</item>
+		<item>vanaf</item>
 		<item>tekort</item>
 		<item>zonder</item>
 		<item>schatting</item>
 		<item>portefeuille</item>
 		<item>gieten</item>
-		<item>Rover</item>
+		<item>rover</item>
 		<item>studeren</item>
-		<item>Commissie</item>
+		<item>commissie</item>
 		<item>procureur</item>
-		<item>IJzeren</item>
+		<item>ijzeren</item>
 		<item>handje</item>
 		<item>ofwel</item>
 		<item>veld</item>
 		<item>hoofdstad</item>
 		<item>meerderheid</item>
-		<item>BTW</item>
 		<item>zuiver</item>
 		<item>verkrijgen</item>
-		<item>Oosten</item>
+		<item>oosten</item>
 		<item>opstelling</item>
 		<item>koken</item>
 		<item>deelname</item>
@@ -97,7 +95,7 @@
 		<item>belet</item>
 		<item>lachen</item>
 		<item>vervanging</item>
-		<item>Shop</item>
+		<item>shop</item>
 		<item>rode</item>
 		<item>methode</item>
 		<item>aanspraak</item>
@@ -109,24 +107,22 @@
 		<item>geboren</item>
 		<item>drijven</item>
 		<item>buigen</item>
-		<item>Mare</item>
-		<item>City</item>
+		<item>mare</item>
 		<item>beschuldiging</item>
-		<item>Media</item>
+		<item>media</item>
 		<item>navolging</item>
-		<item>Extra</item>
-		<item>km</item>
-		<item>Juist</item>
+		<item>extra</item>
+		<item>juist</item>
 		<item>consequent</item>
-		<item>Fortis</item>
+		<item>fortis</item>
 		<item>verenigd</item>
 		<item>benoemen</item>
-		<item>Jaguar</item>
+		<item>jaguar</item>
 		<item>blijken</item>
-		<item>Alsof</item>
+		<item>alsof</item>
 		<item>risico</item>
 		<item>zender</item>
-		<item>Last</item>
+		<item>last</item>
 		<item>massaal</item>
 		<item>pijnlijk</item>
 		<item>vereiste</item>
@@ -135,12 +131,11 @@
 		<item>toeschouwer</item>
 		<item>vergelijking</item>
 		<item>lichaam</item>
-		<item>Museum</item>
+		<item>museum</item>
 		<item>bedrijven</item>
 		<item>euthanasie</item>
 		<item>omschrijving</item>
-		<item>recyclage</item>
-		<item>Comité</item>
+		<item>comité</item>
 		<item>deze</item>
 		<item>bekende</item>
 		<item>onderdak</item>
@@ -149,13 +144,13 @@
 		<item>lichtjes</item>
 		<item>linnen</item>
 		<item>vanuit</item>
-		<item>Gids</item>
+		<item>gids</item>
 		<item>springen</item>
 		<item>vissen</item>
 		<item>ministerie</item>
 		<item>warmte</item>
 		<item>design</item>
-		<item>Ordening</item>
+		<item>ordening</item>
 		<item>stappen</item>
 		<item>ondersteunen</item>
 		<item>aangenaam</item>
@@ -170,10 +165,9 @@
 		<item>koepel</item>
 		<item>liggen</item>
 		<item>soepel</item>
-		<item>ml</item>
 		<item>opzetten</item>
 		<item>rector</item>
-		<item>Design</item>
+		<item>design</item>
 		<item>nood</item>
 		<item>meubilair</item>
 		<item>opvang</item>
@@ -181,9 +175,9 @@
 		<item>gebracht</item>
 		<item>trendy</item>
 		<item>opzij</item>
-		<item>Ouders</item>
+		<item>ouders</item>
 		<item>premier</item>
-		<item>Gelukkig</item>
+		<item>gelukkig</item>
 		<item>schilderen</item>
 		<item>staf</item>
 		<item>wijsheid</item>
@@ -197,7 +191,7 @@
 		<item>allang</item>
 		<item>verliefd</item>
 		<item>catalogus</item>
-		<item>Ensemble</item>
+		<item>ensemble</item>
 		<item>redden</item>
 		<item>zanger</item>
 		<item>informatietechnologie</item>
@@ -212,13 +206,13 @@
 		<item>proberen</item>
 		<item>onrust</item>
 		<item>slapen</item>
-		<item>Leefmilieu</item>
+		<item>leefmilieu</item>
 		<item>wezenlijk</item>
 		<item>hersenen</item>
 		<item>klinken</item>
 		<item>variabele</item>
 		<item>schoen</item>
-		<item>Interessant</item>
+		<item>interessant</item>
 		<item>andermaal</item>
 		<item>secretaresse</item>
 		<item>gezin</item>
@@ -237,12 +231,12 @@
 		<item>stijl</item>
 		<item>kat</item>
 		<item>data</item>
-		<item>Fax</item>
+		<item>fax</item>
 		<item>teruggetrokken</item>
-		<item>Inderdaad</item>
+		<item>inderdaad</item>
 		<item>luchtvaart</item>
 		<item>ruimen</item>
-		<item>Groot</item>
+		<item>groot</item>
 		<item>charme</item>
 		<item>sturen</item>
 		<item>dilemma</item>
@@ -252,19 +246,19 @@
 		<item>volgend</item>
 		<item>delegatie</item>
 		<item>rekening</item>
-		<item>Per</item>
+		<item>per</item>
 		<item>voorstander</item>
 		<item>doordat</item>
 		<item>terugtrekken</item>
 		<item>komedie</item>
 		<item>antwoorden</item>
 		<item>bereiken</item>
-		<item>Witte</item>
+		<item>witte</item>
 		<item>daadwerkelijk</item>
 		<item>raak</item>
 		<item>eigendom</item>
-		<item>Meteen</item>
-		<item>BEF</item>
+		<item>meteen</item>
+		<item>bef</item>
 		<item>uitstel</item>
 		<item>versterken</item>
 		<item>drankje</item>
@@ -274,7 +268,7 @@
 		<item>invloed</item>
 		<item>ochtend</item>
 		<item>annex</item>
-		<item>Oceaan</item>
+		<item>oceaan</item>
 		<item>ontevreden</item>
 		<item>religieuze</item>
 		<item>conditie</item>
@@ -282,9 +276,9 @@
 		<item>concurrent</item>
 		<item>speciaal</item>
 		<item>minste</item>
-		<item>Justitie</item>
+		<item>justitie</item>
 		<item>gas</item>
-		<item>Wat</item>
+		<item>wat</item>
 		<item>ontvangen</item>
 		<item>houding</item>
 		<item>rekken</item>
@@ -303,16 +297,16 @@
 		<item>dividend</item>
 		<item>straffen</item>
 		<item>religie</item>
-		<item>Restaurant</item>
-		<item>VAN</item>
+		<item>restaurant</item>
+		<item>van</item>
 		<item>omlaag</item>
 		<item>bevestiging</item>
 		<item>produceren</item>
-		<item>HET</item>
+		<item>het</item>
 		<item>geraken</item>
 		<item>luxe</item>
 		<item>verdween</item>
-		<item>Zodat</item>
+		<item>zodat</item>
 		<item>gevecht</item>
 		<item>toelichting</item>
 		<item>comfortabel</item>
@@ -326,25 +320,24 @@
 		<item>leeftijd</item>
 		<item>gevangenis</item>
 		<item>rijst</item>
-		<item>Gevolg</item>
-		<item>TV</item>
+		<item>gevolg</item>
+		<item>tv</item>
 		<item>datgene</item>
 		<item>oude</item>
 		<item>april</item>
 		<item>jaarverslag</item>
-		<item>Volgend</item>
+		<item>volgend</item>
 		<item>opgeven</item>
 		<item>verschillen</item>
 		<item>inval</item>
-		<item>Foto</item>
+		<item>foto</item>
 		<item>sympathie</item>
 		<item>voorbereiden</item>
 		<item>genieten</item>
 		<item>gemeentehuis</item>
 		<item>bepaling</item>
 		<item>materie</item>
-		<item>Eva</item>
-		<item>Kerstmis</item>
+		<item>kerstmis</item>
 		<item>geschapen</item>
 		<item>kalender</item>
 		<item>zuinig</item>
@@ -352,7 +345,7 @@
 		<item>permitteren</item>
 		<item>dingen</item>
 		<item>wetenschap</item>
-		<item>Landbouw</item>
+		<item>landbouw</item>
 		<item>eeuwig</item>
 		<item>ja</item>
 		<item>reiziger</item>
@@ -360,25 +353,25 @@
 		<item>linkse</item>
 		<item>echter</item>
 		<item>overdracht</item>
-		<item>Dijk</item>
+		<item>dijk</item>
 		<item>sprookje</item>
 		<item>au</item>
 		<item>voeden</item>
 		<item>misbruiken</item>
-		<item>Moeder</item>
+		<item>moeder</item>
 		<item>chemisch</item>
 		<item>middenklasse</item>
 		<item>consultant</item>
 		<item>blijf</item>
 		<item>directeur-generaal</item>
 		<item>grotendeels</item>
-		<item>Computer</item>
+		<item>computer</item>
 		<item>aanvallen</item>
 		<item>sowieso</item>
-		<item>Data</item>
+		<item>data</item>
 		<item>schommelen</item>
 		<item>vertolking</item>
-		<item>Zowat</item>
+		<item>zowat</item>
 		<item>anoniem</item>
 		<item>aanwezigheid</item>
 		<item>tewerkstelling</item>
@@ -396,7 +389,7 @@
 		<item>koel</item>
 		<item>transport</item>
 		<item>vakbond</item>
-		<item>Alles</item>
+		<item>alles</item>
 		<item>troef</item>
 		<item>commissaris</item>
 		<item>bent</item>
@@ -407,7 +400,7 @@
 		<item>ontslag</item>
 		<item>verhuizen</item>
 		<item>bekendmaking</item>
-		<item>Frans</item>
+		<item>frans</item>
 		<item>most</item>
 		<item>smaak</item>
 		<item>keek</item>
@@ -420,8 +413,8 @@
 		<item>zorgen</item>
 		<item>ondertekening</item>
 		<item>gezondheid</item>
-		<item>Zodra</item>
-		<item>Real</item>
+		<item>zodra</item>
+		<item>real</item>
 		<item>gedeeltelijk</item>
 		<item>tussen</item>
 		<item>decennium</item>
@@ -429,24 +422,23 @@
 		<item>bewustzijn</item>
 		<item>vraag</item>
 		<item>haaks</item>
-		<item>Sint</item>
+		<item>sint</item>
 		<item>nederlaag</item>
 		<item>winkelen</item>
 		<item>voorbeeld</item>
-		<item>Gent</item>
+		<item>gent</item>
 		<item>huwelijk</item>
 		<item>tevens</item>
 		<item>volksgezondheid</item>
-		<item>Beweging</item>
-		<item>Inzake</item>
-		<item>Lux</item>
+		<item>beweging</item>
+		<item>inzake</item>
 		<item>baby</item>
-		<item>Probleem</item>
+		<item>probleem</item>
 		<item>gedreven</item>
 		<item>wens</item>
 		<item>oogsten</item>
-		<item>DE</item>
-		<item>Verre</item>
+		<item>de</item>
+		<item>verre</item>
 		<item>cirkel</item>
 		<item>architectuur</item>
 		<item>maken</item>
@@ -457,7 +449,7 @@
 		<item>vullen</item>
 		<item>complexiteit</item>
 		<item>universitair</item>
-		<item>Unie</item>
+		<item>unie</item>
 		<item>joint</item>
 		<item>opgezet</item>
 		<item>fabrieken</item>
@@ -484,7 +476,7 @@
 		<item>kampen</item>
 		<item>automatisch</item>
 		<item>sprake</item>
-		<item>Eindelijk</item>
+		<item>eindelijk</item>
 		<item>bevoegd</item>
 		<item>gelden</item>
 		<item>wit</item>
@@ -500,33 +492,31 @@
 		<item>omroep</item>
 		<item>optimisme</item>
 		<item>lastig</item>
-		<item>Plan</item>
-		<item>Galerie</item>
-		<item>Mode</item>
+		<item>plan</item>
+		<item>galerie</item>
+		<item>mode</item>
 		<item>telefonisch</item>
 		<item>personeelsbestand</item>
 		<item>onderweg</item>
-		<item>Zwarte</item>
-		<item>Afgezien</item>
+		<item>zwarte</item>
+		<item>afgezien</item>
 		<item>bedrijf</item>
 		<item>hield</item>
-		<item>Tour</item>
-		<item>Zorg</item>
+		<item>tour</item>
+		<item>zorg</item>
 		<item>omvang</item>
 		<item>omwille</item>
-		<item>home</item>
 		<item>enthousiast</item>
 		<item>oogpunt</item>
 		<item>lucht</item>
 		<item>onderhoud</item>
-		<item>Park</item>
+		<item>park</item>
 		<item>onderuit</item>
 		<item>gronden</item>
 		<item>stap</item>
 		<item>imperium</item>
 		<item>gemeentebestuur</item>
 		<item>koek</item>
-		<item>Ivo</item>
 		<item>middels</item>
 		<item>beneden</item>
 		<item>vriendin</item>
@@ -538,19 +528,19 @@
 		<item>praten</item>
 		<item>honger</item>
 		<item>koelkast</item>
-		<item>Intranet</item>
+		<item>intranet</item>
 		<item>opdat</item>
-		<item>Jong</item>
-		<item>Forum</item>
+		<item>jong</item>
+		<item>forum</item>
 		<item>parket</item>
 		<item>voorjaar</item>
-		<item>Major</item>
-		<item>Velen</item>
+		<item>major</item>
+		<item>velen</item>
 		<item>bedacht</item>
 		<item>gebeuren</item>
-		<item>Waterloo</item>
-		<item>Er</item>
-		<item>Senaat</item>
+		<item>waterloo</item>
+		<item>er</item>
+		<item>senaat</item>
 		<item>voorstel</item>
 		<item>valuta</item>
 		<item>grafisch</item>
@@ -584,22 +574,20 @@
 		<item>zou</item>
 		<item>minstens</item>
 		<item>doorgaans</item>
-		<item>Trust</item>
+		<item>trust</item>
 		<item>velen</item>
 		<item>bevoegdheid</item>
 		<item>individu</item>
-		<item>Co</item>
-		<item>Maandag</item>
+		<item>maandag</item>
 		<item>veranderen</item>
-		<item>Verbond</item>
+		<item>verbond</item>
 		<item>zone</item>
 		<item>kathedraal</item>
 		<item>afgezien</item>
 		<item>schoonheid</item>
-		<item>DM</item>
 		<item>meisje</item>
 		<item>geplaatst</item>
-		<item>Koning</item>
+		<item>koning</item>
 		<item>timing</item>
 		<item>traditioneel</item>
 		<item>berekening</item>
@@ -630,16 +618,15 @@
 		<item>wijken</item>
 		<item>oproepen</item>
 		<item>bestuur</item>
-		<item>Instituut</item>
+		<item>instituut</item>
 		<item>ontwikkelen</item>
 		<item>neef</item>
-		<item>En</item>
+		<item>en</item>
 		<item>privé</item>
 		<item>vies</item>
 		<item>cash</item>
 		<item>zwak</item>
 		<item>betreffende</item>
-		<item>Don</item>
 		<item>essentieel</item>
 		<item>gemeentelijk</item>
 		<item>roze</item>
@@ -647,7 +634,7 @@
 		<item>metro</item>
 		<item>aflevering</item>
 		<item>tinten</item>
-		<item>Zes</item>
+		<item>zes</item>
 		<item>motto</item>
 		<item>ongewoon</item>
 		<item>vorm</item>
@@ -659,14 +646,14 @@
 		<item>meten</item>
 		<item>ondertussen</item>
 		<item>schermen</item>
-		<item>Engineering</item>
+		<item>engineering</item>
 		<item>ontvangst</item>
 		<item>opmerking</item>
 		<item>ambassade</item>
 		<item>preventie</item>
 		<item>job</item>
-		<item>Laten</item>
-		<item>Verenigd</item>
+		<item>laten</item>
+		<item>verenigd</item>
 		<item>staking</item>
 		<item>paspoort</item>
 		<item>inhouden</item>
@@ -686,37 +673,37 @@
 		<item>bovendien</item>
 		<item>hoogst</item>
 		<item>salaris</item>
-		<item>Vrij</item>
+		<item>vrij</item>
 		<item>schilder</item>
-		<item>Bron</item>
-		<item>Staatssecretaris</item>
+		<item>bron</item>
+		<item>staatssecretaris</item>
 		<item>vakgroep</item>
 		<item>restauratie</item>
-		<item>Met</item>
+		<item>met</item>
 		<item>achterkant</item>
 		<item>voort</item>
-		<item>Vroeger</item>
+		<item>vroeger</item>
 		<item>stroom</item>
 		<item>betrekken</item>
 		<item>heel</item>
 		<item>buiten</item>
 		<item>positie</item>
 		<item>vaderland</item>
-		<item>Nodig</item>
-		<item>Nieuws</item>
+		<item>nodig</item>
+		<item>nieuws</item>
 		<item>gevuld</item>
 		<item>maaltijd</item>
 		<item>schip</item>
-		<item>Kunnen</item>
-		<item>Palm</item>
+		<item>kunnen</item>
+		<item>palm</item>
 		<item>snelweg</item>
 		<item>flat</item>
 		<item>decoratie</item>
 		<item>zowel</item>
 		<item>schok</item>
-		<item>Onderzoek</item>
+		<item>onderzoek</item>
 		<item>subsidie</item>
-		<item>Staatsblad</item>
+		<item>staatsblad</item>
 		<item>expert</item>
 		<item>woning</item>
 		<item>acteur</item>
@@ -730,7 +717,7 @@
 		<item>aankloppen</item>
 		<item>effect</item>
 		<item>specialist</item>
-		<item>Althans</item>
+		<item>althans</item>
 		<item>definitief</item>
 		<item>eeuwwisseling</item>
 		<item>toenadering</item>
@@ -741,7 +728,7 @@
 		<item>heden</item>
 		<item>tv</item>
 		<item>trouw</item>
-		<item>Tewerkstelling</item>
+		<item>tewerkstelling</item>
 		<item>elektronisch</item>
 		<item>wethouder</item>
 		<item>tevoren</item>
@@ -751,16 +738,16 @@
 		<item>tegenovergestelde</item>
 		<item>concreet</item>
 		<item>kilogram</item>
-		<item>Reserve</item>
+		<item>reserve</item>
 		<item>geweldig</item>
 		<item>schuld</item>
 		<item>nadeel</item>
 		<item>rijen</item>
 		<item>uitgeput</item>
-		<item>Alhoewel</item>
+		<item>alhoewel</item>
 		<item>kapot</item>
 		<item>thuismarkt</item>
-		<item>Ofwel</item>
+		<item>ofwel</item>
 		<item>zelfmoord</item>
 		<item>namens</item>
 		<item>vloeien</item>
@@ -773,7 +760,7 @@
 		<item>economie</item>
 		<item>moraal</item>
 		<item>over</item>
-		<item>Moeten</item>
+		<item>moeten</item>
 		<item>beton</item>
 		<item>rentevoet</item>
 		<item>eiwit</item>
@@ -799,8 +786,8 @@
 		<item>staan</item>
 		<item>bespreken</item>
 		<item>genoemd</item>
-		<item>Vraag</item>
-		<item>Smet</item>
+		<item>vraag</item>
+		<item>smet</item>
 		<item>fantasie</item>
 		<item>verzoek</item>
 		<item>alsof</item>
@@ -835,12 +822,12 @@
 		<item>diesel</item>
 		<item>winstgevend</item>
 		<item>inschrijven</item>
-		<item>Professor</item>
+		<item>professor</item>
 		<item>wal</item>
 		<item>binnenkort</item>
 		<item>niks</item>
 		<item>handicap</item>
-		<item>Dagelijks</item>
+		<item>dagelijks</item>
 		<item>verzekeraar</item>
 		<item>uitdrukking</item>
 		<item>tak</item>
@@ -856,7 +843,7 @@
 		<item>zoet</item>
 		<item>beantwoorden</item>
 		<item>herhaling</item>
-		<item>Rode</item>
+		<item>rode</item>
 		<item>broker</item>
 		<item>nauwelijks</item>
 		<item>beroemd</item>
@@ -865,7 +852,7 @@
 		<item>gestoken</item>
 		<item>behouden</item>
 		<item>naam</item>
-		<item>Standaard</item>
+		<item>standaard</item>
 		<item>topman</item>
 		<item>onbekende</item>
 		<item>herinneren</item>
@@ -877,19 +864,18 @@
 		<item>halen</item>
 		<item>dochter</item>
 		<item>macht</item>
-		<item>Naast</item>
+		<item>naast</item>
 		<item>zand</item>
-		<item>Club</item>
+		<item>club</item>
 		<item>publiceren</item>
 		<item>rug</item>
 		<item>beest</item>
 		<item>tomaat</item>
 		<item>onderhandelen</item>
 		<item>aangenomen</item>
-		<item>cinema</item>
 		<item>gedeelte</item>
 		<item>leger</item>
-		<item>Onlangs</item>
+		<item>onlangs</item>
 		<item>zorgvuldig</item>
 		<item>genocide</item>
 		<item>prat</item>
@@ -897,7 +883,7 @@
 		<item>boekhouding</item>
 		<item>extern</item>
 		<item>rechtszaak</item>
-		<item>Banken</item>
+		<item>banken</item>
 		<item>steevast</item>
 		<item>vervolgens</item>
 		<item>eender</item>
@@ -910,24 +896,24 @@
 		<item>veroorloven</item>
 		<item>federaal</item>
 		<item>viertal</item>
-		<item>SAP</item>
+		<item>sap</item>
 		<item>groeien</item>
 		<item>overgang</item>
 		<item>nut</item>
 		<item>bundel</item>
 		<item>genot</item>
 		<item>klagen</item>
-		<item>Landen</item>
+		<item>landen</item>
 		<item>democratisering</item>
 		<item>financiering</item>
 		<item>berichten</item>
 		<item>bagage</item>
 		<item>stukje</item>
-		<item>Brits</item>
+		<item>brits</item>
 		<item>frustratie</item>
 		<item>uitwerking</item>
 		<item>opvallend</item>
-		<item>Mens</item>
+		<item>mens</item>
 		<item>wanhoop</item>
 		<item>roeren</item>
 		<item>kolonie</item>
@@ -945,7 +931,7 @@
 		<item>cruciaal</item>
 		<item>staatssecretaris</item>
 		<item>party</item>
-		<item>Die</item>
+		<item>die</item>
 		<item>ontvoering</item>
 		<item>luchthaven</item>
 		<item>selectief</item>
@@ -959,7 +945,7 @@
 		<item>kennis</item>
 		<item>departement</item>
 		<item>dwars</item>
-		<item>Indien</item>
+		<item>indien</item>
 		<item>beschaving</item>
 		<item>daarbuiten</item>
 		<item>bijbel</item>
@@ -975,9 +961,9 @@
 		<item>matig</item>
 		<item>duidelijk</item>
 		<item>bestellen</item>
-		<item>Fokker</item>
-		<item>Oorspronkelijk</item>
-		<item>Neen</item>
+		<item>fokker</item>
+		<item>oorspronkelijk</item>
+		<item>neen</item>
 		<item>verleiden</item>
 		<item>indien</item>
 		<item>belang</item>
@@ -986,7 +972,7 @@
 		<item>zestiende</item>
 		<item>regelgeving</item>
 		<item>sterk</item>
-		<item>Graag</item>
+		<item>graag</item>
 		<item>ene</item>
 		<item>bron</item>
 		<item>combineren</item>
@@ -1009,11 +995,11 @@
 		<item>beperken</item>
 		<item>kapitalisme</item>
 		<item>politiek</item>
-		<item>Index</item>
+		<item>index</item>
 		<item>rij</item>
 		<item>voorraad</item>
 		<item>traject</item>
-		<item>Vier</item>
+		<item>vier</item>
 		<item>fiscaliteit</item>
 		<item>omgang</item>
 		<item>ware</item>
@@ -1030,17 +1016,17 @@
 		<item>niemand</item>
 		<item>feesten</item>
 		<item>zout</item>
-		<item>Jaar</item>
+		<item>jaar</item>
 		<item>buurman</item>
 		<item>oprichten</item>
 		<item>exact</item>
-		<item>Sommige</item>
-		<item>Maas</item>
+		<item>sommige</item>
+		<item>maas</item>
 		<item>winst</item>
 		<item>vasthouden</item>
 		<item>ingrijpend</item>
 		<item>opera</item>
-		<item>Leven</item>
+		<item>leven</item>
 		<item>waardeloos</item>
 		<item>onderworpen</item>
 		<item>goud</item>
@@ -1074,16 +1060,15 @@
 		<item>paleis</item>
 		<item>onduidelijk</item>
 		<item>aangewezen</item>
-		<item>dl</item>
 		<item>belast</item>
 		<item>brouwerij</item>
-		<item>Zoals</item>
+		<item>zoals</item>
 		<item>nooit</item>
 		<item>export</item>
 		<item>technologisch</item>
 		<item>publiek</item>
 		<item>tegenover</item>
-		<item>Nieuw</item>
+		<item>nieuw</item>
 		<item>exclusief</item>
 		<item>allicht</item>
 		<item>zetel</item>
@@ -1091,7 +1076,7 @@
 		<item>samengaan</item>
 		<item>kwaad</item>
 		<item>echtgenote</item>
-		<item>Mogelijk</item>
+		<item>mogelijk</item>
 		<item>socialist</item>
 		<item>beheer</item>
 		<item>ontwerper</item>
@@ -1099,11 +1084,11 @@
 		<item>gratis</item>
 		<item>hecht</item>
 		<item>menig</item>
-		<item>Planbureau</item>
+		<item>planbureau</item>
 		<item>stille</item>
-		<item>Rijksuniversiteit</item>
+		<item>rijksuniversiteit</item>
 		<item>erom</item>
-		<item>Shell</item>
+		<item>shell</item>
 		<item>cent</item>
 		<item>spraken</item>
 		<item>verantwoordelijke</item>
@@ -1123,16 +1108,15 @@
 		<item>man</item>
 		<item>aanvragen</item>
 		<item>avontuur</item>
-		<item>Claus</item>
+		<item>claus</item>
 		<item>ordening</item>
 		<item>laatst</item>
-		<item>but</item>
 		<item>bui</item>
 		<item>kreeg</item>
 		<item>verslagen</item>
 		<item>loonmatiging</item>
-		<item>Bestuur</item>
-		<item>Interim</item>
+		<item>bestuur</item>
+		<item>interim</item>
 		<item>en</item>
 		<item>misbruik</item>
 		<item>vatbaar</item>
@@ -1140,29 +1124,29 @@
 		<item>vond</item>
 		<item>innen</item>
 		<item>schijnbaar</item>
-		<item>Tien</item>
+		<item>tien</item>
 		<item>wilde</item>
 		<item>dertig</item>
-		<item>Hopelijk</item>
+		<item>hopelijk</item>
 		<item>accepteren</item>
 		<item>telecommunicatie</item>
 		<item>foto</item>
 		<item>lag</item>
 		<item>omroepen</item>
-		<item>Trouwens</item>
+		<item>trouwens</item>
 		<item>competitief</item>
 		<item>achterhoofd</item>
 		<item>tanden</item>
 		<item>verantwoording</item>
 		<item>publiciteit</item>
 		<item>ellende</item>
-		<item>Tegenwoordig</item>
+		<item>tegenwoordig</item>
 		<item>gitaar</item>
 		<item>hebben</item>
 		<item>naarmate</item>
-		<item>Achter</item>
+		<item>achter</item>
 		<item>resoluut</item>
-		<item>Industrie</item>
+		<item>industrie</item>
 		<item>regio</item>
 		<item>onderste</item>
 		<item>handvol</item>
@@ -1170,19 +1154,18 @@
 		<item>ode</item>
 		<item>legende</item>
 		<item>ratio</item>
-		<item>Adres</item>
+		<item>adres</item>
 		<item>mogen</item>
 		<item>subtiel</item>
-		<item>Jullie</item>
-		<item>Hoge</item>
+		<item>jullie</item>
+		<item>hoge</item>
 		<item>brood</item>
 		<item>koste</item>
-		<item>Twaalf</item>
+		<item>twaalf</item>
 		<item>strand</item>
 		<item>waarborgen</item>
 		<item>sober</item>
 		<item>januari</item>
-		<item>BNP</item>
 		<item>laten</item>
 		<item>folder</item>
 		<item>proeven</item>
@@ -1192,11 +1175,10 @@
 		<item>stuiten</item>
 		<item>selectie</item>
 		<item>uitkomen</item>
-		<item>Officieel</item>
-		<item>Partij</item>
+		<item>officieel</item>
+		<item>partij</item>
 		<item>pompen</item>
 		<item>kaap</item>
-		<item>cc</item>
 		<item>regent</item>
 		<item>besparing</item>
 		<item>aangegeven</item>
@@ -1206,10 +1188,10 @@
 		<item>buitenland</item>
 		<item>aanrader</item>
 		<item>bei</item>
-		<item>De</item>
+		<item>de</item>
 		<item>werking</item>
 		<item>hervorming</item>
-		<item>Overigens</item>
+		<item>overigens</item>
 		<item>verzinnen</item>
 		<item>creativiteit</item>
 		<item>kring</item>
@@ -1224,17 +1206,16 @@
 		<item>beleven</item>
 		<item>veelvuldig</item>
 		<item>boerderij</item>
-		<item>Iemand</item>
+		<item>iemand</item>
 		<item>drugs</item>
 		<item>document</item>
-		<item>Koophandel</item>
+		<item>koophandel</item>
 		<item>achterstand</item>
-		<item>Plus</item>
+		<item>plus</item>
 		<item>decreet</item>
 		<item>geacht</item>
-		<item>Stock</item>
 		<item>gelijk</item>
-		<item>Hotel</item>
+		<item>hotel</item>
 		<item>uitvinding</item>
 		<item>geloofwaardig</item>
 		<item>binnen</item>
@@ -1255,16 +1236,16 @@
 		<item>benaming</item>
 		<item>komst</item>
 		<item>getuige</item>
-		<item>Leiden</item>
+		<item>leiden</item>
 		<item>adres</item>
 		<item>parlement</item>
 		<item>beduidend</item>
 		<item>ongelukkig</item>
-		<item>Trio</item>
+		<item>trio</item>
 		<item>volkomen</item>
 		<item>peper</item>
 		<item>geven</item>
-		<item>Raad</item>
+		<item>raad</item>
 		<item>daling</item>
 		<item>winter</item>
 		<item>berekend</item>
@@ -1273,7 +1254,7 @@
 		<item>terugkeren</item>
 		<item>geschiedenis</item>
 		<item>plotseling</item>
-		<item>Deelnemen</item>
+		<item>deelnemen</item>
 		<item>deal</item>
 		<item>verbergen</item>
 		<item>dosis</item>
@@ -1283,11 +1264,10 @@
 		<item>feit</item>
 		<item>conjunctuur</item>
 		<item>gezet</item>
-		<item>Politie</item>
+		<item>politie</item>
 		<item>kijker</item>
-		<item>bvba</item>
 		<item>rapen</item>
-		<item>Nobel</item>
+		<item>nobel</item>
 		<item>inleiding</item>
 		<item>heilig</item>
 		<item>boekjaar</item>
@@ -1303,7 +1283,6 @@
 		<item>alsmaar</item>
 		<item>sprak</item>
 		<item>raadplegen</item>
-		<item>cashflow</item>
 		<item>geluk</item>
 		<item>tijdelijk</item>
 		<item>museum</item>
@@ -1319,7 +1298,7 @@
 		<item>alle</item>
 		<item>tarief</item>
 		<item>uiting</item>
-		<item>Der</item>
+		<item>der</item>
 		<item>opbouw</item>
 		<item>wereld</item>
 		<item>fraai</item>
@@ -1336,7 +1315,7 @@
 		<item>nadien</item>
 		<item>namen</item>
 		<item>signaal</item>
-		<item>Stel</item>
+		<item>stel</item>
 		<item>bestrijden</item>
 		<item>variatie</item>
 		<item>begrafenis</item>
@@ -1344,16 +1323,16 @@
 		<item>transparant</item>
 		<item>openbaar</item>
 		<item>afhangen</item>
-		<item>Toneel</item>
+		<item>toneel</item>
 		<item>aantal</item>
 		<item>besloten</item>
 		<item>nieuw</item>
-		<item>Les</item>
+		<item>les</item>
 		<item>minuut</item>
 		<item>heilige</item>
 		<item>agressief</item>
 		<item>spreken</item>
-		<item>Centrum</item>
+		<item>centrum</item>
 		<item>armoede</item>
 		<item>reputatie</item>
 		<item>weleer</item>
@@ -1390,8 +1369,8 @@
 		<item>boze</item>
 		<item>zekerheid</item>
 		<item>meesterwerk</item>
-		<item>Natuurlijk</item>
-		<item>Eenmaal</item>
+		<item>natuurlijk</item>
+		<item>eenmaal</item>
 		<item>betrokkenheid</item>
 		<item>beperkt</item>
 		<item>teveel</item>
@@ -1400,11 +1379,11 @@
 		<item>recreatie</item>
 		<item>batterij</item>
 		<item>kippen</item>
-		<item>Hij</item>
+		<item>hij</item>
 		<item>apparatuur</item>
 		<item>voeding</item>
 		<item>evident</item>
-		<item>Big</item>
+		<item>big</item>
 		<item>vrije</item>
 		<item>sexy</item>
 		<item>zaterdag</item>
@@ -1412,7 +1391,7 @@
 		<item>verzorging</item>
 		<item>voorzitterschap</item>
 		<item>jongere</item>
-		<item>Gemiddeld</item>
+		<item>gemiddeld</item>
 		<item>gevangenisstraf</item>
 		<item>gedaan</item>
 		<item>fenomeen</item>
@@ -1438,7 +1417,7 @@
 		<item>ophouden</item>
 		<item>warrant</item>
 		<item>laboratorium</item>
-		<item>Leger</item>
+		<item>leger</item>
 		<item>olijfolie</item>
 		<item>hakken</item>
 		<item>registreren</item>
@@ -1446,9 +1425,9 @@
 		<item>mond</item>
 		<item>breken</item>
 		<item>openheid</item>
-		<item>Bijna</item>
-		<item>Uw</item>
-		<item>Financieel</item>
+		<item>bijna</item>
+		<item>uw</item>
+		<item>financieel</item>
 		<item>vijfde</item>
 		<item>verwijzing</item>
 		<item>steek</item>
@@ -1456,7 +1435,7 @@
 		<item>suggestie</item>
 		<item>fout</item>
 		<item>strak</item>
-		<item>El</item>
+		<item>el</item>
 		<item>mogelijkheid</item>
 		<item>hoede</item>
 		<item>bundelen</item>
@@ -1497,7 +1476,7 @@
 		<item>scholing</item>
 		<item>geslacht</item>
 		<item>prooi</item>
-		<item>Ieder</item>
+		<item>ieder</item>
 		<item>leder</item>
 		<item>ingebouwd</item>
 		<item>omschrijven</item>
@@ -1506,12 +1485,12 @@
 		<item>vannacht</item>
 		<item>manipulatie</item>
 		<item>gevolg</item>
-		<item>Landgraaf</item>
+		<item>landgraaf</item>
 		<item>natuurlijk</item>
 		<item>badkamer</item>
 		<item>verzekerd</item>
-		<item>Wie</item>
-		<item>Station</item>
+		<item>wie</item>
+		<item>station</item>
 		<item>afschaffen</item>
 		<item>agent</item>
 		<item>begrotingstekort</item>
@@ -1524,18 +1503,18 @@
 		<item>uitvallen</item>
 		<item>tegendeel</item>
 		<item>weekblad</item>
-		<item>Gezien</item>
-		<item>FIS</item>
+		<item>gezien</item>
+		<item>fis</item>
 		<item>energie</item>
-		<item>Bedrijven</item>
+		<item>bedrijven</item>
 		<item>afgerond</item>
 		<item>zetten</item>
 		<item>aangifte</item>
-		<item>Vader</item>
+		<item>vader</item>
 		<item>bereid</item>
 		<item>vluchten</item>
 		<item>meubelen</item>
-		<item>Precies</item>
+		<item>precies</item>
 		<item>invulling</item>
 		<item>moest</item>
 		<item>herhalen</item>
@@ -1562,15 +1541,15 @@
 		<item>aanmaak</item>
 		<item>gedurende</item>
 		<item>gedrag</item>
-		<item>Luik</item>
+		<item>luik</item>
 		<item>zijden</item>
 		<item>burgerlijk</item>
-		<item>Home</item>
+		<item>home</item>
 		<item>debuut</item>
 		<item>bezoeken</item>
 		<item>dit</item>
-		<item>Binnen</item>
-		<item>Niets</item>
+		<item>binnen</item>
+		<item>niets</item>
 		<item>kanker</item>
 		<item>eten</item>
 		<item>verantwoord</item>
@@ -1578,7 +1557,7 @@
 		<item>ondertekenen</item>
 		<item>zwemmen</item>
 		<item>gemotiveerd</item>
-		<item>Anderzijds</item>
+		<item>anderzijds</item>
 		<item>afvragen</item>
 		<item>uiterlijk</item>
 		<item>leeuwendeel</item>
@@ -1588,7 +1567,6 @@
 		<item>diagnose</item>
 		<item>theorie</item>
 		<item>aanwezig</item>
-		<item>PS</item>
 		<item>doos</item>
 		<item>kunststof</item>
 		<item>geallieerden</item>
@@ -1608,7 +1586,7 @@
 		<item>term</item>
 		<item>promoten</item>
 		<item>mij</item>
-		<item>Mannen</item>
+		<item>mannen</item>
 		<item>bedrijfsleider</item>
 		<item>bleef</item>
 		<item>regelmatig</item>
@@ -1619,8 +1597,7 @@
 		<item>uitgerekend</item>
 		<item>hemd</item>
 		<item>bijeenkomst</item>
-		<item>Vijf</item>
-		<item>do</item>
+		<item>vijf</item>
 		<item>verzekeren</item>
 		<item>familiale</item>
 		<item>rondreis</item>
@@ -1629,10 +1606,10 @@
 		<item>verzamelaar</item>
 		<item>elk</item>
 		<item>minst</item>
-		<item>Euro</item>
+		<item>euro</item>
 		<item>rating</item>
 		<item>vaststellen</item>
-		<item>Opera</item>
+		<item>opera</item>
 		<item>slaan</item>
 		<item>installatie</item>
 		<item>team</item>
@@ -1640,9 +1617,9 @@
 		<item>drukken</item>
 		<item>klasse</item>
 		<item>potentieel</item>
-		<item>Kinderen</item>
-		<item>Lang</item>
-		<item>Wereld</item>
+		<item>kinderen</item>
+		<item>lang</item>
+		<item>wereld</item>
 		<item>planeet</item>
 		<item>analist</item>
 		<item>fuseren</item>
@@ -1657,18 +1634,16 @@
 		<item>statuut</item>
 		<item>richten</item>
 		<item>baat</item>
-		<item>Dit</item>
+		<item>dit</item>
 		<item>verbaasd</item>
 		<item>installeren</item>
 		<item>aspect</item>
 		<item>vrijdag</item>
-		<item>Hetzelfde</item>
+		<item>hetzelfde</item>
 		<item>voorstelling</item>
-		<item>Jo</item>
 		<item>wild</item>
 		<item>vermelding</item>
 		<item>volstaan</item>
-		<item>ge</item>
 		<item>belegger</item>
 		<item>waarschuwen</item>
 		<item>revolutie</item>
@@ -1684,14 +1659,12 @@
 		<item>open</item>
 		<item>uitdrukkelijk</item>
 		<item>must</item>
-		<item>out</item>
 		<item>voet</item>
 		<item>logica</item>
 		<item>stadion</item>
 		<item>beschermen</item>
 		<item>centrale</item>
 		<item>uitvoering</item>
-		<item>But</item>
 		<item>opkomst</item>
 		<item>correct</item>
 		<item>karakter</item>
@@ -1724,9 +1697,9 @@
 		<item>romantisch</item>
 		<item>riep</item>
 		<item>stellen</item>
-		<item>Tweede</item>
+		<item>tweede</item>
 		<item>uitgeven</item>
-		<item>Bordeaux</item>
+		<item>bordeaux</item>
 		<item>opzoeken</item>
 		<item>reserve</item>
 		<item>planken</item>
@@ -1735,17 +1708,16 @@
 		<item>garage</item>
 		<item>voltooid</item>
 		<item>blijkbaar</item>
-		<item>Af</item>
+		<item>af</item>
 		<item>erbij</item>
 		<item>krijg</item>
-		<item>Lijn</item>
+		<item>lijn</item>
 		<item>vork</item>
 		<item>uitstoot</item>
 		<item>bruin</item>
 		<item>rendabel</item>
-		<item>Bush</item>
 		<item>pleiten</item>
-		<item>Manager</item>
+		<item>manager</item>
 		<item>vaste</item>
 		<item>communicatie</item>
 		<item>betaald</item>
@@ -1768,11 +1740,11 @@
 		<item>storm</item>
 		<item>deur</item>
 		<item>vijftiende</item>
-		<item>Long</item>
+		<item>long</item>
 		<item>monopolie</item>
 		<item>bouwen</item>
 		<item>designer</item>
-		<item>Rond</item>
+		<item>rond</item>
 		<item>spectaculair</item>
 		<item>plus</item>
 		<item>afdeling</item>
@@ -1782,7 +1754,7 @@
 		<item>euforie</item>
 		<item>aanzien</item>
 		<item>hausse</item>
-		<item>Opnieuw</item>
+		<item>opnieuw</item>
 		<item>einde</item>
 		<item>openen</item>
 		<item>parlementslid</item>
@@ -1791,19 +1763,19 @@
 		<item>gidsen</item>
 		<item>stort</item>
 		<item>overnachting</item>
-		<item>Beide</item>
+		<item>beide</item>
 		<item>bestelling</item>
 		<item>lijf</item>
-		<item>Hoewel</item>
+		<item>hoewel</item>
 		<item>verbazing</item>
 		<item>productie</item>
-		<item>Nijverheid</item>
+		<item>nijverheid</item>
 		<item>formeel</item>
 		<item>reeds</item>
 		<item>aandacht</item>
 		<item>afstand</item>
 		<item>hamer</item>
-		<item>Tegenover</item>
+		<item>tegenover</item>
 		<item>beschrijving</item>
 		<item>bezwaren</item>
 		<item>tenslotte</item>
@@ -1821,25 +1793,24 @@
 		<item>ineens</item>
 		<item>taboe</item>
 		<item>gegrepen</item>
-		<item>Lady</item>
-		<item>Jarenlang</item>
+		<item>lady</item>
+		<item>jarenlang</item>
 		<item>student</item>
 		<item>vak</item>
 		<item>dokter</item>
 		<item>intussen</item>
 		<item>allebei</item>
-		<item>Welnu</item>
+		<item>welnu</item>
 		<item>minderheid</item>
 		<item>reis</item>
 		<item>medewerker</item>
-		<item>Verdrag</item>
+		<item>verdrag</item>
 		<item>synoniem</item>
 		<item>geslaagd</item>
 		<item>mislukking</item>
 		<item>naakt</item>
 		<item>staatsschuld</item>
 		<item>alarm</item>
-		<item>Marc</item>
 		<item>buitenlands</item>
 		<item>nog</item>
 		<item>misdrijven</item>
@@ -1848,14 +1819,12 @@
 		<item>trad</item>
 		<item>management</item>
 		<item>kort</item>
-		<item>Zonder</item>
+		<item>zonder</item>
 		<item>bezorgen</item>
 		<item>zalm</item>
-		<item>Radio</item>
+		<item>radio</item>
 		<item>plezier</item>
-		<item>BBL</item>
 		<item>alcohol</item>
-		<item>zo'n</item>
 		<item>vergelijkbaar</item>
 		<item>spijt</item>
 		<item>verdediging</item>
@@ -1865,7 +1834,7 @@
 		<item>mantel</item>
 		<item>inbegrepen</item>
 		<item>oranje</item>
-		<item>Contact</item>
+		<item>contact</item>
 		<item>per</item>
 		<item>twaalf</item>
 		<item>ontspanning</item>
@@ -1883,7 +1852,6 @@
 		<item>letter</item>
 		<item>adviseur</item>
 		<item>betaalbaar</item>
-		<item>VU</item>
 		<item>yen</item>
 		<item>aandringen</item>
 		<item>schatkist</item>
@@ -1903,7 +1871,7 @@
 		<item>piano</item>
 		<item>herkomst</item>
 		<item>komen</item>
-		<item>Behalve</item>
+		<item>behalve</item>
 		<item>volgens</item>
 		<item>onderzoek</item>
 		<item>basis</item>
@@ -1923,14 +1891,13 @@
 		<item>fractie</item>
 		<item>scherp</item>
 		<item>behoren</item>
-		<item>Vannacht</item>
+		<item>vannacht</item>
 		<item>profiel</item>
 		<item>inschatten</item>
 		<item>verzameling</item>
 		<item>gebeurtenis</item>
 		<item>bijvoorbeeld</item>
-		<item>Ernst</item>
-		<item>Inkom</item>
+		<item>ernst</item>
 		<item>combinatie</item>
 		<item>bekijken</item>
 		<item>geschoten</item>
@@ -1958,57 +1925,52 @@
 		<item>uitbouw</item>
 		<item>handleiding</item>
 		<item>industrieel</item>
-		<item>Maison</item>
-		<item>Voorzitter</item>
+		<item>voorzitter</item>
 		<item>reserveren</item>
-		<item>Binnenkort</item>
+		<item>binnenkort</item>
 		<item>succes</item>
 		<item>zwijgen</item>
 		<item>hulpverlening</item>
-		<item>Serge</item>
 		<item>excuus</item>
 		<item>katholiek</item>
 		<item>immers</item>
-		<item>facto</item>
 		<item>zocht</item>
 		<item>diamanten</item>
 		<item>afwezig</item>
 		<item>orde</item>
-		<item>Wolf</item>
+		<item>wolf</item>
 		<item>bewind</item>
 		<item>gekocht</item>
 		<item>rivier</item>
-		<item>Misschien</item>
+		<item>misschien</item>
 		<item>dagelijks</item>
-		<item>Ach</item>
 		<item>samenhang</item>
 		<item>waardevol</item>
 		<item>passeren</item>
 		<item>aangelegd</item>
 		<item>op</item>
-		<item>Software</item>
+		<item>software</item>
 		<item>elegant</item>
 		<item>lunch</item>
 		<item>historicus</item>
 		<item>jazz</item>
 		<item>niche</item>
 		<item>orgaan</item>
-		<item>Geschiedenis</item>
+		<item>geschiedenis</item>
 		<item>bloedbad</item>
 		<item>twintig</item>
 		<item>behoeve</item>
-		<item>Iets</item>
+		<item>iets</item>
 		<item>gewend</item>
 		<item>bestuderen</item>
-		<item>CAO</item>
 		<item>gebouwd</item>
 		<item>voorkeur</item>
 		<item>gaten</item>
-		<item>Beek</item>
+		<item>beek</item>
 		<item>opgave</item>
 		<item>ethiek</item>
-		<item>Tegen</item>
-		<item>Direct</item>
+		<item>tegen</item>
+		<item>direct</item>
 		<item>letterlijk</item>
 		<item>branche</item>
 		<item>houten</item>
@@ -2016,9 +1978,9 @@
 		<item>uitgesproken</item>
 		<item>schaffen</item>
 		<item>weduwe</item>
-		<item>Prijs</item>
+		<item>prijs</item>
 		<item>plots</item>
-		<item>Langs</item>
+		<item>langs</item>
 		<item>optekenen</item>
 		<item>heffen</item>
 		<item>nijverheid</item>
@@ -2031,11 +1993,11 @@
 		<item>percent</item>
 		<item>secundair</item>
 		<item>alleen</item>
-		<item>Telkens</item>
-		<item>Omwille</item>
+		<item>telkens</item>
+		<item>omwille</item>
 		<item>geloven</item>
 		<item>aanpak</item>
-		<item>Buiten</item>
+		<item>buiten</item>
 		<item>conflict</item>
 		<item>het</item>
 		<item>zoals</item>
@@ -2047,7 +2009,7 @@
 		<item>zolang</item>
 		<item>held</item>
 		<item>raadsel</item>
-		<item>We</item>
+		<item>we</item>
 		<item>persoonlijk</item>
 		<item>musical</item>
 		<item>behalen</item>
@@ -2070,8 +2032,7 @@
 		<item>klassieker</item>
 		<item>lezing</item>
 		<item>onderwerpen</item>
-		<item>Stichting</item>
-		<item>ca</item>
+		<item>stichting</item>
 		<item>bewering</item>
 		<item>training</item>
 		<item>communiceren</item>
@@ -2083,7 +2044,7 @@
 		<item>ertoe</item>
 		<item>meerdere</item>
 		<item>tournee</item>
-		<item>Zeker</item>
+		<item>zeker</item>
 		<item>nabijheid</item>
 		<item>commercieel</item>
 		<item>glad</item>
@@ -2096,16 +2057,15 @@
 		<item>circa</item>
 		<item>jou</item>
 		<item>gekregen</item>
-		<item>Zuid</item>
+		<item>zuid</item>
 		<item>dag</item>
 		<item>aanvankelijk</item>
 		<item>gebroken</item>
 		<item>elite</item>
-		<item>Leeuw</item>
+		<item>leeuw</item>
 		<item>onvrede</item>
 		<item>diefstal</item>
 		<item>provincie</item>
-		<item>money</item>
 		<item>overschrijden</item>
 		<item>zelfvertrouwen</item>
 		<item>verdwijnen</item>
@@ -2116,14 +2076,14 @@
 		<item>afweten</item>
 		<item>zeker</item>
 		<item>zaakvoerder</item>
-		<item>Defensie</item>
+		<item>defensie</item>
 		<item>kunst</item>
 		<item>eventueel</item>
 		<item>verblijven</item>
 		<item>plooien</item>
 		<item>onderscheid</item>
-		<item>Markt</item>
-		<item>Allen</item>
+		<item>markt</item>
+		<item>allen</item>
 		<item>comeback</item>
 		<item>koesteren</item>
 		<item>commentaar</item>
@@ -2136,16 +2096,15 @@
 		<item>dagen</item>
 		<item>plannen</item>
 		<item>verdachte</item>
-		<item>Het</item>
+		<item>het</item>
 		<item>voldoening</item>
 		<item>leiderschap</item>
 		<item>aanvang</item>
 		<item>aftrekbaar</item>
 		<item>middelen</item>
-		<item>Momenteel</item>
+		<item>momenteel</item>
 		<item>grap</item>
 		<item>gemaakt</item>
-		<item>par</item>
 		<item>racisme</item>
 		<item>bekennen</item>
 		<item>groots</item>
@@ -2153,13 +2112,13 @@
 		<item>uitkomst</item>
 		<item>wekelijks</item>
 		<item>bestel</item>
-		<item>Hall</item>
-		<item>Integendeel</item>
+		<item>hall</item>
+		<item>integendeel</item>
 		<item>maandag</item>
 		<item>lamp</item>
 		<item>schaduw</item>
 		<item>verstandig</item>
-		<item>Volgens</item>
+		<item>volgens</item>
 		<item>schat</item>
 		<item>programma</item>
 		<item>welvaart</item>
@@ -2184,17 +2143,17 @@
 		<item>schaalvergroting</item>
 		<item>keurig</item>
 		<item>moeilijk</item>
-		<item>Zowel</item>
+		<item>zowel</item>
 		<item>verzet</item>
 		<item>leeg</item>
-		<item>Theater</item>
+		<item>theater</item>
 		<item>maatschappij</item>
 		<item>leerling</item>
 		<item>databank</item>
 		<item>wetenschapper</item>
-		<item>Omdat</item>
+		<item>omdat</item>
 		<item>liever</item>
-		<item>Spiegel</item>
+		<item>spiegel</item>
 		<item>blokkeren</item>
 		<item>prachtig</item>
 		<item>gebruiken</item>
@@ -2217,7 +2176,7 @@
 		<item>seks</item>
 		<item>bezwaar</item>
 		<item>verwijzen</item>
-		<item>Kort</item>
+		<item>kort</item>
 		<item>ruimte</item>
 		<item>server</item>
 		<item>beslist</item>
@@ -2225,7 +2184,7 @@
 		<item>blues</item>
 		<item>garanderen</item>
 		<item>geheugen</item>
-		<item>Klerk</item>
+		<item>klerk</item>
 		<item>honderd</item>
 		<item>onafhankelijkheid</item>
 		<item>getrokken</item>
@@ -2249,7 +2208,6 @@
 		<item>aanstaande</item>
 		<item>consortium</item>
 		<item>sentiment</item>
-		<item>United</item>
 		<item>reglement</item>
 		<item>trok</item>
 		<item>woonkamer</item>
@@ -2268,26 +2226,23 @@
 		<item>maart</item>
 		<item>volk</item>
 		<item>suggereren</item>
-		<item>Cup</item>
+		<item>cup</item>
 		<item>diens</item>
-		<item>Wilde</item>
+		<item>wilde</item>
 		<item>massa</item>
 		<item>toegang</item>
 		<item>stoel</item>
-		<item>First</item>
 		<item>devaluatie</item>
-		<item>first</item>
 		<item>studie</item>
 		<item>dromen</item>
 		<item>stil</item>
 		<item>nadruk</item>
-		<item>Boven</item>
+		<item>boven</item>
 		<item>presteren</item>
 		<item>vijftal</item>
 		<item>vrijgesteld</item>
 		<item>geregeld</item>
 		<item>concern</item>
-		<item>ecu</item>
 		<item>wet</item>
 		<item>vermoedelijk</item>
 		<item>jarenlang</item>
@@ -2295,17 +2250,16 @@
 		<item>vertrek</item>
 		<item>illusie</item>
 		<item>bon</item>
-		<item>Airbus</item>
 		<item>dansen</item>
 		<item>geneesmiddel</item>
 		<item>raar</item>
 		<item>expliciet</item>
-		<item>God</item>
+		<item>god</item>
 		<item>verbeteren</item>
 		<item>vertellen</item>
 		<item>uitsluitend</item>
 		<item>intens</item>
-		<item>Vijftien</item>
+		<item>vijftien</item>
 		<item>zestien</item>
 		<item>gekeken</item>
 		<item>verwijderd</item>
@@ -2331,20 +2285,19 @@
 		<item>uitwerken</item>
 		<item>bescherming</item>
 		<item>doden</item>
-		<item>Holding</item>
-		<item>Voeg</item>
+		<item>holding</item>
+		<item>voeg</item>
 		<item>oudste</item>
-		<item>carte</item>
 		<item>overvallen</item>
 		<item>factor</item>
 		<item>voelbaar</item>
 		<item>meubel</item>
-		<item>Je</item>
+		<item>je</item>
 		<item>belegging</item>
 		<item>assortiment</item>
 		<item>terugkomen</item>
 		<item>leegte</item>
-		<item>Steel</item>
+		<item>steel</item>
 		<item>leverancier</item>
 		<item>koerswinst</item>
 		<item>bewondering</item>
@@ -2352,28 +2305,28 @@
 		<item>afgesloten</item>
 		<item>doelwit</item>
 		<item>premie</item>
-		<item>Aanleiding</item>
+		<item>aanleiding</item>
 		<item>brengen</item>
 		<item>potje</item>
-		<item>Vanmorgen</item>
+		<item>vanmorgen</item>
 		<item>verwijten</item>
-		<item>Eigenlijk</item>
+		<item>eigenlijk</item>
 		<item>parfum</item>
 		<item>oktober</item>
 		<item>vakantie</item>
 		<item>geweld</item>
 		<item>rechts</item>
 		<item>evalueren</item>
-		<item>Einde</item>
+		<item>einde</item>
 		<item>troost</item>
-		<item>Van</item>
+		<item>van</item>
 		<item>apart</item>
 		<item>eerder</item>
 		<item>opinie</item>
 		<item>leest</item>
 		<item>ingeburgerd</item>
 		<item>bevinden</item>
-		<item>Weekend</item>
+		<item>weekend</item>
 		<item>najaar</item>
 		<item>strijd</item>
 		<item>optocht</item>
@@ -2392,7 +2345,7 @@
 		<item>return</item>
 		<item>zelf</item>
 		<item>operationeel</item>
-		<item>Belgen</item>
+		<item>belgen</item>
 		<item>zozeer</item>
 		<item>beter</item>
 		<item>vatten</item>
@@ -2405,9 +2358,9 @@
 		<item>stijgen</item>
 		<item>spelletje</item>
 		<item>val</item>
-		<item>West</item>
+		<item>west</item>
 		<item>biologisch</item>
-		<item>Export</item>
+		<item>export</item>
 		<item>verlengde</item>
 		<item>buitenkant</item>
 		<item>verwarring</item>
@@ -2417,18 +2370,17 @@
 		<item>keuken</item>
 		<item>voetbal</item>
 		<item>verrichten</item>
-		<item>Bureau</item>
+		<item>bureau</item>
 		<item>rock</item>
 		<item>illustreren</item>
 		<item>misschien</item>
 		<item>dadelijk</item>
 		<item>emotioneel</item>
-		<item>pence</item>
 		<item>twintigtal</item>
 		<item>doorgaan</item>
 		<item>potten</item>
 		<item>kruipen</item>
-		<item>Niet</item>
+		<item>niet</item>
 		<item>niet</item>
 		<item>vogel</item>
 		<item>waarheid</item>
@@ -2438,7 +2390,7 @@
 		<item>gebieden</item>
 		<item>welzijn</item>
 		<item>overwinnen</item>
-		<item>Zou</item>
+		<item>zou</item>
 		<item>zelden</item>
 		<item>stranden</item>
 		<item>droom</item>
@@ -2455,18 +2407,17 @@
 		<item>maten</item>
 		<item>halfpension</item>
 		<item>software</item>
-		<item>Voorts</item>
+		<item>voorts</item>
 		<item>aanvulling</item>
 		<item>voorliefde</item>
-		<item>Grote</item>
+		<item>grote</item>
 		<item>verklaard</item>
-		<item>Aanvankelijk</item>
+		<item>aanvankelijk</item>
 		<item>knowhow</item>
 		<item>exemplaar</item>
-		<item>Informatie</item>
+		<item>informatie</item>
 		<item>verschijnsel</item>
-		<item>Love</item>
-		<item>Werken</item>
+		<item>werken</item>
 		<item>contact</item>
 		<item>zestig</item>
 		<item>impact</item>
@@ -2486,7 +2437,6 @@
 		<item>nauw</item>
 		<item>uitgeverij</item>
 		<item>getal</item>
-		<item>Lord</item>
 		<item>soldaat</item>
 		<item>moment</item>
 		<item>schieten</item>
@@ -2500,15 +2450,15 @@
 		<item>vooravond</item>
 		<item>aanvaarden</item>
 		<item>explosie</item>
-		<item>Randstad</item>
+		<item>randstad</item>
 		<item>hoe</item>
 		<item>dieptepunt</item>
 		<item>je</item>
 		<item>zomer</item>
 		<item>correctie</item>
 		<item>vastgoed</item>
-		<item>Generale</item>
-		<item>Sedert</item>
+		<item>generale</item>
+		<item>sedert</item>
 		<item>beoordelen</item>
 		<item>kilo</item>
 		<item>bezet</item>
@@ -2519,7 +2469,7 @@
 		<item>aantrekkelijk</item>
 		<item>spannend</item>
 		<item>putten</item>
-		<item>Cultuur</item>
+		<item>cultuur</item>
 		<item>terrorisme</item>
 		<item>analyseren</item>
 		<item>chef</item>
@@ -2533,27 +2483,25 @@
 		<item>plein</item>
 		<item>traditie</item>
 		<item>wekken</item>
-		<item>cm</item>
 		<item>tegenstelling</item>
-		<item>Libanon</item>
+		<item>libanon</item>
 		<item>binnenlands</item>
 		<item>spektakel</item>
 		<item>amper</item>
-		<item>OP</item>
+		<item>op</item>
 		<item>piloot</item>
 		<item>transactie</item>
 		<item>besturingssysteem</item>
 		<item>compromis</item>
 		<item>zeldzaam</item>
 		<item>sector</item>
-		<item>so</item>
 		<item>gewijd</item>
 		<item>opvoeding</item>
-		<item>Nooit</item>
+		<item>nooit</item>
 		<item>inkopen</item>
-		<item>Reizen</item>
+		<item>reizen</item>
 		<item>sparen</item>
-		<item>Namen</item>
+		<item>namen</item>
 		<item>aanzienlijk</item>
 		<item>wijzigen</item>
 		<item>dynamisch</item>
@@ -2565,14 +2513,14 @@
 		<item>voorwerp</item>
 		<item>objectief</item>
 		<item>verstrekken</item>
-		<item>Concreet</item>
+		<item>concreet</item>
 		<item>structureel</item>
 		<item>realisatie</item>
 		<item>consensus</item>
 		<item>zingen</item>
-		<item>Expo</item>
+		<item>expo</item>
 		<item>haven</item>
-		<item>Orde</item>
+		<item>orde</item>
 		<item>waardig</item>
 		<item>nauwkeurig</item>
 		<item>intensiteit</item>
@@ -2580,12 +2528,12 @@
 		<item>cynisme</item>
 		<item>sinds</item>
 		<item>uitvoer</item>
-		<item>Aan</item>
+		<item>aan</item>
 		<item>waarborg</item>
 		<item>uit</item>
 		<item>rijke</item>
-		<item>Amper</item>
-		<item>Gedurende</item>
+		<item>amper</item>
+		<item>gedurende</item>
 		<item>zitten</item>
 		<item>lading</item>
 		<item>golven</item>
@@ -2597,13 +2545,13 @@
 		<item>merk</item>
 		<item>looptijd</item>
 		<item>criminaliteit</item>
-		<item>Parlement</item>
+		<item>parlement</item>
 		<item>schouder</item>
 		<item>inzake</item>
 		<item>schrijven</item>
 		<item>beroep</item>
 		<item>logistiek</item>
-		<item>Eerder</item>
+		<item>eerder</item>
 		<item>rechte</item>
 		<item>salade</item>
 		<item>architect</item>
@@ -2612,7 +2560,7 @@
 		<item>herhaaldelijk</item>
 		<item>uitgelezen</item>
 		<item>gehecht</item>
-		<item>Sinds</item>
+		<item>sinds</item>
 		<item>wetsontwerp</item>
 		<item>werkelijkheid</item>
 		<item>misdaad</item>
@@ -2629,21 +2577,21 @@
 		<item>verkeren</item>
 		<item>relevant</item>
 		<item>fantastisch</item>
-		<item>Universiteit</item>
+		<item>universiteit</item>
 		<item>gewoonlijk</item>
 		<item>grootvader</item>
 		<item>meester</item>
-		<item>Film</item>
+		<item>film</item>
 		<item>anno</item>
 		<item>dus</item>
 		<item>fabriek</item>
 		<item>vuur</item>
-		<item>Zelf</item>
+		<item>zelf</item>
 		<item>flexibiliteit</item>
 		<item>e-mail</item>
 		<item>dynamiek</item>
 		<item>afwachten</item>
-		<item>Schone</item>
+		<item>schone</item>
 		<item>blok</item>
 		<item>lederen</item>
 		<item>materiaal</item>
@@ -2665,7 +2613,7 @@
 		<item>ernaar</item>
 		<item>donker</item>
 		<item>vriend</item>
-		<item>Afgelopen</item>
+		<item>afgelopen</item>
 		<item>kwalitatief</item>
 		<item>harder</item>
 		<item>project</item>
@@ -2673,21 +2621,21 @@
 		<item>daarentegen</item>
 		<item>dikwijls</item>
 		<item>vredesproces</item>
-		<item>Society</item>
-		<item>Vreemd</item>
-		<item>Nou</item>
-		<item>Nogal</item>
+		<item>society</item>
+		<item>vreemd</item>
+		<item>nou</item>
+		<item>nogal</item>
 		<item>notaris</item>
 		<item>zesde</item>
 		<item>verschuldigd</item>
 		<item>schadevergoeding</item>
 		<item>gaf</item>
 		<item>gepaard</item>
-		<item>Smart</item>
+		<item>smart</item>
 		<item>compensatie</item>
-		<item>Heb</item>
+		<item>heb</item>
 		<item>schrijfster</item>
-		<item>Noorden</item>
+		<item>noorden</item>
 		<item>schaars</item>
 		<item>toevlucht</item>
 		<item>voegen</item>
@@ -2698,60 +2646,60 @@
 		<item>trachten</item>
 		<item>wereldmarkt</item>
 		<item>hemel</item>
-		<item>Prins</item>
+		<item>prins</item>
 		<item>voorrang</item>
 		<item>vals</item>
 		<item>standaard</item>
 		<item>hoofdzakelijk</item>
 		<item>doorheen</item>
 		<item>begaan</item>
-		<item>Henry</item>
+		<item>henry</item>
 		<item>spiegel</item>
-		<item>Dankzij</item>
+		<item>dankzij</item>
 		<item>voelen</item>
 		<item>weigeren</item>
 		<item>onderlinge</item>
 		<item>ernst</item>
 		<item>tussenpersoon</item>
 		<item>stelt</item>
-		<item>Sociaal</item>
+		<item>sociaal</item>
 		<item>bezigheid</item>
 		<item>aanbod</item>
 		<item>nemen</item>
 		<item>natuur</item>
-		<item>Slechts</item>
+		<item>slechts</item>
 		<item>circuit</item>
 		<item>vooruitzicht</item>
 		<item>gegoten</item>
 		<item>erover</item>
-		<item>Uitgeverij</item>
+		<item>uitgeverij</item>
 		<item>bakken</item>
 		<item>constante</item>
 		<item>zet</item>
 		<item>uitleg</item>
 		<item>mits</item>
 		<item>vooruit</item>
-		<item>Ronde</item>
+		<item>ronde</item>
 		<item>rivaal</item>
 		<item>niets</item>
 		<item>tentoonstelling</item>
 		<item>beheerst</item>
-		<item>Samen</item>
+		<item>samen</item>
 		<item>ijzeren</item>
 		<item>senior</item>
-		<item>Bijgevolg</item>
+		<item>bijgevolg</item>
 		<item>konden</item>
 		<item>reactie</item>
 		<item>percentage</item>
-		<item>Festival</item>
-		<item>VBO</item>
+		<item>festival</item>
+		<item>vbo</item>
 		<item>affiche</item>
 		<item>meemaken</item>
 		<item>aandeel</item>
-		<item>Oude</item>
+		<item>oude</item>
 		<item>formuleren</item>
 		<item>multinational</item>
-		<item>Straks</item>
+		<item>straks</item>
 		<item>schrikken</item>
 		<item>opmars</item>
 		<item>hopeloos</item>
@@ -2759,7 +2707,7 @@
 		<item>ecologisch</item>
 		<item>lukken</item>
 		<item>benadrukken</item>
-		<item>Hoe</item>
+		<item>hoe</item>
 		<item>voorzitter</item>
 		<item>eigenlijk</item>
 		<item>integratie</item>
@@ -2768,13 +2716,13 @@
 		<item>bijgevolg</item>
 		<item>wennen</item>
 		<item>prestige</item>
-		<item>Bovendien</item>
+		<item>bovendien</item>
 		<item>vallen</item>
-		<item>Hun</item>
+		<item>hun</item>
 		<item>creatief</item>
 		<item>onzekerheid</item>
 		<item>geprezen</item>
-		<item>Kees</item>
+		<item>kees</item>
 		<item>tijdperk</item>
 		<item>metaal</item>
 		<item>toelaten</item>
@@ -2800,14 +2748,14 @@
 		<item>falen</item>
 		<item>verwant</item>
 		<item>vechten</item>
-		<item>Koningin</item>
+		<item>koningin</item>
 		<item>ongelooflijk</item>
 		<item>houden</item>
 		<item>glimlach</item>
-		<item>Opvallend</item>
+		<item>opvallend</item>
 		<item>invasie</item>
 		<item>grondig</item>
-		<item>Centraal</item>
+		<item>centraal</item>
 		<item>meerwaarde</item>
 		<item>sloeg</item>
 		<item>versus</item>
@@ -2829,11 +2777,11 @@
 		<item>veilig</item>
 		<item>compositie</item>
 		<item>leider</item>
-		<item>Zaterdag</item>
+		<item>zaterdag</item>
 		<item>verzekering</item>
 		<item>inzetten</item>
 		<item>plakken</item>
-		<item>Intussen</item>
+		<item>intussen</item>
 		<item>mezelf</item>
 		<item>tellen</item>
 		<item>schreven</item>
@@ -2847,21 +2795,21 @@
 		<item>ermee</item>
 		<item>spanning</item>
 		<item>stelling</item>
-		<item>Maatschappij</item>
+		<item>maatschappij</item>
 		<item>overschot</item>
 		<item>klim</item>
-		<item>Republiek</item>
+		<item>republiek</item>
 		<item>volhouden</item>
 		<item>onrechtstreeks</item>
 		<item>eerst</item>
-		<item>Economisch</item>
+		<item>economisch</item>
 		<item>omgeving</item>
 		<item>factuur</item>
 		<item>erkennen</item>
 		<item>gesprekspartner</item>
 		<item>berichtgeving</item>
 		<item>zien</item>
-		<item>Volksgezondheid</item>
+		<item>volksgezondheid</item>
 		<item>jaar</item>
 		<item>alternatief</item>
 		<item>langdurig</item>
@@ -2878,15 +2826,15 @@
 		<item>interpretatie</item>
 		<item>aanmerking</item>
 		<item>verwerken</item>
-		<item>Als</item>
-		<item>Nadien</item>
+		<item>als</item>
+		<item>nadien</item>
 		<item>race</item>
 		<item>negentien</item>
 		<item>intensief</item>
-		<item>Café</item>
+		<item>café</item>
 		<item>film</item>
 		<item>ziekte</item>
-		<item>Wet</item>
+		<item>wet</item>
 		<item>kleren</item>
 		<item>bood</item>
 		<item>precies</item>
@@ -2918,7 +2866,7 @@
 		<item>opgang</item>
 		<item>tuinen</item>
 		<item>veiling</item>
-		<item>Hoog</item>
+		<item>hoog</item>
 		<item>kampioen</item>
 		<item>oorzaak</item>
 		<item>grijpen</item>
@@ -2938,11 +2886,11 @@
 		<item>telefoonnummer</item>
 		<item>klooster</item>
 		<item>wol</item>
-		<item>Over</item>
+		<item>over</item>
 		<item>breedte</item>
 		<item>rellen</item>
 		<item>bijna</item>
-		<item>Wil</item>
+		<item>wil</item>
 		<item>baten</item>
 		<item>fusie</item>
 		<item>presenteren</item>
@@ -2964,7 +2912,7 @@
 		<item>vzw</item>
 		<item>vleugel</item>
 		<item>of</item>
-		<item>Commissaris</item>
+		<item>commissaris</item>
 		<item>instituut</item>
 		<item>banen</item>
 		<item>netto</item>
@@ -2975,13 +2923,13 @@
 		<item>arts</item>
 		<item>boos</item>
 		<item>vlucht</item>
-		<item>Kijk</item>
+		<item>kijk</item>
 		<item>detail</item>
 		<item>portie</item>
 		<item>instellen</item>
 		<item>cineast</item>
 		<item>hand</item>
-		<item>Later</item>
+		<item>later</item>
 		<item>extra</item>
 		<item>verslaggever</item>
 		<item>touw</item>
@@ -3027,9 +2975,9 @@
 		<item>thema</item>
 		<item>plukken</item>
 		<item>vestigen</item>
-		<item>Ontwikkelingssamenwerking</item>
+		<item>ontwikkelingssamenwerking</item>
 		<item>tout</item>
-		<item>Ondertussen</item>
+		<item>ondertussen</item>
 		<item>verstoren</item>
 		<item>dodelijk</item>
 		<item>optimaal</item>
@@ -3045,17 +2993,17 @@
 		<item>kwartet</item>
 		<item>start</item>
 		<item>ontwerpen</item>
-		<item>Mooi</item>
+		<item>mooi</item>
 		<item>scheiden</item>
 		<item>slim</item>
-		<item>Toerisme</item>
+		<item>toerisme</item>
 		<item>goederen</item>
 		<item>monument</item>
 		<item>campagne</item>
 		<item>partner</item>
 		<item>samenstelling</item>
-		<item>Nationaal</item>
-		<item>Zeg</item>
+		<item>nationaal</item>
+		<item>zeg</item>
 		<item>kloppen</item>
 		<item>ietwat</item>
 		<item>gebroeders</item>
@@ -3085,11 +3033,11 @@
 		<item>vanochtend</item>
 		<item>name</item>
 		<item>ontwikkeling</item>
-		<item>BV</item>
+		<item>bv</item>
 		<item>theater</item>
 		<item>semester</item>
 		<item>aftreden</item>
-		<item>Tot</item>
+		<item>tot</item>
 		<item>aanslag</item>
 		<item>meet</item>
 		<item>werkzaam</item>
@@ -3102,19 +3050,19 @@
 		<item>zetelen</item>
 		<item>tachtig</item>
 		<item>vorig</item>
-		<item>Gold</item>
+		<item>gold</item>
 		<item>beheerder</item>
 		<item>beveiliging</item>
 		<item>mannen</item>
-		<item>EG</item>
-		<item>Mevrouw</item>
+		<item>eg</item>
+		<item>mevrouw</item>
 		<item>these</item>
 		<item>jeugd</item>
 		<item>vondst</item>
 		<item>huilen</item>
 		<item>lezer</item>
 		<item>zorg</item>
-		<item>Transport</item>
+		<item>transport</item>
 		<item>geslagen</item>
 		<item>nek</item>
 		<item>prima</item>
@@ -3122,10 +3070,10 @@
 		<item>avond</item>
 		<item>roman</item>
 		<item>klacht</item>
-		<item>Zee</item>
+		<item>zee</item>
 		<item>origine</item>
 		<item>econoom</item>
-		<item>Vanavond</item>
+		<item>vanavond</item>
 		<item>object</item>
 		<item>stadhuis</item>
 		<item>directie</item>
@@ -3168,11 +3116,11 @@
 		<item>achtergrond</item>
 		<item>aanval</item>
 		<item>brons</item>
-		<item>Vanwege</item>
+		<item>vanwege</item>
 		<item>achterop</item>
 		<item>eentje</item>
-		<item>Tegelijk</item>
-		<item>Piet</item>
+		<item>tegelijk</item>
+		<item>piet</item>
 		<item>ticket</item>
 		<item>functioneel</item>
 		<item>speculatief</item>
@@ -3186,7 +3134,7 @@
 		<item>officieel</item>
 		<item>country</item>
 		<item>praktisch</item>
-		<item>Maak</item>
+		<item>maak</item>
 		<item>toekennen</item>
 		<item>overcapaciteit</item>
 		<item>inschrijving</item>
@@ -3201,7 +3149,7 @@
 		<item>kadastraal</item>
 		<item>gast</item>
 		<item>besluiten</item>
-		<item>Daar</item>
+		<item>daar</item>
 		<item>verkiezen</item>
 		<item>elkaar</item>
 		<item>verschaffen</item>
@@ -3224,7 +3172,7 @@
 		<item>participatie</item>
 		<item>uitvoeren</item>
 		<item>verhouding</item>
-		<item>Vanuit</item>
+		<item>vanuit</item>
 		<item>vervallen</item>
 		<item>verkrijgbaar</item>
 		<item>vertrekken</item>
@@ -3243,9 +3191,9 @@
 		<item>zeep</item>
 		<item>via</item>
 		<item>gebogen</item>
-		<item>Ook</item>
+		<item>ook</item>
 		<item>perspectief</item>
-		<item>Villa</item>
+		<item>villa</item>
 		<item>verfijnd</item>
 		<item>voorbaat</item>
 		<item>bepalen</item>
@@ -3254,14 +3202,14 @@
 		<item>uitgaan</item>
 		<item>vervuiling</item>
 		<item>gestorven</item>
-		<item>Jack</item>
+		<item>jack</item>
 		<item>gewapend</item>
 		<item>zomaar</item>
 		<item>winkel</item>
-		<item>Doordat</item>
+		<item>doordat</item>
 		<item>belangen</item>
 		<item>geef</item>
-		<item>Ongetwijfeld</item>
+		<item>ongetwijfeld</item>
 		<item>scherm</item>
 		<item>beetje</item>
 		<item>koppelen</item>
@@ -3281,16 +3229,16 @@
 		<item>behoud</item>
 		<item>bestuurder</item>
 		<item>show</item>
-		<item>House</item>
+		<item>house</item>
 		<item>integraal</item>
 		<item>verlenging</item>
 		<item>visie</item>
-		<item>Compagnie</item>
+		<item>compagnie</item>
 		<item>beschouwen</item>
-		<item>Om</item>
-		<item>Toen</item>
-		<item>Beter</item>
-		<item>Voorlopig</item>
+		<item>om</item>
+		<item>toen</item>
+		<item>beter</item>
+		<item>voorlopig</item>
 		<item>september</item>
 		<item>eenzelfde</item>
 		<item>stegen</item>
@@ -3301,14 +3249,14 @@
 		<item>uitstek</item>
 		<item>onderwerp</item>
 		<item>jury</item>
-		<item>Dezelfde</item>
-		<item>Exchange</item>
+		<item>dezelfde</item>
+		<item>exchange</item>
 		<item>center</item>
 		<item>werknemer</item>
 		<item>seizoen</item>
 		<item>draad</item>
 		<item>middag</item>
-		<item>Stone</item>
+		<item>stone</item>
 		<item>gestemd</item>
 		<item>interesseren</item>
 		<item>restaurant</item>
@@ -3321,7 +3269,7 @@
 		<item>roots</item>
 		<item>eeuw</item>
 		<item>besturen</item>
-		<item>Ontwikkeling</item>
+		<item>ontwikkeling</item>
 		<item>tent</item>
 		<item>situeren</item>
 		<item>volwaardig</item>
@@ -3330,14 +3278,14 @@
 		<item>honderdduizend</item>
 		<item>krediet</item>
 		<item>allerhande</item>
-		<item>Kleine</item>
+		<item>kleine</item>
 		<item>kind</item>
 		<item>steun</item>
 		<item>boeken</item>
 		<item>plek</item>
-		<item>Focus</item>
+		<item>focus</item>
 		<item>tempel</item>
-		<item>Studio</item>
+		<item>studio</item>
 		<item>ouderwets</item>
 		<item>adem</item>
 		<item>boven</item>
@@ -3351,7 +3299,7 @@
 		<item>bedoeling</item>
 		<item>kwart</item>
 		<item>aanleiding</item>
-		<item>Alleen</item>
+		<item>alleen</item>
 		<item>les</item>
 		<item>dubbel</item>
 		<item>aangeven</item>
@@ -3360,10 +3308,10 @@
 		<item>blijvend</item>
 		<item>lonen</item>
 		<item>vervolg</item>
-		<item>Premier</item>
+		<item>premier</item>
 		<item>centimeter</item>
 		<item>populair</item>
-		<item>Vos</item>
+		<item>vos</item>
 		<item>kwijt</item>
 		<item>onvermijdelijk</item>
 		<item>biografie</item>
@@ -3374,7 +3322,7 @@
 		<item>omgaan</item>
 		<item>popmuziek</item>
 		<item>verkoopprijs</item>
-		<item>Naarmate</item>
+		<item>naarmate</item>
 		<item>vrouwelijk</item>
 		<item>commissie</item>
 		<item>verjaardag</item>
@@ -3383,7 +3331,7 @@
 		<item>hoofdredacteur</item>
 		<item>uitgesloten</item>
 		<item>oordeel</item>
-		<item>Vooruit</item>
+		<item>vooruit</item>
 		<item>boekwaarde</item>
 		<item>serie</item>
 		<item>computer</item>
@@ -3405,23 +3353,23 @@
 		<item>gesprek</item>
 		<item>gebonden</item>
 		<item>voorbij</item>
-		<item>Toch</item>
+		<item>toch</item>
 		<item>verwijt</item>
-		<item>Nog</item>
+		<item>nog</item>
 		<item>blad</item>
 		<item>stoppen</item>
 		<item>sluiting</item>
 		<item>inderdaad</item>
 		<item>patrimonium</item>
-		<item>Da</item>
+		<item>da</item>
 		<item>drama</item>
 		<item>opleveren</item>
-		<item>Baker</item>
-		<item>Kunst</item>
+		<item>baker</item>
+		<item>kunst</item>
 		<item>artistiek</item>
 		<item>leiden</item>
 		<item>voorhanden</item>
-		<item>Ja</item>
+		<item>ja</item>
 		<item>oefenen</item>
 		<item>geschikt</item>
 		<item>beursindex</item>
@@ -3434,9 +3382,9 @@
 		<item>volpension</item>
 		<item>kwaliteit</item>
 		<item>richting</item>
-		<item>Doel</item>
+		<item>doel</item>
 		<item>weigering</item>
-		<item>Cash</item>
+		<item>cash</item>
 		<item>nationaliteit</item>
 		<item>opslag</item>
 		<item>vergroten</item>
@@ -3444,23 +3392,23 @@
 		<item>boeien</item>
 		<item>zelfde</item>
 		<item>terminal</item>
-		<item>Ter</item>
+		<item>ter</item>
 		<item>instelling</item>
-		<item>Had</item>
+		<item>had</item>
 		<item>oppositie</item>
 		<item>manager</item>
-		<item>Eerst</item>
-		<item>Zolang</item>
+		<item>eerst</item>
+		<item>zolang</item>
 		<item>vermindering</item>
 		<item>solide</item>
-		<item>Zo'n</item>
+		<item>zo'n</item>
 		<item>bezoek</item>
 		<item>uitvoerig</item>
 		<item>feitelijk</item>
 		<item>wensen</item>
 		<item>onmogelijk</item>
-		<item>Hier</item>
-		<item>Fiat</item>
+		<item>hier</item>
+		<item>fiat</item>
 		<item>hinder</item>
 		<item>infrastructuur</item>
 		<item>terugdringen</item>
@@ -3486,18 +3434,18 @@
 		<item>advies</item>
 		<item>gedachte</item>
 		<item>eis</item>
-		<item>Telecom</item>
+		<item>telecom</item>
 		<item>allure</item>
 		<item>woud</item>
 		<item>meenemen</item>
 		<item>ere</item>
 		<item>zodat</item>
-		<item>Centrale</item>
+		<item>centrale</item>
 		<item>rijden</item>
 		<item>blij</item>
 		<item>onmisbaar</item>
 		<item>kreeft</item>
-		<item>Economist</item>
+		<item>economist</item>
 		<item>moed</item>
 		<item>taalgebruik</item>
 		<item>ziek</item>
@@ -3505,22 +3453,22 @@
 		<item>carnaval</item>
 		<item>eigen</item>
 		<item>speelgoed</item>
-		<item>Rio</item>
+		<item>rio</item>
 		<item>hoed</item>
 		<item>winkelcentrum</item>
-		<item>Man</item>
+		<item>man</item>
 		<item>schrappen</item>
 		<item>dien</item>
 		<item>fiscus</item>
 		<item>verschijning</item>
 		<item>roep</item>
-		<item>Tussen</item>
+		<item>tussen</item>
 		<item>vaag</item>
 		<item>weerhouden</item>
 		<item>verdeeld</item>
 		<item>gesloten</item>
 		<item>kroon</item>
-		<item>Taal</item>
+		<item>taal</item>
 		<item>bankieren</item>
 		<item>landschap</item>
 		<item>luchtmacht</item>
@@ -3529,14 +3477,14 @@
 		<item>vloer</item>
 		<item>ernstig</item>
 		<item>zult</item>
-		<item>Qua</item>
+		<item>qua</item>
 		<item>nuance</item>
 		<item>veroordeelde</item>
 		<item>beleggen</item>
 		<item>hoge</item>
 		<item>mevrouw</item>
 		<item>werken</item>
-		<item>Congres</item>
+		<item>congres</item>
 		<item>zilveren</item>
 		<item>schoonmaak</item>
 		<item>prioriteit</item>
@@ -3557,8 +3505,8 @@
 		<item>aankomst</item>
 		<item>inventaris</item>
 		<item>zowat</item>
-		<item>Cultureel</item>
-		<item>Paleis</item>
+		<item>cultureel</item>
+		<item>paleis</item>
 		<item>sterkte</item>
 		<item>emittent</item>
 		<item>voedsel</item>
@@ -3583,13 +3531,13 @@
 		<item>gouverneur</item>
 		<item>kerken</item>
 		<item>hing</item>
-		<item>Recent</item>
+		<item>recent</item>
 		<item>hielp</item>
 		<item>muis</item>
 		<item>expo</item>
 		<item>achteruit</item>
 		<item>criterium</item>
-		<item>Koop</item>
+		<item>koop</item>
 		<item>veroorzaken</item>
 		<item>hoogleraar</item>
 		<item>strikt</item>
@@ -3598,8 +3546,8 @@
 		<item>begeleiden</item>
 		<item>kans</item>
 		<item>zevende</item>
-		<item>Maar</item>
-		<item>Twee</item>
+		<item>maar</item>
+		<item>twee</item>
 		<item>manier</item>
 		<item>cyclus</item>
 		<item>rond</item>
@@ -3614,11 +3562,11 @@
 		<item>instantie</item>
 		<item>terreur</item>
 		<item>processor</item>
-		<item>Jazz</item>
+		<item>jazz</item>
 		<item>receptie</item>
 		<item>godsdienst</item>
-		<item>Drie</item>
-		<item>Tijd</item>
+		<item>drie</item>
+		<item>tijd</item>
 		<item>gezien</item>
 		<item>vanmiddag</item>
 		<item>fase</item>
@@ -3628,24 +3576,24 @@
 		<item>elektriciteit</item>
 		<item>dictator</item>
 		<item>kantoor</item>
-		<item>Land</item>
+		<item>land</item>
 		<item>dringen</item>
 		<item>somber</item>
 		<item>juni</item>
 		<item>prijs</item>
-		<item>Tenminste</item>
+		<item>tenminste</item>
 		<item>strategisch</item>
 		<item>bestemd</item>
 		<item>trip</item>
 		<item>puur</item>
-		<item>Daarenboven</item>
+		<item>daarenboven</item>
 		<item>probleemloos</item>
 		<item>coalitie</item>
 		<item>knie</item>
 		<item>erfenis</item>
 		<item>evenwel</item>
 		<item>ontwikkeld</item>
-		<item>Vereniging</item>
+		<item>vereniging</item>
 		<item>paard</item>
 		<item>merkbaar</item>
 		<item>stelsel</item>
@@ -3657,7 +3605,7 @@
 		<item>huur</item>
 		<item>ter</item>
 		<item>toetsen</item>
-		<item>Madonna</item>
+		<item>madonna</item>
 		<item>opname</item>
 		<item>profileren</item>
 		<item>gretig</item>
@@ -3675,16 +3623,16 @@
 		<item>literatuur</item>
 		<item>wandelen</item>
 		<item>ervaren</item>
-		<item>Bijvoorbeeld</item>
+		<item>bijvoorbeeld</item>
 		<item>koude</item>
 		<item>bellen</item>
 		<item>jurk</item>
 		<item>mogelijk</item>
 		<item>derde</item>
-		<item>Jaarlijks</item>
+		<item>jaarlijks</item>
 		<item>ingreep</item>
-		<item>Motor</item>
-		<item>Welk</item>
+		<item>motor</item>
+		<item>welk</item>
 		<item>opzicht</item>
 		<item>bv</item>
 		<item>mijnen</item>
@@ -3693,25 +3641,25 @@
 		<item>stad</item>
 		<item>plan</item>
 		<item>vandaar</item>
-		<item>Milieu</item>
+		<item>milieu</item>
 		<item>verschijnen</item>
-		<item>Open</item>
+		<item>open</item>
 		<item>verdienen</item>
 		<item>verbinding</item>
 		<item>comité</item>
 		<item>wisselen</item>
 		<item>schade</item>
-		<item>Uiteraard</item>
+		<item>uiteraard</item>
 		<item>ogenblik</item>
 		<item>deelnemen</item>
 		<item>vervullen</item>
 		<item>splitsing</item>
 		<item>doorstaan</item>
 		<item>tegenhanger</item>
-		<item>Anders</item>
+		<item>anders</item>
 		<item>immer</item>
 		<item>actief</item>
-		<item>Burgemeester</item>
+		<item>burgemeester</item>
 		<item>grens</item>
 		<item>paar</item>
 		<item>religieus</item>
@@ -3722,7 +3670,7 @@
 		<item>verbinden</item>
 		<item>vertegenwoordiger</item>
 		<item>vertaling</item>
-		<item>Derde</item>
+		<item>derde</item>
 		<item>melding</item>
 		<item>graag</item>
 		<item>handelen</item>
@@ -3738,18 +3686,18 @@
 		<item>genoeg</item>
 		<item>noteren</item>
 		<item>vernieuwing</item>
-		<item>Kredietbank</item>
+		<item>kredietbank</item>
 		<item>ontbijt</item>
 		<item>senator</item>
 		<item>stem</item>
-		<item>BBP</item>
+		<item>bbp</item>
 		<item>verwarming</item>
 		<item>durf</item>
 		<item>vuurwerk</item>
 		<item>dictatuur</item>
 		<item>metafoor</item>
 		<item>zeilen</item>
-		<item>Pol</item>
+		<item>pol</item>
 		<item>telkens</item>
 		<item>generatie</item>
 		<item>hart</item>
@@ -3758,17 +3706,17 @@
 		<item>filosoof</item>
 		<item>liet</item>
 		<item>kast</item>
-		<item>Koninklijk</item>
+		<item>koninklijk</item>
 		<item>flessen</item>
 		<item>ingevoerd</item>
 		<item>doelstelling</item>
 		<item>favoriete</item>
 		<item>maan</item>
-		<item>Achteraf</item>
+		<item>achteraf</item>
 		<item>juridisch</item>
 		<item>knopen</item>
 		<item>ie</item>
-		<item>Directeur</item>
+		<item>directeur</item>
 		<item>vergemakkelijken</item>
 		<item>index</item>
 		<item>toerisme</item>
@@ -3817,22 +3765,22 @@
 		<item>wraak</item>
 		<item>inrichting</item>
 		<item>keken</item>
-		<item>Dat</item>
+		<item>dat</item>
 		<item>aluminium</item>
 		<item>nummer</item>
 		<item>ophalen</item>
 		<item>brutaal</item>
-		<item>Info</item>
+		<item>info</item>
 		<item>vrede</item>
 		<item>nergens</item>
 		<item>sta</item>
-		<item>Noord</item>
+		<item>noord</item>
 		<item>brandstof</item>
 		<item>drang</item>
 		<item>secretaris-generaal</item>
 		<item>tegelijk</item>
 		<item>richtlijn</item>
-		<item>Hogeschool</item>
+		<item>hogeschool</item>
 		<item>vertegenwoordigen</item>
 		<item>opbouwen</item>
 		<item>recent</item>
@@ -3859,16 +3807,16 @@
 		<item>al</item>
 		<item>besluit</item>
 		<item>absoluut</item>
-		<item>Vooreerst</item>
+		<item>vooreerst</item>
 		<item>catastrofe</item>
-		<item>Waarschijnlijk</item>
+		<item>waarschijnlijk</item>
 		<item>zoek</item>
 		<item>schudden</item>
 		<item>last</item>
 		<item>gewonden</item>
 		<item>prettig</item>
 		<item>kaart</item>
-		<item>Schatkist</item>
+		<item>schatkist</item>
 		<item>toenmalig</item>
 		<item>minimaal</item>
 		<item>bureau</item>
@@ -3889,8 +3837,8 @@
 		<item>ploegen</item>
 		<item>hartje</item>
 		<item>plaats</item>
-		<item>Staat</item>
-		<item>Kris</item>
+		<item>staat</item>
+		<item>kris</item>
 		<item>verlagen</item>
 		<item>handhaven</item>
 		<item>opereren</item>
@@ -3898,7 +3846,7 @@
 		<item>zaal</item>
 		<item>café</item>
 		<item>intercommunale</item>
-		<item>Merkwaardig</item>
+		<item>merkwaardig</item>
 		<item>grenzen</item>
 		<item>aanpakken</item>
 		<item>terechtkomen</item>
@@ -3906,7 +3854,7 @@
 		<item>noemer</item>
 		<item>wereldkampioen</item>
 		<item>tel</item>
-		<item>Tijdens</item>
+		<item>tijdens</item>
 		<item>levend</item>
 		<item>terugvallen</item>
 		<item>resolutie</item>
@@ -3918,20 +3866,20 @@
 		<item>oeuvre</item>
 		<item>bloot</item>
 		<item>intelligentie</item>
-		<item>Terug</item>
+		<item>terug</item>
 		<item>studio</item>
 		<item>afsluiten</item>
-		<item>Bent</item>
+		<item>bent</item>
 		<item>sponsor</item>
 		<item>naast</item>
 		<item>louter</item>
 		<item>goedkeuring</item>
 		<item>maatwerk</item>
 		<item>wetten</item>
-		<item>Marketing</item>
+		<item>marketing</item>
 		<item>woordvoerder</item>
 		<item>zei</item>
-		<item>Gemeenschap</item>
+		<item>gemeenschap</item>
 		<item>vliegveld</item>
 		<item>diploma</item>
 		<item>verbetering</item>
@@ -3950,10 +3898,10 @@
 		<item>tegenwoordig</item>
 		<item>kanselier</item>
 		<item>concurrentie</item>
-		<item>Dus</item>
+		<item>dus</item>
 		<item>cijfer</item>
 		<item>laatste</item>
-		<item>Na</item>
+		<item>na</item>
 		<item>toename</item>
 		<item>ijs</item>
 		<item>terugvinden</item>
@@ -3966,7 +3914,7 @@
 		<item>fijne</item>
 		<item>evenwicht</item>
 		<item>auteur</item>
-		<item>Oorlog</item>
+		<item>oorlog</item>
 		<item>tweetal</item>
 		<item>goedkoop</item>
 		<item>overeenkomst</item>
@@ -3983,35 +3931,35 @@
 		<item>ongeval</item>
 		<item>autonoom</item>
 		<item>hetzelfde</item>
-		<item>Avenue</item>
+		<item>avenue</item>
 		<item>lot</item>
 		<item>toelating</item>
 		<item>verwezenlijken</item>
 		<item>parallel</item>
-		<item>Organisatie</item>
+		<item>organisatie</item>
 		<item>contract</item>
 		<item>kmo's</item>
 		<item>kas</item>
 		<item>ethisch</item>
 		<item>bedrag</item>
 		<item>overdreven</item>
-		<item>Lier</item>
+		<item>lier</item>
 		<item>ervan</item>
 		<item>jargon</item>
 		<item>degelijk</item>
 		<item>halve</item>
-		<item>Niemand</item>
+		<item>niemand</item>
 		<item>kaarten</item>
 		<item>geneeskunde</item>
-		<item>Kruis</item>
-		<item>Mocht</item>
+		<item>kruis</item>
+		<item>mocht</item>
 		<item>breuk</item>
-		<item>Hallo</item>
+		<item>hallo</item>
 		<item>vanwege</item>
 		<item>wist</item>
 		<item>bomen</item>
-		<item>Orkest</item>
-		<item>ECU</item>
+		<item>orkest</item>
+		<item>ecu</item>
 		<item>bediende</item>
 		<item>sleutelen</item>
 		<item>vertragen</item>
@@ -4021,7 +3969,7 @@
 		<item>organisatie</item>
 		<item>eieren</item>
 		<item>schijn</item>
-		<item>Moslims</item>
+		<item>moslims</item>
 		<item>moreel</item>
 		<item>congres</item>
 		<item>mindere</item>
@@ -4034,11 +3982,11 @@
 		<item>harmonie</item>
 		<item>onjuist</item>
 		<item>fax</item>
-		<item>Kind</item>
+		<item>kind</item>
 		<item>actualiteit</item>
 		<item>inspraak</item>
 		<item>zinloos</item>
-		<item>Vooral</item>
+		<item>vooral</item>
 		<item>introduceren</item>
 		<item>vier</item>
 		<item>fier</item>
@@ -4051,7 +3999,7 @@
 		<item>vreugde</item>
 		<item>grappig</item>
 		<item>rollen</item>
-		<item>Gouden</item>
+		<item>gouden</item>
 		<item>ramen</item>
 		<item>getroffen</item>
 		<item>aanpassen</item>
@@ -4060,20 +4008,20 @@
 		<item>vaart</item>
 		<item>journalistiek</item>
 		<item>ritme</item>
-		<item>Boston</item>
+		<item>boston</item>
 		<item>telefoon</item>
 		<item>woningbouw</item>
 		<item>eigenschap</item>
 		<item>koninklijk</item>
 		<item>inzien</item>
-		<item>Service</item>
+		<item>service</item>
 		<item>rechtbank</item>
-		<item>Gewest</item>
+		<item>gewest</item>
 		<item>verloop</item>
 		<item>gedrukt</item>
 		<item>bril</item>
-		<item>CC</item>
-		<item>Management</item>
+		<item>cc</item>
+		<item>management</item>
 		<item>ontwerp</item>
 		<item>concurreren</item>
 		<item>indertijd</item>
@@ -4091,7 +4039,7 @@
 		<item>dienen</item>
 		<item>daglicht</item>
 		<item>geel</item>
-		<item>UK</item>
+		<item>uk</item>
 		<item>aankoop</item>
 		<item>gemoeid</item>
 		<item>uitweg</item>
@@ -4102,42 +4050,42 @@
 		<item>noodzaak</item>
 		<item>noden</item>
 		<item>magistratuur</item>
-		<item>Onder</item>
+		<item>onder</item>
 		<item>sloten</item>
 		<item>kapitein</item>
-		<item>Laatste</item>
+		<item>laatste</item>
 		<item>presentatie</item>
 		<item>aanspreken</item>
 		<item>abortus</item>
 		<item>duo</item>
 		<item>overeen</item>
-		<item>Midden</item>
+		<item>midden</item>
 		<item>klaar</item>
 		<item>binnenstad</item>
 		<item>bewerking</item>
 		<item>knop</item>
 		<item>centraal</item>
-		<item>Minder</item>
+		<item>minder</item>
 		<item>grof</item>
 		<item>dekking</item>
-		<item>Thomas</item>
+		<item>thomas</item>
 		<item>dun</item>
 		<item>liep</item>
 		<item>baron</item>
 		<item>constructie</item>
 		<item>persoon</item>
-		<item>Verder</item>
+		<item>verder</item>
 		<item>woensdag</item>
 		<item>eigenheid</item>
 		<item>tienduizend</item>
 		<item>auto</item>
-		<item>Blok</item>
+		<item>blok</item>
 		<item>willen</item>
 		<item>figuurlijk</item>
 		<item>salon</item>
 		<item>almaar</item>
 		<item>wedstrijd</item>
-		<item>Ten</item>
+		<item>ten</item>
 		<item>talen</item>
 		<item>uitspraak</item>
 		<item>inzicht</item>
@@ -4150,29 +4098,29 @@
 		<item>maffia</item>
 		<item>afhankelijk</item>
 		<item>menu</item>
-		<item>Arbeid</item>
+		<item>arbeid</item>
 		<item>uitgewerkt</item>
 		<item>non</item>
 		<item>rijkswacht</item>
 		<item>forum</item>
 		<item>accent</item>
-		<item>Blijkbaar</item>
+		<item>blijkbaar</item>
 		<item>modern</item>
 		<item>paus</item>
 		<item>klonk</item>
 		<item>elegantie</item>
 		<item>koos</item>
-		<item>Bedoeling</item>
+		<item>bedoeling</item>
 		<item>woonplaats</item>
 		<item>begeven</item>
 		<item>cd-rom</item>
 		<item>nabij</item>
 		<item>defilé</item>
 		<item>beslissen</item>
-		<item>Sir</item>
+		<item>sir</item>
 		<item>toestel</item>
 		<item>mist</item>
-		<item>Jammer</item>
+		<item>jammer</item>
 		<item>officier</item>
 		<item>etiket</item>
 		<item>handtekening</item>
@@ -4187,9 +4135,9 @@
 		<item>doek</item>
 		<item>bewaren</item>
 		<item>lijnen</item>
-		<item>Uiteindelijk</item>
+		<item>uiteindelijk</item>
 		<item>slikken</item>
-		<item>Ze</item>
+		<item>ze</item>
 		<item>overigens</item>
 		<item>versleten</item>
 		<item>overeind</item>
@@ -4201,23 +4149,23 @@
 		<item>hou</item>
 		<item>vredesconferentie</item>
 		<item>eigenaar</item>
-		<item>Polo</item>
-		<item>Fund</item>
+		<item>polo</item>
+		<item>fund</item>
 		<item>verspreid</item>
 		<item>bewegen</item>
 		<item>oppervlakte</item>
 		<item>vernietiging</item>
-		<item>Tja</item>
-		<item>Baron</item>
+		<item>tja</item>
+		<item>baron</item>
 		<item>tonen</item>
 		<item>hangen</item>
 		<item>televisie</item>
-		<item>Sindsdien</item>
+		<item>sindsdien</item>
 		<item>troeven</item>
 		<item>ambitieus</item>
 		<item>wachten</item>
 		<item>advertentie</item>
-		<item>Maximum</item>
+		<item>maximum</item>
 		<item>gezondheidszorg</item>
 		<item>koppeling</item>
 		<item>eisen</item>
@@ -4236,27 +4184,27 @@
 		<item>gestolen</item>
 		<item>paradijs</item>
 		<item>bewogen</item>
-		<item>Geld</item>
+		<item>geld</item>
 		<item>gedicht</item>
 		<item>drager</item>
 		<item>anders</item>
 		<item>kwam</item>
-		<item>Heel</item>
-		<item>Cox</item>
+		<item>heel</item>
+		<item>cox</item>
 		<item>administratie</item>
 		<item>huurprijs</item>
 		<item>invoer</item>
 		<item>sigaar</item>
 		<item>plaatsvinden</item>
 		<item>praat</item>
-		<item>Rock</item>
+		<item>rock</item>
 		<item>organiseren</item>
 		<item>openlijk</item>
-		<item>Monetair</item>
-		<item>NV</item>
+		<item>monetair</item>
+		<item>nv</item>
 		<item>afgelopen</item>
 		<item>seconde</item>
-		<item>International</item>
+		<item>international</item>
 		<item>bevroren</item>
 		<item>zeventig</item>
 		<item>leveren</item>
@@ -4287,10 +4235,10 @@
 		<item>taxi</item>
 		<item>bevel</item>
 		<item>althans</item>
-		<item>Uit</item>
-		<item>Hendrik</item>
+		<item>uit</item>
+		<item>hendrik</item>
 		<item>terug</item>
-		<item>EN</item>
+		<item>en</item>
 		<item>emotie</item>
 		<item>papieren</item>
 		<item>type</item>
@@ -4307,13 +4255,13 @@
 		<item>controleren</item>
 		<item>banken</item>
 		<item>bracht</item>
-		<item>President</item>
+		<item>president</item>
 		<item>particulier</item>
 		<item>benutten</item>
-		<item>Vandaag</item>
+		<item>vandaag</item>
 		<item>winnaar</item>
 		<item>assistent</item>
-		<item>Meestal</item>
+		<item>meestal</item>
 		<item>verdelen</item>
 		<item>omstreden</item>
 		<item>universiteit</item>
@@ -4336,7 +4284,7 @@
 		<item>automatisering</item>
 		<item>single</item>
 		<item>vonden</item>
-		<item>Wij</item>
+		<item>wij</item>
 		<item>periode</item>
 		<item>donderdag</item>
 		<item>uiteen</item>
@@ -4357,7 +4305,7 @@
 		<item>kleintjes</item>
 		<item>half</item>
 		<item>trio</item>
-		<item>Leg</item>
+		<item>leg</item>
 		<item>hoef</item>
 		<item>dezelfde</item>
 		<item>minister-president</item>
@@ -4371,8 +4319,8 @@
 		<item>kleppen</item>
 		<item>vermogen</item>
 		<item>zogeheten</item>
-		<item>Federatie</item>
-		<item>Koude</item>
+		<item>federatie</item>
+		<item>koude</item>
 		<item>stoten</item>
 		<item>masker</item>
 		<item>federatie</item>
@@ -4385,7 +4333,7 @@
 		<item>bezig</item>
 		<item>afwachting</item>
 		<item>thans</item>
-		<item>Klein</item>
+		<item>klein</item>
 		<item>verkeerd</item>
 		<item>vooralsnog</item>
 		<item>verzorgen</item>
@@ -4395,7 +4343,7 @@
 		<item>invoering</item>
 		<item>diepe</item>
 		<item>seksueel</item>
-		<item>Begin</item>
+		<item>begin</item>
 		<item>begraven</item>
 		<item>klas</item>
 		<item>uitnodiging</item>
@@ -4421,31 +4369,31 @@
 		<item>thriller</item>
 		<item>manschappen</item>
 		<item>aanzet</item>
-		<item>Online</item>
-		<item>Men</item>
+		<item>online</item>
+		<item>men</item>
 		<item>alsnog</item>
 		<item>ontbreken</item>
 		<item>media</item>
 		<item>uitzonderlijk</item>
-		<item>Front</item>
+		<item>front</item>
 		<item>abonnement</item>
 		<item>glazen</item>
 		<item>overvloed</item>
-		<item>Muziek</item>
+		<item>muziek</item>
 		<item>verpakking</item>
 		<item>proppen</item>
 		<item>ui</item>
 		<item>bedreiging</item>
 		<item>telefoneren</item>
 		<item>tand</item>
-		<item>Twintig</item>
+		<item>twintig</item>
 		<item>studiefinanciering</item>
 		<item>kiezen</item>
 		<item>beschikking</item>
-		<item>Alle</item>
+		<item>alle</item>
 		<item>eiland</item>
 		<item>vakblad</item>
-		<item>Huis</item>
+		<item>huis</item>
 		<item>fris</item>
 		<item>overtuigend</item>
 		<item>volstrekt</item>
@@ -4456,33 +4404,33 @@
 		<item>nadrukkelijk</item>
 		<item>optiek</item>
 		<item>inleveren</item>
-		<item>Technisch</item>
-		<item>Vrije</item>
+		<item>technisch</item>
+		<item>vrije</item>
 		<item>hoofdstuk</item>
 		<item>lawaai</item>
 		<item>voortgezet</item>
 		<item>afwisselend</item>
 		<item>standpunt</item>
-		<item>Minister</item>
+		<item>minister</item>
 		<item>vermits</item>
 		<item>referendum</item>
 		<item>vergadering</item>
 		<item>angst</item>
 		<item>verbazen</item>
-		<item>Via</item>
-		<item>Boerenbond</item>
+		<item>via</item>
+		<item>boerenbond</item>
 		<item>totaal</item>
 		<item>demonstratie</item>
 		<item>gedeeld</item>
 		<item>personeel</item>
 		<item>ander</item>
 		<item>bouw</item>
-		<item>Al</item>
+		<item>al</item>
 		<item>genre</item>
 		<item>opstand</item>
 		<item>redenering</item>
-		<item>Beiden</item>
-		<item>Vrijdag</item>
+		<item>beiden</item>
+		<item>vrijdag</item>
 		<item>offensief</item>
 		<item>groot</item>
 		<item>context</item>
@@ -4491,10 +4439,10 @@
 		<item>belangrijk</item>
 		<item>familie</item>
 		<item>na</item>
-		<item>Politiek</item>
+		<item>politiek</item>
 		<item>kennelijk</item>
 		<item>mm</item>
-		<item>Rob</item>
+		<item>rob</item>
 		<item>daad</item>
 		<item>identiek</item>
 		<item>bladzijde</item>
@@ -4510,16 +4458,16 @@
 		<item>onder</item>
 		<item>geliefd</item>
 		<item>lokken</item>
-		<item>Geen</item>
+		<item>geen</item>
 		<item>waarschuwing</item>
 		<item>lippen</item>
 		<item>ingenieur</item>
-		<item>Vervolgens</item>
+		<item>vervolgens</item>
 		<item>confrontatie</item>
 		<item>financier</item>
 		<item>autoweg</item>
-		<item>Of</item>
-		<item>ROGGE</item>
+		<item>of</item>
+		<item>rogge</item>
 		<item>schriftelijk</item>
 		<item>terugbetaling</item>
 		<item>voordien</item>
@@ -4537,10 +4485,10 @@
 		<item>overbodig</item>
 		<item>echtgenoot</item>
 		<item>verwachten</item>
-		<item>MB</item>
+		<item>mb</item>
 		<item>republiek</item>
-		<item>Inmiddels</item>
-		<item>Zondag</item>
+		<item>inmiddels</item>
+		<item>zondag</item>
 		<item>gevarieerd</item>
 		<item>geloofwaardigheid</item>
 		<item>vel</item>
@@ -4559,7 +4507,7 @@
 		<item>destijds</item>
 		<item>waardering</item>
 		<item>achterhaald</item>
-		<item>Center</item>
+		<item>center</item>
 		<item>gelegenheid</item>
 		<item>onderkomen</item>
 		<item>eind</item>
@@ -4580,7 +4528,7 @@
 		<item>inwoner</item>
 		<item>samen</item>
 		<item>dorp</item>
-		<item>Zelfs</item>
+		<item>zelfs</item>
 		<item>gisteren</item>
 		<item>mysterie</item>
 		<item>wij</item>
@@ -4594,12 +4542,12 @@
 		<item>collega</item>
 		<item>directeur</item>
 		<item>werd</item>
-		<item>Soms</item>
+		<item>soms</item>
 		<item>gevestigd</item>
 		<item>werkwijze</item>
 		<item>oogst</item>
 		<item>islam</item>
-		<item>Kamer</item>
+		<item>kamer</item>
 		<item>put</item>
 		<item>bruikbaar</item>
 		<item>gold</item>
@@ -4609,9 +4557,9 @@
 		<item>begin</item>
 		<item>uitbreken</item>
 		<item>vennootschapsbelasting</item>
-		<item>Wereldoorlog</item>
-		<item>Wenen</item>
-		<item>Bende</item>
+		<item>wereldoorlog</item>
+		<item>wenen</item>
+		<item>bende</item>
 		<item>cultureel</item>
 		<item>interessant</item>
 		<item>extreem</item>
@@ -4624,7 +4572,7 @@
 		<item>vragen</item>
 		<item>stel</item>
 		<item>koningin</item>
-		<item>Dag</item>
+		<item>dag</item>
 		<item>akkoord</item>
 		<item>kasteel</item>
 		<item>long</item>
@@ -4632,7 +4580,7 @@
 		<item>werkloosheid</item>
 		<item>simpel</item>
 		<item>bewonderen</item>
-		<item>Woensdag</item>
+		<item>woensdag</item>
 		<item>overname</item>
 		<item>geschenk</item>
 		<item>kopje</item>
@@ -4642,24 +4590,24 @@
 		<item>hulp</item>
 		<item>wellicht</item>
 		<item>afkomst</item>
-		<item>Economie</item>
+		<item>economie</item>
 		<item>vrijstelling</item>
 		<item>punt</item>
 		<item>overkant</item>
-		<item>Tevens</item>
-		<item>Even</item>
+		<item>tevens</item>
+		<item>even</item>
 		<item>spijskaart</item>
 		<item>behandeling</item>
-		<item>Ministerie</item>
+		<item>ministerie</item>
 		<item>gemeld</item>
 		<item>telefoontje</item>
-		<item>Terwijl</item>
+		<item>terwijl</item>
 		<item>werven</item>
 		<item>perfectie</item>
 		<item>leg</item>
-		<item>Beroep</item>
+		<item>beroep</item>
 		<item>natie</item>
-		<item>RUG</item>
+		<item>rug</item>
 		<item>uiteindelijk</item>
 		<item>slachtoffer</item>
 		<item>nagaan</item>
@@ -4673,7 +4621,7 @@
 		<item>bord</item>
 		<item>gelijke</item>
 		<item>agenda</item>
-		<item>Rechts</item>
+		<item>rechts</item>
 		<item>dergelijk</item>
 		<item>negende</item>
 		<item>loonkosten</item>
@@ -4681,7 +4629,7 @@
 		<item>overlast</item>
 		<item>begrip</item>
 		<item>ongeluk</item>
-		<item>Peter</item>
+		<item>peter</item>
 		<item>opdracht</item>
 		<item>eenheid</item>
 		<item>geschreven</item>
@@ -4691,11 +4639,11 @@
 		<item>repertoire</item>
 		<item>ommekeer</item>
 		<item>krachtig</item>
-		<item>Chili</item>
-		<item>Kasteel</item>
+		<item>chili</item>
+		<item>kasteel</item>
 		<item>http</item>
 		<item>faam</item>
-		<item>Pascal</item>
+		<item>pascal</item>
 		<item>loep</item>
 		<item>haat</item>
 		<item>voorgoed</item>
@@ -4704,7 +4652,7 @@
 		<item>engagement</item>
 		<item>beslag</item>
 		<item>overweging</item>
-		<item>Noten</item>
+		<item>noten</item>
 		<item>decor</item>
 		<item>af</item>
 		<item>overtuiging</item>
@@ -4714,10 +4662,10 @@
 		<item>oom</item>
 		<item>gewest</item>
 		<item>verplichting</item>
-		<item>Verkeer</item>
+		<item>verkeer</item>
 		<item>vieren</item>
 		<item>functioneren</item>
-		<item>Ooit</item>
+		<item>ooit</item>
 		<item>verlaat</item>
 		<item>boodschap</item>
 		<item>expositie</item>
@@ -4731,37 +4679,37 @@
 		<item>razend</item>
 		<item>vet</item>
 		<item>zaak</item>
-		<item>Ondanks</item>
+		<item>ondanks</item>
 		<item>nuchter</item>
 		<item>boter</item>
 		<item>bezit</item>
 		<item>hobby</item>
 		<item>ongeacht</item>
 		<item>gewenst</item>
-		<item>Zullen</item>
+		<item>zullen</item>
 		<item>schilderij</item>
 		<item>evolutie</item>
-		<item>Moor</item>
+		<item>moor</item>
 		<item>kritisch</item>
 		<item>duren</item>
 		<item>geworden</item>
 		<item>aarzelen</item>
 		<item>buik</item>
 		<item>dateren</item>
-		<item>Dirk</item>
+		<item>dirk</item>
 		<item>stimulans</item>
 		<item>versieren</item>
 		<item>toegepast</item>
 		<item>brandweer</item>
 		<item>stoot</item>
-		<item>Wit</item>
+		<item>wit</item>
 		<item>zodra</item>
-		<item>Nelson</item>
+		<item>nelson</item>
 		<item>laden</item>
 		<item>analyse</item>
 		<item>droog</item>
 		<item>instrument</item>
-		<item>KMO's</item>
+		<item>kmo's</item>
 		<item>jong</item>
 		<item>zullen</item>
 		<item>initiatief</item>
@@ -4784,7 +4732,7 @@
 		<item>kabinetschef</item>
 		<item>vooral</item>
 		<item>producent</item>
-		<item>Nee</item>
+		<item>nee</item>
 		<item>middernacht</item>
 		<item>uitblijven</item>
 		<item>gepraat</item>
@@ -4809,8 +4757,8 @@
 		<item>gewicht</item>
 		<item>boodschappen</item>
 		<item>indrukwekkend</item>
-		<item>Academie</item>
-		<item>Haag</item>
+		<item>academie</item>
+		<item>haag</item>
 		<item>tien</item>
 		<item>loonkost</item>
 		<item>oefening</item>
@@ -4829,16 +4777,16 @@
 		<item>eethuis</item>
 		<item>broer</item>
 		<item>tempo</item>
-		<item>Kanaal</item>
+		<item>kanaal</item>
 		<item>noodgedwongen</item>
 		<item>inclusief</item>
 		<item>gebruiker</item>
 		<item>geloof</item>
 		<item>meest</item>
-		<item>Koninkrijk</item>
+		<item>koninkrijk</item>
 		<item>opeens</item>
 		<item>maker</item>
-		<item>Deze</item>
+		<item>deze</item>
 		<item>industrie</item>
 		<item>levendig</item>
 		<item>welk</item>
@@ -4847,7 +4795,7 @@
 		<item>markten</item>
 		<item>betekenis</item>
 		<item>have</item>
-		<item>Belangrijk</item>
+		<item>belangrijk</item>
 		<item>alweer</item>
 		<item>koffer</item>
 		<item>adviseren</item>
@@ -4871,7 +4819,7 @@
 		<item>opvolging</item>
 		<item>koffie</item>
 		<item>capaciteit</item>
-		<item>Master</item>
+		<item>master</item>
 		<item>geur</item>
 		<item>essentie</item>
 		<item>incident</item>
@@ -4879,7 +4827,7 @@
 		<item>blijk</item>
 		<item>inhoud</item>
 		<item>platform</item>
-		<item>Weinig</item>
+		<item>weinig</item>
 		<item>geldig</item>
 		<item>herinnering</item>
 		<item>label</item>
@@ -4890,20 +4838,20 @@
 		<item>gelukkig</item>
 		<item>bak</item>
 		<item>onbeperkt</item>
-		<item>Eind</item>
+		<item>eind</item>
 		<item>besluitvorming</item>
 		<item>eenmaal</item>
 		<item>arme</item>
 		<item>gehouden</item>
-		<item>Kerk</item>
+		<item>kerk</item>
 		<item>deskundige</item>
 		<item>doch</item>
 		<item>duiden</item>
-		<item>Vorig</item>
+		<item>vorig</item>
 		<item>inflatie</item>
-		<item>Opmerkelijk</item>
+		<item>opmerkelijk</item>
 		<item>rusten</item>
-		<item>Gewoon</item>
+		<item>gewoon</item>
 		<item>zakken</item>
 		<item>bedoeld</item>
 		<item>controle</item>
@@ -4913,13 +4861,13 @@
 		<item>conservator</item>
 		<item>onverwacht</item>
 		<item>dijk</item>
-		<item>Bill</item>
+		<item>bill</item>
 		<item>bescheiden</item>
-		<item>Enerzijds</item>
+		<item>enerzijds</item>
 		<item>nicht</item>
 		<item>gat</item>
 		<item>formaat</item>
-		<item>Gisteren</item>
+		<item>gisteren</item>
 		<item>momenteel</item>
 		<item>terecht</item>
 		<item>quasi</item>
@@ -4927,9 +4875,9 @@
 		<item>gemeentepolitie</item>
 		<item>reclamebureau</item>
 		<item>klimaat</item>
-		<item>Chinees</item>
+		<item>chinees</item>
 		<item>aangepast</item>
-		<item>Chinezen</item>
+		<item>chinezen</item>
 		<item>versnellen</item>
 		<item>editie</item>
 		<item>doorslaggevend</item>
@@ -4937,20 +4885,20 @@
 		<item>vandaan</item>
 		<item>smaken</item>
 		<item>blazen</item>
-		<item>Ik</item>
+		<item>ik</item>
 		<item>paniek</item>
-		<item>Bergen</item>
+		<item>bergen</item>
 		<item>verdienste</item>
 		<item>tijdlang</item>
 		<item>vrouw</item>
 		<item>verkoper</item>
 		<item>vanzelf</item>
-		<item>Hebben</item>
+		<item>hebben</item>
 		<item>theoretisch</item>
 		<item>uiteraard</item>
 		<item>hoogtepunt</item>
 		<item>geneigd</item>
-		<item>Tenslotte</item>
+		<item>tenslotte</item>
 		<item>scheiding</item>
 		<item>kg</item>
 		<item>seksualiteit</item>
@@ -4978,9 +4926,9 @@
 		<item>twee</item>
 		<item>vertraging</item>
 		<item>koppen</item>
-		<item>Middeleeuwen</item>
+		<item>middeleeuwen</item>
 		<item>vergelijken</item>
-		<item>Royal</item>
+		<item>royal</item>
 		<item>god</item>
 		<item>illustratie</item>
 		<item>pagina</item>
@@ -4989,7 +4937,7 @@
 		<item>twintigste</item>
 		<item>verhinderen</item>
 		<item>bijdragen</item>
-		<item>Business</item>
+		<item>business</item>
 		<item>ondervinden</item>
 		<item>levensduur</item>
 		<item>belasting</item>
@@ -5002,13 +4950,13 @@
 		<item>opsporen</item>
 		<item>baan</item>
 		<item>verantwoorden</item>
-		<item>Dienst</item>
+		<item>dienst</item>
 		<item>juist</item>
 		<item>aannemer</item>
 		<item>telefonie</item>
-		<item>Op</item>
+		<item>op</item>
 		<item>maatregel</item>
-		<item>Helaas</item>
+		<item>helaas</item>
 		<item>distributie</item>
 		<item>trainen</item>
 		<item>dermate</item>
@@ -5017,12 +4965,12 @@
 		<item>toegankelijk</item>
 		<item>gewonnen</item>
 		<item>beoordeling</item>
-		<item>Immers</item>
+		<item>immers</item>
 		<item>staat</item>
 		<item>evenement</item>
 		<item>ingeschreven</item>
-		<item>Tel</item>
-		<item>Vandaar</item>
+		<item>tel</item>
+		<item>vandaar</item>
 		<item>spel</item>
 		<item>portret</item>
 		<item>vuil</item>
@@ -5030,27 +4978,27 @@
 		<item>verplaatsen</item>
 		<item>onlangs</item>
 		<item>vasteland</item>
-		<item>Wellicht</item>
+		<item>wellicht</item>
 		<item>schijf</item>
 		<item>couture</item>
 		<item>gebruik</item>
 		<item>plaatselijk</item>
-		<item>Pro</item>
+		<item>pro</item>
 		<item>gezond</item>
 		<item>delen</item>
 		<item>uitbreiden</item>
-		<item>Koen</item>
+		<item>koen</item>
 		<item>club</item>
 		<item>saus</item>
-		<item>Fonds</item>
+		<item>fonds</item>
 		<item>recessie</item>
 		<item>dreiging</item>
 		<item>frequentie</item>
 		<item>info</item>
 		<item>bevatten</item>
-		<item>Westen</item>
+		<item>westen</item>
 		<item>stromen</item>
 		<item>omzet</item>
 		<item>vergunning</item>
 	</words>
-</Dutch>
+</dutch>
