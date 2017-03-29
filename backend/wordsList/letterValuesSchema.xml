@@ -2,14 +2,14 @@
 <LetterValues>
    <LetterValue>
 	  <Letter>a</Letter>
-      <ValueDutch>6.39</ValueDutch>
-	  <ValueGerman>7.04</ValueGerman>
-      <ValueSpanish>2.31</ValueSpanish>
+      <ValueDutch>12,3700787401575</ValueDutch>
+	  <ValueGerman>13,752808988764</ValueGerman>
+      <ValueSpanish>3,77372262773723</ValueSpanish>
    </LetterValue>
     <LetterValue>
 	  <Letter>b</Letter>
-      <ValueDutch>9.36</ValueDutch>
-	  <ValueGerman>8.97</ValueGerman>
-      <ValueSpanish>9.03</ValueSpanish>
+      <ValueDutch>18,6535433070866</ValueDutch>
+	  <ValueGerman>17,8202247191011</ValueGerman>
+      <ValueSpanish>17,9613138686131</ValueSpanish>
    </LetterValue>
 </LetterValues>
