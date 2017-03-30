@@ -44,37 +44,25 @@ html,body {
 }
 
 
-#frenchFlag{
-
-top: 70px;
-left: 60px;
+#frFlag{
 
 background-image: url('../assets/flags/fr.png');
 
 }
 
 
-#germanFlag{
-
-top: 70px;
-right: 60px;
+#grFlag{
 
 background-image: url('../assets/flags/de.png');
 
 }
-#spanishFlag{
-
-bottom: 80px;
-left: 60px;
+#spFlag{
 
 background-image: url('../assets/flags/es.png');
 
 }
 
-#dutchFlag{
-
-bottom: 80px;
-right: 60px;
+#nlFlag{
 
 background-image: url('../assets/flags/nl.png');
 

@@ -61,22 +61,11 @@ define(['userData', 'popup'], function(userData, popup) {
     
     var NUMBER_OF_CODE_NUMBERS_ON_PAGE = 4;
     
-    var NUMBER_OF_LANGUAGES=6;
     
-   /* var flagsData=[
-                   {
-                	   "top": "70px",
-                	   "left": "60px",
-                   		"background-image": "url('../assets/flags/fr.png')"
-                   },
-                   {
-                	   "top": "70px",
-                	   "right": "60px",
-                   		"background-image": "url('../assets/flags/de.png')"
-                   }
-                   ]*/
-
-    /*
+    
+    var available_languages=["fr","gr","sp","nl","sp","nl"];
+    
+   /*
      * goToMainPage() sets the right html "<div>" to display. 
      * The drawing of other elements is done by other functions.
      */
@@ -92,70 +81,182 @@ define(['userData', 'popup'], function(userData, popup) {
      */
     
     function selectLanguages(){
+    	// getAvailableLanguages();   // init the available_languages array
+    	
+    	initLanguages();
+    	
+    	console.log(available_languages.toString());
+    	
     	selectNextLanguageScreens();
-    	document.getElementById("frenchFlag").addEventListener("click", function() {
-    		requestAnonAccount(FRANCE);
-    		if( localStorage.getItem("accountCode") !== null ){
-    			//goToMainPage();
-    		}else{
-    			selectLanguages();
-    		}
- 	    });
-    	 document.getElementById("germanFlag").addEventListener("click", function() {
-     		requestAnonAccount(GERMANY);
-    		if( localStorage.getItem("accountCode") !== null ){
+    	
+    	var flags = document.getElementsByClassName("flagButton");
+    	
+    	var getLanguageName = function() {
+    	    var langName = this.getAttribute("id").substring(0,2);   // will return 2 first letters of language ("fr","gr"..)
+    	    
+    	    requestAnonAccount(langName);
+    	    if( localStorage.getItem("accountCode") !== null ){
     			goToMainPage();
     		}else{
     			selectLanguages();
     		}
-  	    });
-    	 document.getElementById("spanishFlag").addEventListener("click", function() {
-      		requestAnonAccount(SPAIN);
-    		if( localStorage.getItem("accountCode") !== null ){
-    			goToMainPage();
-    		}else{
-    			selectLanguages();
-    		}
-  	    });
-    	 document.getElementById("dutchFlag").addEventListener("click", function() {
-      		requestAnonAccount(NETHERLANDS);
-    		if( localStorage.getItem("accountCode") !== null ){
-    			goToMainPage();
-    		}else{
-    			selectLanguages();
-    		}
-  	    });
+    	};
+    	
+    	for(var i=0;i<flags.length;i++){
+    		flags[i].addEventListener('click', getLanguageName, false);
+    	}
+    	
+    	
     }
     
-    function selectNextLanguageScreens(){
+    // dynamically add available languages to the screen
     
-    	checkIfDisplayNextBackButton();
+    function initLanguages(){
+    	
+    	var indexOfBlocks=1,positionIndex=1;;
+    	var top=true, left=true;
+    	
+    	// create blocks of Flags each contains from 1 to 4 flags
+    	for(var i=1;i<available_languages.length+1;i++){
+    		if(i>4 && (i-1)%4==0){
+    			indexOfBlocks++;
+    			
+    			var blockDiv=document.createElement('div');
+        		blockDiv.id=indexOfBlocks+'BlockOfFlags';
+        		blockDiv.style.display='none';
+        		
+        		document.getElementById("languageFlags").appendChild(blockDiv);
+    		}
+    		
+    			
+    		var flagDiv = document.createElement('div');
+    		flagDiv.className='flagButton';
+    		flagDiv.id=available_languages[i-1]+"Flag";
+    		selectPositionForFlag(flagDiv,positionIndex);
+    		
+    		positionIndex++;
+    		if(positionIndex>4) positionIndex=1;
+    		
+    		document.getElementById(indexOfBlocks+"BlockOfFlags").appendChild(flagDiv);
+    	 
+    	}
+  
+    }
+    
+    // set position of each flag on the screen 
+    
+    function selectPositionForFlag(langDiv,index){
+    	if(index==1){
+    		langDiv.style.top="70px";
+    		langDiv.style.left="60px";
+    	} 
+    	else if(index==2){
+    		langDiv.style.top="70px";
+    		langDiv.style.left="188px";
+    	}
+    	else if(index==3){
+    		langDiv.style.top="189px";
+    		langDiv.style.left="60px";
+    	} 
+    	else{
+    		langDiv.style.top="189px";
+    		langDiv.style.left="188px";
+    	}
+    		
+    }
+  
+    // click function on the "back" and "next" buttons
+    
+    function selectNextLanguageScreens(){
+    	
+    	var languageFlagsDiv=document.getElementById("languageFlags");
+    	var numberOfBlocks = languageFlagsDiv.childElementCount-2;
+    	var index=1;
+    
+    	checkIfDisplayNextBackButton(index,numberOfBlocks);
+    	
     	document.getElementById("nextLangButton").addEventListener("click",function(){
-    		document.getElementById("firstBlockOfFlags").style.display="none";
-    		document.getElementById("secondBlockOfFlags").style.display="block";
-    		checkIfDisplayNextBackButton();
+    		
+    		document.getElementById(index+"BlockOfFlags").style.display="none";
+    		index++;
+    		document.getElementById(index+"BlockOfFlags").style.display="block";
+    	
+    		checkIfDisplayNextBackButton(index,numberOfBlocks);
     		
     	});
     	
     	document.getElementById("backLangButton").addEventListener("click",function(){
-    		document.getElementById("secondBlockOfFlags").style.display="none";
-    		document.getElementById("firstBlockOfFlags").style.display="block";
-    		checkIfDisplayNextBackButton();
+    		
+    		document.getElementById(index+"BlockOfFlags").style.display="none";
+    		index--;
+    		document.getElementById(index+"BlockOfFlags").style.display="block";
+    		
+    		checkIfDisplayNextBackButton(index,numberOfBlocks);
     	});
     }
     
-    function checkIfDisplayNextBackButton(){
-    	if(NUMBER_OF_LANGUAGES >4 && document.getElementById("firstBlockOfFlags").style.display=="block"){
+    // check whether display the "back" and "next" buttons 
+    function checkIfDisplayNextBackButton(index,numberOfBlocks){
+    	
+    	if(numberOfBlocks>1 && index<numberOfBlocks){
     		document.getElementById("nextLangButton").style.display="block";
     	}
     	else
     		document.getElementById("nextLangButton").style.display="none";
     	
-    	if(NUMBER_OF_LANGUAGES >4 && document.getElementById("firstBlockOfFlags").style.display=="none"){
+    	if(numberOfBlocks>1 && index>1){
     		document.getElementById("backLangButton").style.display="block";
     	}else
     		document.getElementById("backLangButton").style.display="none";
     }
+    
+    // Nick's functions
+    
+    function setLearnedLanguage(session, language){
+    	const SET_LEARNED_LANGUAGE_ENDPOINT = "https://zeeguu.unibe.ch/api/learned_language/";
+
+    	try { 
+    	    var xhr = new XMLHttpRequest();
+    	    xhr.open('POST',  SET_LEARNED_LANGUAGE_ENDPOINT + language + "?session=" + session, true);
+    	    xhr.onload = function () {
+    	        try {
+    	            console.log(this.responseText); //no need for parsing, response should be "OK"
+    	        } catch(err) {
+    	            // Invalid request
+    	            console.log("INVALID_REQUEST");
+    	        }
+    	    };
+    	    xhr.send();
+    	} catch(err) {
+    	    // there is no internet connection
+    	    console.log("NO_CONNECTION");
+    	}   
+    	}
+
+    	function setAvailableLanguages(av_lang){
+    	    available_languages = av_lang;
+    	}
+
+    	function getAvailableLanguages() {
+    	    const GET_LANGUAGES_ENDPOINT = "https://zeeguu.unibe.ch/api/available_languages";
+    	    
+    	    try { 
+    	        var xhr = new XMLHttpRequest();
+    	        xhr.open('GET', GET_LANGUAGES_ENDPOINT, true);
+    	        xhr.onload = function () {
+    	            try {
+    	                setAvailableLanguages(JSON.parse(this.responseText));
+    	            } catch(err) {
+    	                // Invalid request
+    	                console.log("INVALID_REQUEST");
+    	            }
+    	        };
+    	        xhr.send();
+    	    } catch(err) {
+    	        // there is no internet connection
+    	        console.log("NO_CONNECTION");
+    	    }   
+    	}   
 
     /*
      * guid() generates a (nearly) random UUID. It is not hardware based, we need system calls for this which turned out to be quite tricky.
@@ -198,6 +299,7 @@ define(['userData', 'popup'], function(userData, popup) {
 					localStorage.setItem("accountCode", JSON.parse(this.responseText));
 					localStorage.setItem("uuid", uuid);
 					localStorage.setItem("password", password);
+					setLearnedLanguage(JSON.parse(this.responseText),learning_language);
 				} catch(err) {
 				// UUID and Password combination are invalid.
 				console.log(WRONG_SESSION_NUMBER);
