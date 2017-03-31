@@ -105,3 +105,15 @@ def format(language, word, translations):
     d["Extensions"] = " "
 
     return d
+
+def xml_to_file(xml, file_name, path="."):
+    """Writes an xml to a file
+
+    :param xml:         -- xml file to write
+    :param file_name:   -- string with the name of the new file
+    :param path:        -- path where to store the xml file (default current directory)
+
+    """
+    dom = parseString(xml)
+    with open(path + '/' + file_name + ".xml", 'w') as file:
+        file.write(dom.toxml())

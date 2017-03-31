@@ -19,14 +19,14 @@ BATCH = 100
 GLOSBE = 0
 LINGUEE = 1
 
-LANG = "Spanish"
-FROM = "es"
+LANG = "Dutch"
+FROM = "nl"
 DEST = "en"
 
 FOLDER = LANG + "Translations"
 
 # Path of the xml file with the words
-PATH = "/Users/PhoenixQoH/Desktop/Words/"
+PATH = "/Users/PhoenixQoH/Desktop/"
 
 # Glosbe API parameters
 BASE_GLOSBE_URL = "https://glosbe.com/gapi/translate"
@@ -124,7 +124,8 @@ def main():
     if not os.path.exists(FOLDER):
         os.makedirs(FOLDER)
 
-    words = xml_file_to_list(PATH + LANG + ".xml")
+    #print(PATH + LANG + "Words.xml")
+    words = xml_file_to_list(PATH + LANG + "Words.xml")
 
     d = defaultdict(list)
     word_list = []
@@ -146,7 +147,7 @@ def main():
             d["Words"] = word_list
             dict_to_xml_file(d, LANG + "-English" + str(count), FOLDER, False)
             word_list = []
-
+            print(count)
 
 if __name__ == "__main__":
     main()
