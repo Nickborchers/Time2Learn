@@ -1,5 +1,6 @@
 import word
 import wordValueTable
+import frequency_value_table
 
 try:
     import Queue as Q  # ver. < 3.0
@@ -49,7 +50,7 @@ def correlation(original_word, translation):
     return 10*matrix[i][j] 
 
 def letter_frequency(original_word, language):
-    """Calculation of the letter frequency value of the word (
+    """Calculation of the letter frequency value of the word 
     according to the letter value table (multiplied with the correct factor)
 
     Keyword arguments:
@@ -68,6 +69,27 @@ def letter_frequency(original_word, language):
 
     return frequency_value/len(original_word)
 
+def word_frequency(original_word):
+    """Retrieving the frequency value of the word on how often it is used in a language 
+    according to the frequency value table (multiplied with the correct factor)
+
+    Keyword arguments:
+    original_word -- the word it is all about 
+    language -- the language of the word
+    """
+
+    value = 0.0
+    table = frequency_value_table.frequency_value_table
+    for i in range(0, len(table)):
+        value = float(frequency_value_table.Frequency_elements.get_value(table[i], original_word))
+        if value > 0:
+            break
+
+    if value == 0:
+        value = 10000
+
+    return value/100
+
 def accum_value(original_word, language, translation):
     """Accumulates the word value  
     
@@ -83,6 +105,7 @@ def accum_value(original_word, language, translation):
     value = len(original_word)
     value += letter_frequency(original_word, language)
     value += correlation(original_word, translation) 
+    value += word_frequency(original_word)
 
     return value
 
