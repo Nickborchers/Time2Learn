@@ -43,10 +43,10 @@ def correlation(original_word, translation):
     #Levenshtein-Algorithm 
     for j in range (1, len_translation):
         for i in range (1, len_original_word):
-            cost = int(original_word[i-1] == translation[j-1])
+            cost = int(original_word[i-1] != translation[j-1])
             matrix[i][j] = min(matrix[i-1][j]+1, matrix[i][j-1]+1, matrix[i-1][j-1] + cost)
 
-    return 100*matrix[i][j] 
+    return 10*matrix[i][j] 
 
 def letter_frequency(original_word, language):
     """Calculation of the letter frequency value of the word (
@@ -66,7 +66,7 @@ def letter_frequency(original_word, language):
                 frequency_value += float(value)
                 break
 
-    return 0.5*frequency_value
+    return frequency_value/len(original_word)
 
 def accum_value(original_word, language, translation):
     """Accumulates the word value  
