@@ -29,7 +29,7 @@ class Word(object):
     Attributes:
         language: A string with the language of the word.
         original_word: A string (lowercase chars) with the word it is all about.
-        translation: A string array (lowercase chars) of translations to English of the original_word.
+        translation: A string array (lowercase chars) of translations to of the original_word.
         category: An integer that is representing a category the word belongs to.
             Example: original_word= "cat", Category = 5 (animals)
         word_value: A double that represents the value of a word that will be calculated in 'algorithm.py'.

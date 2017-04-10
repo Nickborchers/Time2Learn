@@ -50,6 +50,17 @@ class Letter_elements(object):
 		if language == "German":
 			self.german_value = value
 
+	def get_value(self, language, letter):
+		if letter == self.letters:
+			if language == "Dutch":
+				return self.dutch_value
+			if language == "Spanish":
+				return self.spanish_value
+			if language == "German":
+				return self.german_value
+		else:
+			return 0
+
 # initialization of the array that will contain the letter elements
 letter_value_table = []
 #XML parsing to fill the letter value table
@@ -71,5 +82,10 @@ for letter_value in letter_values:
 
         if element.tag == 'ValueSpanish':
         	Letter_elements.set_value(letter, "Spanish", element.text)
-        
+
 	letter_value_table.append(letter)
+
+
+
+
+	
