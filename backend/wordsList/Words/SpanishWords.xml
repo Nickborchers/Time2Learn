@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
 <Spanish>
 	<words>
-		<item/>
 		<item>partícula</item>
 		<item>representante</item>
-		<item>ajeno, na</item>
+		<item>ajeno</item>
+		<item>ajena</item>
 		<item>citar</item>
 		<item>sucesivamente</item>
 		<item>atmósfera</item>
@@ -20,10 +20,12 @@
 		<item>perder</item>
 		<item>tabaco</item>
 		<item>pertenencia</item>
-		<item>amigo, ga</item>
+		<item>amigo</item>
+		<item>amiga</item>
 		<item>modernización</item>
 		<item>determinante</item>
-		<item>interno, na</item>
+		<item>interno</item>
+		<item>interna</item>
 		<item>filial</item>
 		<item>cansancio</item>
 		<item>costado</item>
@@ -32,25 +34,31 @@
 		<item>viabilidad</item>
 		<item>constitución</item>
 		<item>proposición</item>
-		<item>afiliado, da</item>
+		<item>afiliado</item>
+		<item>afiliada</item>
 		<item>libertad</item>
 		<item>golfo</item>
-		<item>próximo, ma</item>
+		<item>próximo</item>
+		<item>próxima</item>
 		<item>licencia</item>
 		<item>triángulo</item>
 		<item>cinturón</item>
 		<item>desgraciadamente</item>
-		<item>diputado, da</item>
+		<item>diputado</item>
+		<item>diputada</item>
 		<item>oler</item>
 		<item>correctamente</item>
-		<item>ambicioso, sa</item>
+		<item>ambicioso</item>
+		<item>ambiciosa</item>
 		<item>magia</item>
 		<item>reconocer</item>
-		<item>indicador, ra</item>
+		<item>indicador</item>
+		<item>indicadra</item>
 		<item>rematar</item>
 		<item>consecuente</item>
 		<item>ironía</item>
-		<item>abuelo, la</item>
+		<item>abuelo</item>
+		<item>abuela</item>
 		<item>placa</item>
 		<item>suavidad</item>
 		<item>herbar</item>
@@ -66,7 +74,8 @@
 		<item>ejecución</item>
 		<item>legislatura</item>
 		<item>comuna</item>
-		<item>suyo, ya</item>
+		<item>suyo</item>
+		<item>suya</item>
 		<item>abanicar</item>
 		<item>paradoja</item>
 		<item>nacimiento</item>
@@ -90,29 +99,37 @@
 		<item>transmitir</item>
 		<item>amén</item>
 		<item>dentro</item>
-		<item>dialéctico, ca</item>
+		<item>dialéctico</item>
+		<item>dialéctica</item>
 		<item>competitividad</item>
 		<item>conservar</item>
-		<item>colorado, da</item>
+		<item>colorado</item>
+		<item>colorada</item>
 		<item>error</item>
 		<item>palabra</item>
 		<item>tramo</item>
 		<item>bota</item>
 		<item>lentamente</item>
-		<item>agregado, da</item>
+		<item>agregado</item>
+		<item>agregada</item>
 		<item>levantamiento</item>
-		<item>trabajado, da</item>
+		<item>trabajado</item>
+		<item>trabajada</item>
 		<item>monumental</item>
-		<item>blanco, ca</item>
+		<item>blanco</item>
+		<item>blanca</item>
 		<item>alegrar</item>
 		<item>cultivar</item>
 		<item>literalmente</item>
 		<item>nacionalismo</item>
 		<item>estrechamente</item>
-		<item>narrador, ra</item>
-		<item>caballero, ra</item>
+		<item>narrador</item>
+		<item>narradra</item>
+		<item>caballero</item>
+		<item>caballera</item>
 		<item>velocidad</item>
-		<item>científico, ca</item>
+		<item>científico</item>
+		<item>científica</item>
 		<item>así</item>
 		<item>favor</item>
 		<item>elegante</item>
@@ -128,7 +145,8 @@
 		<item>concurrencia</item>
 		<item>madera</item>
 		<item>retrasar</item>
-		<item>escaso, sa</item>
+		<item>escaso</item>
+		<item>escasa</item>
 		<item>método</item>
 		<item>clemente</item>
 		<item>inspiración</item>
@@ -140,18 +158,23 @@
 		<item>corregir</item>
 		<item>colmar</item>
 		<item>también</item>
-		<item>gordo, da</item>
-		<item>enamorado, da</item>
+		<item>gordo</item>
+		<item>gorda</item>
+		<item>enamorado</item>
+		<item>enamorada</item>
 		<item>donde</item>
 		<item>místico</item>
 		<item>audiencia</item>
-		<item>gerente, ta</item>
-		<item>europeo, a</item>
+		<item>gerente</item>
+		<item>gerenta</item>
+		<item>europeo</item>
+		<item>europea</item>
 		<item>caer</item>
 		<item>leyenda</item>
 		<item>índole</item>
 		<item>observar</item>
-		<item>lejano, na</item>
+		<item>lejano</item>
+		<item>lejana</item>
 		<item>desenlace</item>
 		<item>financiar</item>
 		<item>repartir</item>
@@ -161,7 +184,8 @@
 		<item>tribuna</item>
 		<item>matar</item>
 		<item>descendiente</item>
-		<item>beneficiario, ria</item>
+		<item>beneficiario</item>
+		<item>beneficiaria</item>
 		<item>condado</item>
 		<item>tú</item>
 		<item>vanguardia</item>
@@ -175,26 +199,31 @@
 		<item>máxima</item>
 		<item>inmediatamente</item>
 		<item>medida</item>
-		<item>flaco, ca</item>
+		<item>flaco</item>
+		<item>flaca</item>
 		<item>ciclar</item>
 		<item>hueso</item>
 		<item>competencia</item>
 		<item>permiso</item>
 		<item>capital</item>
 		<item>canción</item>
-		<item>camarero, ra</item>
+		<item>camarero</item>
+		<item>camarera</item>
 		<item>metro</item>
 		<item>agresión</item>
 		<item>globo</item>
 		<item>procesamiento</item>
 		<item>causa</item>
-		<item>seguidor, ra</item>
+		<item>seguidor</item>
+		<item>seguidra</item>
 		<item>confundir</item>
 		<item>nobleza</item>
-		<item>rallado, da</item>
+		<item>rallado</item>
+		<item>rallada</item>
 		<item>cantante</item>
 		<item>molecular</item>
-		<item>mandado, da</item>
+		<item>mandado</item>
+		<item>mandada</item>
 		<item>nos</item>
 		<item>marca</item>
 		<item>golpe</item>
@@ -202,10 +231,12 @@
 		<item>realista</item>
 		<item>resultar</item>
 		<item>sur</item>
-		<item>junto, ta</item>
+		<item>junto</item>
+		<item>junta</item>
 		<item>estómago</item>
 		<item>gran</item>
-		<item>imaginario, ria</item>
+		<item>imaginario</item>
+		<item>imaginaria</item>
 		<item>col</item>
 		<item>oír</item>
 		<item>luchar</item>
@@ -218,15 +249,18 @@
 		<item>vigencia</item>
 		<item>atar</item>
 		<item>visible</item>
-		<item>discípulo, la</item>
+		<item>discípulo</item>
+		<item>discípula</item>
 		<item>legado</item>
 		<item>indirectamente</item>
 		<item>sedar</item>
 		<item>pasillo</item>
-		<item>trágico, ca</item>
+		<item>trágico</item>
+		<item>trágica</item>
 		<item>abusar</item>
 		<item>objetividad</item>
-		<item>típico, ca</item>
+		<item>típico</item>
+		<item>típica</item>
 		<item>lunar</item>
 		<item>acercamiento</item>
 		<item>insomnio</item>
@@ -252,25 +286,31 @@
 		<item>hermandarse</item>
 		<item>atender</item>
 		<item>generosidad</item>
-		<item>vaticano, na</item>
+		<item>vaticano</item>
+		<item>vaticana</item>
 		<item>trabajo</item>
 		<item>retroceso</item>
-		<item>celebrado, da</item>
-		<item>nervioso, sa</item>
-		<item>embajador, ra</item>
+		<item>celebrado</item>
+		<item>celebrada</item>
+		<item>nervioso</item>
+		<item>nerviosa</item>
+		<item>embajador</item>
+		<item>embajadra</item>
 		<item>marco</item>
 		<item>intentar</item>
 		<item>variación</item>
 		<item>considerar</item>
 		<item>ciudadanía</item>
 		<item>normal</item>
-		<item>estudiado, da</item>
+		<item>estudiado</item>
+		<item>estudiada</item>
 		<item>promover</item>
 		<item>media</item>
 		<item>versar</item>
 		<item>corta</item>
 		<item>pianista</item>
-		<item>dios, sa</item>
+		<item>dios</item>
+		<item>disa</item>
 		<item>tensión</item>
 		<item>festival</item>
 		<item>simple</item>
@@ -278,25 +318,31 @@
 		<item>tiempo</item>
 		<item>colesterol</item>
 		<item>preparación</item>
-		<item>cooperativo, va</item>
+		<item>cooperativo</item>
+		<item>cooperativa</item>
 		<item>ocultar</item>
 		<item>significar</item>
-		<item>quinientos, tas</item>
-		<item>técnico, ca</item>
+		<item>quinientos</item>
+		<item>quinientas</item>
+		<item>técnico</item>
+		<item>técnica</item>
 		<item>castillo</item>
 		<item>estrechar</item>
 		<item>contrastar</item>
 		<item>insistir</item>
 		<item>boca</item>
-		<item>hablado, da</item>
+		<item>hablado</item>
+		<item>hablada</item>
 		<item>gas</item>
 		<item>disminuir</item>
 		<item>fábrica</item>
-		<item>dinámico, ca</item>
+		<item>dinámico</item>
+		<item>dinámica</item>
 		<item>electrón</item>
 		<item>fusión</item>
 		<item>estor</item>
-		<item>cotidiano, na</item>
+		<item>cotidiano</item>
+		<item>cotidiana</item>
 		<item>lentitud</item>
 		<item>acabar</item>
 		<item>madrugada</item>
@@ -309,18 +355,24 @@
 		<item>esqueleto</item>
 		<item>continuamente</item>
 		<item>curso</item>
-		<item>cercano, na</item>
+		<item>cercano</item>
+		<item>cercana</item>
 		<item>identificar</item>
 		<item>denuncia</item>
 		<item>clima</item>
-		<item>duque, quesa</item>
-		<item>izquierdo, da</item>
+		<item>duque</item>
+		<item>quesa</item>
+		<item>izquierdo</item>
+		<item>izquierda</item>
 		<item>crucero</item>
 		<item>primordial</item>
-		<item>simpático, ca</item>
-		<item>centenario, ria</item>
+		<item>simpático</item>
+		<item>simpática</item>
+		<item>centenario</item>
+		<item>centenaria</item>
 		<item>sentir</item>
-		<item>ecológico, ca</item>
+		<item>ecológico</item>
+		<item>ecológica</item>
 		<item>indicar</item>
 		<item>optar</item>
 		<item>dibujar</item>
@@ -335,19 +387,24 @@
 		<item>comunismo</item>
 		<item>simultáneamente</item>
 		<item>callejón</item>
-		<item>malo, la</item>
+		<item>malo</item>
+		<item>mala</item>
 		<item>acaso</item>
 		<item>sujetar</item>
 		<item>doce</item>
 		<item>actual</item>
 		<item>radicar</item>
-		<item>ordenador, ra</item>
+		<item>ordenador</item>
+		<item>ordenadra</item>
 		<item>sinfonía</item>
-		<item>príncipe, princesa</item>
-		<item>alcanzado, da</item>
+		<item>príncipe</item>
+		<item>princesa</item>
+		<item>alcanzado</item>
+		<item>alcanzada</item>
 		<item>alarma</item>
 		<item>alcanzar</item>
-		<item>religioso, sa</item>
+		<item>religioso</item>
+		<item>religiosa</item>
 		<item>patio</item>
 		<item>resistir</item>
 		<item>viciar</item>
@@ -356,7 +413,8 @@
 		<item>horizontal</item>
 		<item>regir</item>
 		<item>rol</item>
-		<item>romántico, ca</item>
+		<item>romántico</item>
+		<item>romántica</item>
 		<item>cerebral</item>
 		<item>topar</item>
 		<item>observación</item>
@@ -373,40 +431,50 @@
 		<item>especialización</item>
 		<item>tu</item>
 		<item>enfocar</item>
-		<item>óptico, ca</item>
-		<item>pálido, da</item>
+		<item>óptico</item>
+		<item>óptica</item>
+		<item>pálido</item>
+		<item>pálida</item>
 		<item>animal</item>
 		<item>decadencia</item>
 		<item>gen</item>
 		<item>apuntar</item>
-		<item>apropiado, da</item>
+		<item>apropiado</item>
+		<item>apropiada</item>
 		<item>paulatinamente</item>
 		<item>uno</item>
 		<item>cómplice</item>
 		<item>apreciar</item>
 		<item>malicia</item>
 		<item>entidad</item>
-		<item>urbano, na</item>
+		<item>urbano</item>
+		<item>urbana</item>
 		<item>montaje</item>
-		<item>diverso, sa</item>
+		<item>diverso</item>
+		<item>diversa</item>
 		<item>sombrero</item>
-		<item>inmediato, ta</item>
+		<item>inmediato</item>
+		<item>inmediata</item>
 		<item>desayunar</item>
 		<item>delincuente</item>
-		<item>elaborado, da</item>
+		<item>elaborado</item>
+		<item>elaborada</item>
 		<item>cuál</item>
-		<item>alternativo, va</item>
+		<item>alternativo</item>
+		<item>alternativa</item>
 		<item>té</item>
 		<item>reglamentar</item>
 		<item>harina</item>
 		<item>préstamo</item>
 		<item>zumo</item>
-		<item>republicano, na</item>
+		<item>republicano</item>
+		<item>republicana</item>
 		<item>fortaleza</item>
 		<item>pasada</item>
 		<item>célula</item>
 		<item>quizá</item>
-		<item>florido, da</item>
+		<item>florido</item>
+		<item>florida</item>
 		<item>bien</item>
 		<item>concretar</item>
 		<item>multa</item>
@@ -427,8 +495,10 @@
 		<item>inauguración</item>
 		<item>maya</item>
 		<item>modificación</item>
-		<item>agricultor, ra</item>
-		<item>extranjero, ra</item>
+		<item>agricultor</item>
+		<item>agricultra</item>
+		<item>extranjero</item>
+		<item>extranjera</item>
 		<item>dormido</item>
 		<item>formulación</item>
 		<item>sabor</item>
@@ -437,17 +507,20 @@
 		<item>tropa</item>
 		<item>audiovisual</item>
 		<item>canario</item>
-		<item>echado, da</item>
+		<item>echado</item>
+		<item>echada</item>
 		<item>mutuamente</item>
 		<item>sonrisa</item>
 		<item>constante</item>
 		<item>soberanía</item>
 		<item>huerta</item>
-		<item>muchacho, cha</item>
+		<item>muchacho</item>
+		<item>muchacha</item>
 		<item>considerablemente</item>
 		<item>olla</item>
 		<item>olor</item>
-		<item>directivo, va</item>
+		<item>directivo</item>
+		<item>directiva</item>
 		<item>perfectamente</item>
 		<item>sitiar</item>
 		<item>perdón</item>
@@ -460,21 +533,25 @@
 		<item>familiar</item>
 		<item>molécula</item>
 		<item>clase</item>
-		<item>banquero, ra</item>
+		<item>banquero</item>
+		<item>banquera</item>
 		<item>resonancia</item>
 		<item>secuestrar</item>
 		<item>misterio</item>
-		<item>carajo, ja</item>
+		<item>carajo</item>
+		<item>caraja</item>
 		<item>atardecer</item>
 		<item>desgracia</item>
 		<item>avanzar</item>
 		<item>beso</item>
 		<item>danza</item>
 		<item>necesidad</item>
-		<item>gregario, ria</item>
+		<item>gregario</item>
+		<item>gregaria</item>
 		<item>paco</item>
 		<item>piedra</item>
-		<item>amado, da</item>
+		<item>amado</item>
+		<item>amada</item>
 		<item>cohesión</item>
 		<item>correspondiente</item>
 		<item>descubrimiento</item>
@@ -489,23 +566,31 @@
 		<item>vestido</item>
 		<item>procedencia</item>
 		<item>relato</item>
-		<item>violento, ta</item>
-		<item>universitario, ria</item>
-		<item>íntimo, ma</item>
+		<item>violento</item>
+		<item>violenta</item>
+		<item>universitario</item>
+		<item>universitaria</item>
+		<item>íntimo</item>
+		<item>íntima</item>
 		<item>obedecer</item>
 		<item>indemnización</item>
 		<item>sesenta</item>
-		<item>agrario, ria</item>
+		<item>agrario</item>
+		<item>agraria</item>
 		<item>uniformar</item>
-		<item>peligroso, sa</item>
+		<item>peligroso</item>
+		<item>peligrosa</item>
 		<item>lana</item>
 		<item>apellido</item>
-		<item>inmenso, sa</item>
+		<item>inmenso</item>
+		<item>inmensa</item>
 		<item>vigilancia</item>
 		<item>pertenecer</item>
-		<item>nosotros, tras</item>
+		<item>nosotros</item>
+		<item>nosotras</item>
 		<item>físicamente</item>
-		<item>ministro, tra</item>
+		<item>ministro</item>
+		<item>ministra</item>
 		<item>clientela</item>
 		<item>prescindir</item>
 		<item>vacación</item>
@@ -517,7 +602,8 @@
 		<item>elaboración</item>
 		<item>continuación</item>
 		<item>litro</item>
-		<item>previo, via</item>
+		<item>previo</item>
+		<item>previa</item>
 		<item>revelar</item>
 		<item>matrícula</item>
 		<item>persona</item>
@@ -527,30 +613,36 @@
 		<item>estrategia</item>
 		<item>total</item>
 		<item>setenta</item>
-		<item>desnudo, da</item>
+		<item>desnudo</item>
+		<item>desnuda</item>
 		<item>naturalidad</item>
 		<item>labor</item>
 		<item>guerra</item>
 		<item>entrar</item>
 		<item>museo</item>
-		<item>parejo, ja</item>
-		<item>mediterráneo, a</item>
+		<item>parejo</item>
+		<item>pareja</item>
+		<item>mediterráneo</item>
+		<item>mediterránea</item>
 		<item>examinar</item>
 		<item>sociedad</item>
-		<item>bebe, ba</item>
+		<item>bebe</item>
+		<item>beba</item>
 		<item>vial</item>
 		<item>porvenir</item>
 		<item>fascismo</item>
 		<item>bicicleta</item>
 		<item>drama</item>
-		<item>concejal, la</item>
+		<item>concejal</item>
+		<item>concejla</item>
 		<item>confesar</item>
 		<item>obra</item>
 		<item>liberación</item>
 		<item>opinar</item>
 		<item>bola</item>
 		<item>punto</item>
-		<item>entrado, da</item>
+		<item>entrado</item>
+		<item>entrada</item>
 		<item>doblar</item>
 		<item>anualmente</item>
 		<item>finar</item>
@@ -562,16 +654,21 @@
 		<item>camelar</item>
 		<item>duda</item>
 		<item>enterar</item>
-		<item>puto, ta</item>
+		<item>puto</item>
+		<item>puta</item>
 		<item>tiniebla</item>
-		<item>lógico, ca</item>
+		<item>lógico</item>
+		<item>lógica</item>
 		<item>usar</item>
 		<item>fin</item>
 		<item>sonar</item>
-		<item>nieto, ta</item>
+		<item>nieto</item>
+		<item>nieta</item>
 		<item>innovación</item>
-		<item>salvador, ra</item>
-		<item>autorizado, da</item>
+		<item>salvador</item>
+		<item>salvadra</item>
+		<item>autorizado</item>
+		<item>autorizada</item>
 		<item>reproducción</item>
 		<item>cenar</item>
 		<item>bacón</item>
@@ -598,9 +695,12 @@
 		<item>asir</item>
 		<item>conserva</item>
 		<item>titular</item>
-		<item>factor, ra</item>
-		<item>músico, ca</item>
-		<item>fundador, ra</item>
+		<item>factor</item>
+		<item>factra</item>
+		<item>músico</item>
+		<item>música</item>
+		<item>fundador</item>
+		<item>fundadra</item>
 		<item>boda</item>
 		<item>rincón</item>
 		<item>favorable</item>
@@ -610,8 +710,10 @@
 		<item>viable</item>
 		<item>justificar</item>
 		<item>degradación</item>
-		<item>súbito, ta</item>
-		<item>tercero, ra</item>
+		<item>súbito</item>
+		<item>súbita</item>
+		<item>tercero</item>
+		<item>tercera</item>
 		<item>nacional</item>
 		<item>prensa</item>
 		<item>existencia</item>
@@ -619,12 +721,14 @@
 		<item>prometer</item>
 		<item>consolar</item>
 		<item>vocal</item>
-		<item>antepasado, da</item>
+		<item>antepasado</item>
+		<item>antepasada</item>
 		<item>secar</item>
 		<item>le</item>
 		<item>editorial</item>
 		<item>cada</item>
-		<item>polémico, ca</item>
+		<item>polémico</item>
+		<item>polémica</item>
 		<item>consultar</item>
 		<item>importar</item>
 		<item>cuartar</item>
@@ -637,30 +741,37 @@
 		<item>camiseta</item>
 		<item>profesional</item>
 		<item>dirigir</item>
-		<item>productivo, va</item>
+		<item>productivo</item>
+		<item>productiva</item>
 		<item>legalidad</item>
 		<item>trampa</item>
 		<item>despacio</item>
 		<item>gris</item>
 		<item>corazón</item>
 		<item>patentar</item>
-		<item>estimado, da</item>
+		<item>estimado</item>
+		<item>estimada</item>
 		<item>como</item>
 		<item>impecable</item>
-		<item>tranquilo, la</item>
-		<item>interlocutor, ra</item>
+		<item>tranquilo</item>
+		<item>tranquila</item>
+		<item>interlocutor</item>
+		<item>interlocutra</item>
 		<item>contribuir</item>
 		<item>fuerte</item>
 		<item>desconcertar</item>
-		<item>tamaño, ña</item>
+		<item>tamaño</item>
+		<item>tamaña</item>
 		<item>cultivo</item>
-		<item>soberano, na</item>
+		<item>soberano</item>
+		<item>soberana</item>
 		<item>dieciséis</item>
 		<item>millar</item>
 		<item>retención</item>
 		<item>nivel</item>
 		<item>cabe</item>
-		<item>campesino, na</item>
+		<item>campesino</item>
+		<item>campesina</item>
 		<item>cooperación</item>
 		<item>buque</item>
 		<item>mujer</item>
@@ -672,7 +783,8 @@
 		<item>presa</item>
 		<item>humilde</item>
 		<item>mañana</item>
-		<item>individuo, dua</item>
+		<item>individuo</item>
+		<item>individua</item>
 		<item>reforzar</item>
 		<item>compás</item>
 		<item>suma</item>
@@ -684,18 +796,23 @@
 		<item>obstante</item>
 		<item>oxígeno</item>
 		<item>acá</item>
-		<item>simbólico, ca</item>
+		<item>simbólico</item>
+		<item>simbólica</item>
 		<item>crecimiento</item>
-		<item>nativo, va</item>
+		<item>nativo</item>
+		<item>nativa</item>
 		<item>arreglar</item>
-		<item>actuado, da</item>
+		<item>actuado</item>
+		<item>actuada</item>
 		<item>grupo</item>
 		<item>policial</item>
-		<item>sacerdote, tisa</item>
+		<item>sacerdote</item>
+		<item>sacertisa</item>
 		<item>ambigüedad</item>
 		<item>selección</item>
 		<item>caribe</item>
-		<item>probado, da</item>
+		<item>probado</item>
+		<item>probada</item>
 		<item>conjuntar</item>
 		<item>examen</item>
 		<item>sentada</item>
@@ -705,13 +822,17 @@
 		<item>título</item>
 		<item>centrar</item>
 		<item>registrar</item>
-		<item>palestino, na</item>
-		<item>confuso, sa</item>
+		<item>palestino</item>
+		<item>palestina</item>
+		<item>confuso</item>
+		<item>confusa</item>
 		<item>asesinar</item>
 		<item>intercambio</item>
 		<item>siete</item>
-		<item>presentado, da</item>
-		<item>procesado, da</item>
+		<item>presentado</item>
+		<item>presentada</item>
+		<item>procesado</item>
+		<item>procesada</item>
 		<item>ensayo</item>
 		<item>progresar</item>
 		<item>necesitar</item>
@@ -735,9 +856,11 @@
 		<item>anual</item>
 		<item>don</item>
 		<item>agrícola</item>
-		<item>rubio, bia</item>
+		<item>rubio</item>
+		<item>rubia</item>
 		<item>senado</item>
-		<item>designado, da</item>
+		<item>designado</item>
+		<item>designada</item>
 		<item>gozar</item>
 		<item>desagradable</item>
 		<item>implicar</item>
@@ -747,13 +870,16 @@
 		<item>búsqueda</item>
 		<item>popularidad</item>
 		<item>resulta</item>
-		<item>espontáneo, a</item>
+		<item>espontáneo</item>
+		<item>espontánea</item>
 		<item>ocasión</item>
 		<item>recientemente</item>
 		<item>mensual</item>
-		<item>candidato, ta</item>
+		<item>candidato</item>
+		<item>candidata</item>
 		<item>gustar</item>
-		<item>pintado, da</item>
+		<item>pintado</item>
+		<item>pintada</item>
 		<item>sillón</item>
 		<item>archivo</item>
 		<item>probablemente</item>
@@ -775,26 +901,33 @@
 		<item>sellar</item>
 		<item>filosofía</item>
 		<item>planta</item>
-		<item>tirado, da</item>
+		<item>tirado</item>
+		<item>tirada</item>
 		<item>primar</item>
 		<item>desplazamiento</item>
 		<item>programa</item>
 		<item>quita</item>
 		<item>laboral</item>
-		<item>zapatero, ra</item>
+		<item>zapatero</item>
+		<item>zapatera</item>
 		<item>cuestión</item>
 		<item>completar</item>
 		<item>institucional</item>
-		<item>cuñado, da</item>
+		<item>cuñado</item>
+		<item>cuñada</item>
 		<item>habitante</item>
 		<item>cadena</item>
 		<item>tránsito</item>
-		<item>abogado, da</item>
+		<item>abogado</item>
+		<item>abogada</item>
 		<item>gobernar</item>
 		<item>captar</item>
-		<item>sistemático, ca</item>
-		<item>correcto, ta</item>
-		<item>payaso, sa</item>
+		<item>sistemático</item>
+		<item>sistemática</item>
+		<item>correcto</item>
+		<item>correcta</item>
+		<item>payaso</item>
+		<item>payasa</item>
 		<item>una</item>
 		<item>virus</item>
 		<item>expansión</item>
@@ -808,23 +941,27 @@
 		<item>farmacia</item>
 		<item>agua</item>
 		<item>cifra</item>
-		<item>prisionero, ra</item>
+		<item>prisionero</item>
+		<item>prisionera</item>
 		<item>enlace</item>
 		<item>cálculo</item>
 		<item>candidatura</item>
 		<item>lenguaje</item>
 		<item>lamentable</item>
 		<item>mortal</item>
-		<item>cómodo, da</item>
+		<item>cómodo</item>
+		<item>cómoda</item>
 		<item>perejil</item>
 		<item>avisar</item>
-		<item>vuestro, tra</item>
+		<item>vuestro</item>
+		<item>vuestra</item>
 		<item>afición</item>
 		<item>carro</item>
 		<item>auditorio</item>
 		<item>urgencia</item>
 		<item>salvado</item>
-		<item>oficial, la</item>
+		<item>oficial</item>
+		<item>oficila</item>
 		<item>tos</item>
 		<item>molestar</item>
 		<item>ocurrir</item>
@@ -842,8 +979,10 @@
 		<item>tema</item>
 		<item>indudable</item>
 		<item>nervio</item>
-		<item>poeta, tisa</item>
-		<item>aniversario, ria</item>
+		<item>poeta</item>
+		<item>ptisa</item>
+		<item>aniversario</item>
+		<item>aniversaria</item>
 		<item>piedad</item>
 		<item>insuficiente</item>
 		<item>comunista</item>
@@ -852,33 +991,40 @@
 		<item>yo</item>
 		<item>cazuela</item>
 		<item>apenar</item>
-		<item>advertido, da</item>
+		<item>advertido</item>
+		<item>advertida</item>
 		<item>agostar</item>
 		<item>sino</item>
 		<item>salvia</item>
 		<item>evidentemente</item>
 		<item>musical</item>
 		<item>personalmente</item>
-		<item>tomado, da</item>
+		<item>tomado</item>
+		<item>tomada</item>
 		<item>discrepancia</item>
 		<item>impresionante</item>
 		<item>estallido</item>
-		<item>centavo, va</item>
+		<item>centavo</item>
+		<item>centava</item>
 		<item>merced</item>
 		<item>colocar</item>
 		<item>históricamente</item>
-		<item>comunicado, da</item>
+		<item>comunicado</item>
+		<item>comunicada</item>
 		<item>superficie</item>
-		<item>masculino, na</item>
+		<item>masculino</item>
+		<item>masculina</item>
 		<item>modificar</item>
 		<item>nómina</item>
-		<item>bizarro, rra</item>
+		<item>bizarro</item>
+		<item>bizarra</item>
 		<item>delito</item>
 		<item>erosión</item>
 		<item>nombrar</item>
 		<item>flora</item>
 		<item>ropa</item>
-		<item>delegado, da</item>
+		<item>delegado</item>
+		<item>delegada</item>
 		<item>daño</item>
 		<item>médico</item>
 		<item>joven</item>
@@ -893,7 +1039,8 @@
 		<item>consistencia</item>
 		<item>pago</item>
 		<item>conciencia</item>
-		<item>vacío, a</item>
+		<item>vacío</item>
+		<item>vacía</item>
 		<item>fase</item>
 		<item>moción</item>
 		<item>tocado</item>
@@ -903,7 +1050,8 @@
 		<item>bañar</item>
 		<item>exponer</item>
 		<item>plantilla</item>
-		<item>pardo, da</item>
+		<item>pardo</item>
+		<item>parda</item>
 		<item>potencia</item>
 		<item>papá</item>
 		<item>valiente</item>
@@ -915,18 +1063,22 @@
 		<item>adecuación</item>
 		<item>ese</item>
 		<item>mar</item>
-		<item>pariente, ta</item>
+		<item>pariente</item>
+		<item>parienta</item>
 		<item>incorporación</item>
-		<item>hueco, ca</item>
+		<item>hueco</item>
+		<item>hueca</item>
 		<item>creación</item>
 		<item>antecedente</item>
 		<item>océano</item>
 		<item>triste</item>
-		<item>campeón, na</item>
+		<item>campeón</item>
+		<item>campena</item>
 		<item>forzar</item>
 		<item>carbón</item>
 		<item>buen</item>
-		<item>jurídico, ca</item>
+		<item>jurídico</item>
+		<item>jurídica</item>
 		<item>transportar</item>
 		<item>energía</item>
 		<item>jaula</item>
@@ -942,15 +1094,20 @@
 		<item>proveniente</item>
 		<item>fortalecer</item>
 		<item>vestuario</item>
-		<item>concepto, ta</item>
+		<item>concepto</item>
+		<item>concepta</item>
 		<item>formato</item>
 		<item>cruz</item>
-		<item>tributario, ria</item>
-		<item>atlántico, ca</item>
+		<item>tributario</item>
+		<item>tributaria</item>
+		<item>atlántico</item>
+		<item>atlántica</item>
 		<item>respuesta</item>
 		<item>matiz</item>
-		<item>acordado, da</item>
-		<item>grueso, sa</item>
+		<item>acordado</item>
+		<item>acordada</item>
+		<item>grueso</item>
+		<item>gruesa</item>
 		<item>obstáculo</item>
 		<item>privatización</item>
 		<item>goma</item>
@@ -959,13 +1116,15 @@
 		<item>poblado</item>
 		<item>pronóstico</item>
 		<item>jaque</item>
-		<item>eterno, na</item>
+		<item>eterno</item>
+		<item>eterna</item>
 		<item>fiesta</item>
 		<item>igualmente</item>
 		<item>academia</item>
 		<item>rebeldía</item>
 		<item>jamón</item>
-		<item>explosivo, va</item>
+		<item>explosivo</item>
+		<item>explosiva</item>
 		<item>trasladar</item>
 		<item>madurez</item>
 		<item>alrededor</item>
@@ -987,9 +1146,12 @@
 		<item>pasa</item>
 		<item>cartera</item>
 		<item>oficialmente</item>
-		<item>minero, ra</item>
-		<item>sospechoso, sa</item>
-		<item>pánico, ca</item>
+		<item>minero</item>
+		<item>minera</item>
+		<item>sospechoso</item>
+		<item>sospechosa</item>
+		<item>pánico</item>
+		<item>pánica</item>
 		<item>empeñar</item>
 		<item>antena</item>
 		<item>propiamente</item>
@@ -997,31 +1159,39 @@
 		<item>parcialmente</item>
 		<item>lunes</item>
 		<item>subasta</item>
-		<item>poquito, ta</item>
+		<item>poquito</item>
+		<item>poquita</item>
 		<item>incapacidad</item>
-		<item>productor, ra</item>
+		<item>productor</item>
+		<item>productra</item>
 		<item>finalizar</item>
-		<item>reservado, da</item>
+		<item>reservado</item>
+		<item>reservada</item>
 		<item>preservar</item>
 		<item>fax</item>
-		<item>electrónico, ca</item>
+		<item>electrónico</item>
+		<item>electrónica</item>
 		<item>desnudar</item>
 		<item>despreciar</item>
 		<item>huracán</item>
-		<item>tremendo, da</item>
+		<item>tremendo</item>
+		<item>tremenda</item>
 		<item>protección</item>
 		<item>ahí</item>
-		<item>paradójico, ca</item>
+		<item>paradójico</item>
+		<item>paradójica</item>
 		<item>emergencia</item>
 		<item>horror</item>
-		<item>moderno, na</item>
+		<item>moderno</item>
+		<item>moderna</item>
 		<item>conflicto</item>
 		<item>protagonista</item>
 		<item>cámara</item>
 		<item>muerte</item>
 		<item>brillar</item>
 		<item>ámbito</item>
-		<item>depresivo, va</item>
+		<item>depresivo</item>
+		<item>depresiva</item>
 		<item>proporción</item>
 		<item>vigor</item>
 		<item>obtener</item>
@@ -1046,11 +1216,13 @@
 		<item>activamente</item>
 		<item>cara</item>
 		<item>secuencia</item>
-		<item>subido, da</item>
+		<item>subido</item>
+		<item>subida</item>
 		<item>celta</item>
 		<item>chocar</item>
 		<item>pulsar</item>
-		<item>afectado, da</item>
+		<item>afectado</item>
+		<item>afectada</item>
 		<item>regresar</item>
 		<item>través</item>
 		<item>esperar</item>
@@ -1060,11 +1232,14 @@
 		<item>digital</item>
 		<item>naturaleza</item>
 		<item>confirmación</item>
-		<item>legislativo, va</item>
+		<item>legislativo</item>
+		<item>legislativa</item>
 		<item>chorro</item>
 		<item>lapso</item>
-		<item>literario, ria</item>
-		<item>oportuno, na</item>
+		<item>literario</item>
+		<item>literaria</item>
+		<item>oportuno</item>
+		<item>oportuna</item>
 		<item>consejo</item>
 		<item>víspera</item>
 		<item>gabinete</item>
@@ -1082,12 +1257,14 @@
 		<item>alza</item>
 		<item>réplica</item>
 		<item>veinticuatro</item>
-		<item>brujo, ja</item>
+		<item>brujo</item>
+		<item>bruja</item>
 		<item>unir</item>
 		<item>exigencia</item>
 		<item>descontentar</item>
 		<item>claustro</item>
-		<item>retórico, ca</item>
+		<item>retórico</item>
+		<item>retórica</item>
 		<item>evaluar</item>
 		<item>hora</item>
 		<item>salud</item>
@@ -1096,8 +1273,10 @@
 		<item>pintura</item>
 		<item>labio</item>
 		<item>colombina</item>
-		<item>alguno, na</item>
-		<item>crónico, ca</item>
+		<item>alguno</item>
+		<item>alguna</item>
+		<item>crónico</item>
+		<item>crónica</item>
 		<item>viceversa</item>
 		<item>involucrar</item>
 		<item>depósito</item>
@@ -1111,32 +1290,38 @@
 		<item>marcar</item>
 		<item>bolsillo</item>
 		<item>concentrar</item>
-		<item>respectivo, va</item>
+		<item>respectivo</item>
+		<item>respectiva</item>
 		<item>galán</item>
 		<item>intestino</item>
 		<item>inevitable</item>
 		<item>pronto</item>
-		<item>experto, ta</item>
+		<item>experto</item>
+		<item>experta</item>
 		<item>porción</item>
 		<item>detención</item>
 		<item>invernar</item>
 		<item>rapidez</item>
-		<item>rey, reina</item>
+		<item>rey</item>
+		<item>rreina</item>
 		<item>talento</item>
 		<item>extracción</item>
 		<item>ergio</item>
-		<item>matado, da</item>
+		<item>matado</item>
+		<item>matada</item>
 		<item>gala</item>
 		<item>recurso</item>
 		<item>peligrar</item>
 		<item>majestad</item>
 		<item>lejos</item>
-		<item>definitivo, va</item>
+		<item>definitivo</item>
+		<item>definitiva</item>
 		<item>convivencia</item>
 		<item>pilotar</item>
 		<item>cabildo</item>
 		<item>reforma</item>
-		<item>empresario, ria</item>
+		<item>empresario</item>
+		<item>empresaria</item>
 		<item>levemente</item>
 		<item>efectivar</item>
 		<item>presentación</item>
@@ -1144,46 +1329,59 @@
 		<item>muslo</item>
 		<item>pastar</item>
 		<item>alimentación</item>
-		<item>prolongado, da</item>
-		<item>teórico, ca</item>
-		<item>cercanía</item>+
+		<item>prolongado</item>
+		<item>prolongada</item>
+		<item>teórico</item>
+		<item>teórica</item>
+		<item>cercanía</item>
 		<item>últimamente</item>
 		<item>volar</item>
 		<item>salvar</item>
 		<item>tenis</item>
 		<item>proximidad</item>
-		<item>sujeto, ta</item>
-		<item>cansado, da</item>
+		<item>sujeto</item>
+		<item>sujeta</item>
+		<item>cansado</item>
+		<item>cansada</item>
 		<item>santuario</item>
 		<item>restricción</item>
 		<item>vida</item>
 		<item>rara</item>
 		<item>inestabilidad</item>
-		<item>famoso, sa</item>
+		<item>famoso</item>
+		<item>famosa</item>
 		<item>pluma</item>
 		<item>empresa</item>
 		<item>conversión</item>
-		<item>viejo, ja</item>
+		<item>viejo</item>
+		<item>vieja</item>
 		<item>afirmar</item>
 		<item>posguerra</item>
 		<item>culo</item>
 		<item>gira</item>
 		<item>finca</item>
-		<item>colocado, da</item>
+		<item>colocado</item>
+		<item>colocada</item>
 		<item>cuarenta</item>
-		<item>propio, pia</item>
-		<item>conejo, ja</item>
+		<item>propio</item>
+		<item>propia</item>
+		<item>conejo</item>
+		<item>coneja</item>
 		<item>faena</item>
 		<item>pretensión</item>
-		<item>materno, na</item>
-		<item>cano, na</item>
+		<item>materno</item>
+		<item>materna</item>
+		<item>cano</item>
+		<item>cana</item>
 		<item>emitir</item>
 		<item>uvi</item>
 		<item>embarazar</item>
-		<item>trabajador, ra</item>
+		<item>trabajador</item>
+		<item>trabajadra</item>
 		<item>dieta</item>
 		<item>lata</item>
-		<item>juez, za</item>
+		<item>juez</item>
+		<item>juza</item>
 		<item>eficiencia</item>
 		<item>contestar</item>
 		<item>invasión</item>
@@ -1203,18 +1401,22 @@
 		<item>producido</item>
 		<item>inconsciente</item>
 		<item>bata</item>
-		<item>redondo, da</item>
+		<item>redondo</item>
+		<item>redonda</item>
 		<item>contaminación</item>
 		<item>respiración</item>
-		<item>pasajero, ra</item>
+		<item>pasajero</item>
+		<item>pasajera</item>
 		<item>trigo</item>
 		<item>militante</item>
 		<item>guion</item>
 		<item>apertura</item>
 		<item>medición</item>
-		<item>procurador, ra</item>
+		<item>procurador</item>
+		<item>procuradra</item>
 		<item>extensión</item>
-		<item>narrativo, va</item>
+		<item>narrativo</item>
+		<item>narrativa</item>
 		<item>presuponer</item>
 		<item>entornar</item>
 		<item>madre</item>
@@ -1225,15 +1427,18 @@
 		<item>peor</item>
 		<item>demora</item>
 		<item>eventual</item>
-		<item>cargado, da</item>
+		<item>cargado</item>
+		<item>cargada</item>
 		<item>economista</item>
 		<item>venganza</item>
 		<item>rever</item>
 		<item>caña</item>
 		<item>esclavitud</item>
-		<item>investigador, ra</item>
+		<item>investigador</item>
+		<item>investigadra</item>
 		<item>playa</item>
-		<item>efectivo, va</item>
+		<item>efectivo</item>
+		<item>efectiva</item>
 		<item>realización</item>
 		<item>abiertamente</item>
 		<item>acusación</item>
@@ -1245,7 +1450,8 @@
 		<item>informar</item>
 		<item>razonamiento</item>
 		<item>vestíbulo</item>
-		<item>lozano, na</item>
+		<item>lozano</item>
+		<item>lozana</item>
 		<item>variable</item>
 		<item>preciar</item>
 		<item>al</item>
@@ -1256,7 +1462,8 @@
 		<item>coral</item>
 		<item>comisión</item>
 		<item>agregar</item>
-		<item>certificado, da</item>
+		<item>certificado</item>
+		<item>certificada</item>
 		<item>pregunta</item>
 		<item>fabricación</item>
 		<item>gota</item>
@@ -1271,42 +1478,52 @@
 		<item>llenar</item>
 		<item>ronzal</item>
 		<item>acento</item>
-		<item>salido, da</item>
+		<item>salido</item>
+		<item>salida</item>
 		<item>inspección</item>
 		<item>argumento</item>
 		<item>esencia</item>
 		<item>local</item>
 		<item>firmeza</item>
-		<item>determinado, da</item>
+		<item>determinado</item>
+		<item>determinada</item>
 		<item>sobrar</item>
 		<item>rango</item>
 		<item>seguridad</item>
 		<item>aun</item>
 		<item>enfrentar</item>
-		<item>alejado, da</item>
+		<item>alejado</item>
+		<item>alejada</item>
 		<item>actualización</item>
 		<item>comprensión</item>
-		<item>positivo, va</item>
+		<item>positivo</item>
+		<item>positiva</item>
 		<item>misil</item>
-		<item>largo, ga</item>
+		<item>largo</item>
+		<item>larga</item>
 		<item>deja</item>
 		<item>cultura</item>
-		<item>automático, ca</item>
+		<item>automático</item>
+		<item>automática</item>
 		<item>potable</item>
 		<item>almorzar</item>
 		<item>comedia</item>
 		<item>incipiente</item>
-		<item>barroco, ca</item>
+		<item>barroco</item>
+		<item>barroca</item>
 		<item>ganancia</item>
 		<item>valoración</item>
-		<item>mayoritario, ria</item>
+		<item>mayoritario</item>
+		<item>mayoritaria</item>
 		<item>previsible</item>
-		<item>diplomático, ca</item>
+		<item>diplomático</item>
+		<item>diplomática</item>
 		<item>apetito</item>
 		<item>consorciar</item>
 		<item>pez</item>
 		<item>reflexión</item>
-		<item>viajero, ra</item>
+		<item>viajero</item>
+		<item>viajera</item>
 		<item>concentración</item>
 		<item>rencor</item>
 		<item>mérito</item>
@@ -1315,9 +1532,11 @@
 		<item>probable</item>
 		<item>aura</item>
 		<item>trama</item>
-		<item>elegido, da</item>
+		<item>elegido</item>
+		<item>elegida</item>
 		<item>resolución</item>
-		<item>cierto, ta</item>
+		<item>cierto</item>
+		<item>cierta</item>
 		<item>efectuar</item>
 		<item>recorrer</item>
 		<item>suministrar</item>
@@ -1337,27 +1556,33 @@
 		<item>vigilar</item>
 		<item>consolidar</item>
 		<item>alisar</item>
-		<item>tanto, ta</item>
+		<item>tanto</item>
+		<item>tanta</item>
 		<item>fotografía</item>
 		<item>porqué</item>
-		<item>poco, ca</item>
+		<item>poco</item>
+		<item>poca</item>
 		<item>excursión</item>
 		<item>violeta</item>
-		<item>mandatario, ria</item>
+		<item>mandatario</item>
+		<item>mandataria</item>
 		<item>repercusión</item>
 		<item>provincial</item>
 		<item>proliferación</item>
 		<item>vegetación</item>
-		<item>maestro, tra</item>
+		<item>maestro</item>
+		<item>maestra</item>
 		<item>exigir</item>
 		<item>variedad</item>
 		<item>compensación</item>
 		<item>interpretación</item>
 		<item>bastón</item>
-		<item>consejero, ra</item>
+		<item>consejero</item>
+		<item>consejera</item>
 		<item>parcial</item>
 		<item>instante</item>
-		<item>emperador, triz</item>
+		<item>emperador</item>
+		<item>empertriz</item>
 		<item>cursar</item>
 		<item>lucir</item>
 		<item>nuevamente</item>
@@ -1366,7 +1591,8 @@
 		<item>manto</item>
 		<item>asimismo</item>
 		<item>lleva</item>
-		<item>seco, ca</item>
+		<item>seco</item>
+		<item>seca</item>
 		<item>puñado</item>
 		<item>derrota</item>
 		<item>cordillera</item>
@@ -1386,8 +1612,10 @@
 		<item>viernes</item>
 		<item>acorde</item>
 		<item>espectáculo</item>
-		<item>limitado, da</item>
-		<item>pacífico, ca</item>
+		<item>limitado</item>
+		<item>limitada</item>
+		<item>pacífico</item>
+		<item>pacífica</item>
 		<item>encargar</item>
 		<item>forestal</item>
 		<item>menú</item>
@@ -1410,28 +1638,37 @@
 		<item>solamente</item>
 		<item>listar</item>
 		<item>formación</item>
-		<item>fotográfico, ca</item>
+		<item>fotográfico</item>
+		<item>fotográfica</item>
 		<item>aliar</item>
 		<item>parar</item>
-		<item>terapéutico, ca</item>
+		<item>terapéutico</item>
+		<item>terapéutica</item>
 		<item>límite</item>
-		<item>usuario, ria</item>
+		<item>usuario</item>
+		<item>usuaria</item>
 		<item>gestación</item>
 		<item>vano</item>
 		<item>abordar</item>
-		<item>autonómico, ca</item>
-		<item>orgánico, ca</item>
+		<item>autonómico</item>
+		<item>autonómica</item>
+		<item>orgánico</item>
+		<item>orgánica</item>
 		<item>transmisión</item>
 		<item>salón</item>
 		<item>reinar</item>
 		<item>advertir</item>
-		<item>niño, ña</item>
+		<item>niño</item>
+		<item>niña</item>
 		<item>hogar</item>
-		<item>incómodo, da</item>
+		<item>incómodo</item>
+		<item>incómoda</item>
 		<item>máscara</item>
 		<item>juntar</item>
-		<item>poderoso, sa</item>
-		<item>espléndido, da</item>
+		<item>poderoso</item>
+		<item>poderosa</item>
+		<item>espléndido</item>
+		<item>espléndida</item>
 		<item>adhesión</item>
 		<item>propaganda</item>
 		<item>ingreso</item>
@@ -1439,9 +1676,12 @@
 		<item>cuerpo</item>
 		<item>cruel</item>
 		<item>pendiente</item>
-		<item>romano, na</item>
-		<item>defensivo, va</item>
-		<item>orgulloso, sa</item>
+		<item>romano</item>
+		<item>romana</item>
+		<item>defensivo</item>
+		<item>defensiva</item>
+		<item>orgulloso</item>
+		<item>orgullosa</item>
 		<item>cartel</item>
 		<item>circunstancia</item>
 		<item>figura</item>
@@ -1451,7 +1691,8 @@
 		<item>distancia</item>
 		<item>agonía</item>
 		<item>liberalización</item>
-		<item>robado, da</item>
+		<item>robado</item>
+		<item>robada</item>
 		<item>ala</item>
 		<item>puerto</item>
 		<item>imprescindible</item>
@@ -1459,13 +1700,15 @@
 		<item>mono</item>
 		<item>demanda</item>
 		<item>amparar</item>
-		<item>metropolitano, na</item>
+		<item>metropolitano</item>
+		<item>metropolitana</item>
 		<item>precoz</item>
 		<item>capricho</item>
 		<item>ignorar</item>
 		<item>insistencia</item>
 		<item>yacimiento</item>
-		<item>perpetuo, tua</item>
+		<item>perpetuo</item>
+		<item>perpetua</item>
 		<item>traducir</item>
 		<item>estadio</item>
 		<item>canta</item>
@@ -1476,13 +1719,15 @@
 		<item>ceremonia</item>
 		<item>sinceramente</item>
 		<item>encima</item>
-		<item>mostrado, da</item>
+		<item>mostrado</item>
+		<item>mostrada</item>
 		<item>engreír</item>
 		<item>sesión</item>
 		<item>gobernante</item>
 		<item>predominio</item>
 		<item>principio</item>
-		<item>usado, da</item>
+		<item>usado</item>
+		<item>usada</item>
 		<item>frecuentar</item>
 		<item>electricidad</item>
 		<item>general</item>
@@ -1491,24 +1736,28 @@
 		<item>veinte</item>
 		<item>facilitar</item>
 		<item>varón</item>
-		<item>separado, da</item>
+		<item>separado</item>
+		<item>separada</item>
 		<item>promesa</item>
 		<item>dura</item>
 		<item>adiós</item>
 		<item>deuda</item>
-		<item>ordenado, da</item>
+		<item>ordenado</item>
+		<item>ordenada</item>
 		<item>regular</item>
 		<item>causar</item>
 		<item>llevar</item>
 		<item>irregular</item>
 		<item>especiar</item>
 		<item>victoria</item>
-		<item>adulto, ta</item>
+		<item>adulto</item>
+		<item>adulta</item>
 		<item>beber</item>
 		<item>preguntar</item>
 		<item>fundamentalmente</item>
 		<item>legal</item>
-		<item>sordo, da</item>
+		<item>sordo</item>
+		<item>sorda</item>
 		<item>colegio</item>
 		<item>basta</item>
 		<item>parroquia</item>
@@ -1526,16 +1775,20 @@
 		<item>adivinar</item>
 		<item>descartar</item>
 		<item>comercio</item>
-		<item>estadístico, ca</item>
+		<item>estadístico</item>
+		<item>estadística</item>
 		<item>participante</item>
 		<item>ascenso</item>
 		<item>social</item>
-		<item>asistente, ta</item>
-		<item>hispano, na</item>
+		<item>asistente</item>
+		<item>asistenta</item>
+		<item>hispano</item>
+		<item>hispana</item>
 		<item>aula</item>
 		<item>agujero</item>
 		<item>depender</item>
-		<item>pastor, ra</item>
+		<item>pastor</item>
+		<item>pastra</item>
 		<item>popular</item>
 		<item>departamento</item>
 		<item>superficial</item>
@@ -1557,24 +1810,30 @@
 		<item>cuello</item>
 		<item>reestructuración</item>
 		<item>conformidad</item>
-		<item>mostrador, ra</item>
+		<item>mostrador</item>
+		<item>mostradra</item>
 		<item>opresión</item>
-		<item>falso, sa</item>
+		<item>falso</item>
+		<item>falsa</item>
 		<item>exactitud</item>
 		<item>prevención</item>
 		<item>pantalón</item>
 		<item>escepticismo</item>
-		<item>marino, na</item>
+		<item>marino</item>
+		<item>marina</item>
 		<item>trastorno</item>
 		<item>velada</item>
 		<item>importación</item>
 		<item>capacidad</item>
 		<item>ecuador</item>
 		<item>selva</item>
-		<item>necesario, ria</item>
-		<item>ubicado, da</item>
+		<item>necesario</item>
+		<item>necesaria</item>
+		<item>ubicado</item>
+		<item>ubicada</item>
 		<item>cotización</item>
-		<item>incluso, sa</item>
+		<item>incluso</item>
+		<item>inclusa</item>
 		<item>belén</item>
 		<item>cambio</item>
 		<item>fortuna</item>
@@ -1584,26 +1843,32 @@
 		<item>expresamente</item>
 		<item>generalmente</item>
 		<item>superioridad</item>
-		<item>extraño, ña</item>
+		<item>extraño</item>
+		<item>extraña</item>
 		<item>pretender</item>
 		<item>convencer</item>
 		<item>profundidad</item>
 		<item>fraude</item>
 		<item>nutriente</item>
-		<item>numeroso, sa</item>
-		<item>extremado, da</item>
+		<item>numeroso</item>
+		<item>numerosa</item>
+		<item>extremado</item>
+		<item>extremada</item>
 		<item>comprometer</item>
 		<item>aldea</item>
 		<item>abrazar</item>
-		<item>partidario, ria</item>
+		<item>partidario</item>
+		<item>partidaria</item>
 		<item>alto</item>
 		<item>solemne</item>
 		<item>intervenir</item>
 		<item>aspirar</item>
-		<item>cuadrado, da</item>
+		<item>cuadrado</item>
+		<item>cuadrada</item>
 		<item>enteramente</item>
 		<item>proponer</item>
-		<item>operador, ra</item>
+		<item>operador</item>
+		<item>operadra</item>
 		<item>generar</item>
 		<item>video</item>
 		<item>exterior</item>
@@ -1612,7 +1877,8 @@
 		<item>extradición</item>
 		<item>circo</item>
 		<item>invertir</item>
-		<item>histórico, ca</item>
+		<item>histórico</item>
+		<item>histórica</item>
 		<item>componente</item>
 		<item>dudar</item>
 		<item>esencialmente</item>
@@ -1627,14 +1893,16 @@
 		<item>especialista</item>
 		<item>campamento</item>
 		<item>culpable</item>
-		<item>sólido, da</item>
+		<item>sólido</item>
+		<item>sólida</item>
 		<item>denominar</item>
 		<item>promediar</item>
 		<item>indicación</item>
 		<item>mito</item>
 		<item>comunidad</item>
 		<item>conducir</item>
-		<item>catedrático, ca</item>
+		<item>catedrático</item>
+		<item>catedrática</item>
 		<item>jurar</item>
 		<item>exclusivamente</item>
 		<item>risa</item>
@@ -1649,12 +1917,14 @@
 		<item>discusión</item>
 		<item>actuación</item>
 		<item>mención</item>
-		<item>americano, na</item>
+		<item>americano</item>
+		<item>americana</item>
 		<item>destacar</item>
 		<item>arenar</item>
 		<item>semejanza</item>
 		<item>subir</item>
-		<item>valioso, sa</item>
+		<item>valioso</item>
+		<item>valiosa</item>
 		<item>explicar</item>
 		<item>sexo</item>
 		<item>compartir</item>
@@ -1662,18 +1932,22 @@
 		<item>no</item>
 		<item>imagen</item>
 		<item>impresión</item>
-		<item>lanzado, da</item>
+		<item>lanzado</item>
+		<item>lanzada</item>
 		<item>inseguridad</item>
 		<item>caballo</item>
-		<item>plácido, da</item>
-		<item>partido, da</item>
+		<item>plácido</item>
+		<item>plácida</item>
+		<item>partido</item>
+		<item>partida</item>
 		<item>autorización</item>
 		<item>transparentar</item>
 		<item>tuya</item>
 		<item>veinticinco</item>
 		<item>dificultad</item>
 		<item>municipalidad</item>
-		<item>culto, ta</item>
+		<item>culto</item>
+		<item>culta</item>
 		<item>fila</item>
 		<item>lamentar</item>
 		<item>sugerir</item>
@@ -1690,7 +1964,8 @@
 		<item>celular</item>
 		<item>extremidad</item>
 		<item>crucial</item>
-		<item>televisivo, va</item>
+		<item>televisivo</item>
+		<item>televisiva</item>
 		<item>cadáver</item>
 		<item>organismo</item>
 		<item>suscribir</item>
@@ -1699,7 +1974,8 @@
 		<item>cuatro</item>
 		<item>crueldad</item>
 		<item>opción</item>
-		<item>auténtico, ca</item>
+		<item>auténtico</item>
+		<item>auténtica</item>
 		<item>finalmente</item>
 		<item>decir</item>
 		<item>granja</item>
@@ -1710,7 +1986,8 @@
 		<item>violentar</item>
 		<item>concha</item>
 		<item>después</item>
-		<item>bárbaro, ra</item>
+		<item>bárbaro</item>
+		<item>bárbara</item>
 		<item>inventar</item>
 		<item>difundir</item>
 		<item>explotación</item>
@@ -1727,24 +2004,28 @@
 		<item>ordenar</item>
 		<item>dominante</item>
 		<item>reserva</item>
-		<item>comunitario, ria</item>
+		<item>comunitario</item>
+		<item>comunitaria</item>
 		<item>cabello</item>
 		<item>centenar</item>
 		<item>urgente</item>
 		<item>torear</item>
 		<item>presentar</item>
 		<item>paisaje</item>
-		<item>organizador, ra</item>
+		<item>organizador</item>
+		<item>organizadra</item>
 		<item>misión</item>
 		<item>saneamiento</item>
 		<item>obviar</item>
 		<item>fósil</item>
 		<item>romper</item>
 		<item>ridículo</item>
-		<item>soviético, ca</item>
+		<item>soviético</item>
+		<item>soviética</item>
 		<item>fortalecimiento</item>
 		<item>compromiso</item>
-		<item>logrado, da</item>
+		<item>logrado</item>
+		<item>lograda</item>
 		<item>manejar</item>
 		<item>seno</item>
 		<item>normalmente</item>
@@ -1752,14 +2033,17 @@
 		<item>llena</item>
 		<item>formalmente</item>
 		<item>admitir</item>
-		<item>maravilloso, sa</item>
+		<item>maravilloso</item>
+		<item>maravillosa</item>
 		<item>singular</item>
 		<item>pausa</item>
 		<item>domingo</item>
-		<item>elevado, da</item>
+		<item>elevado</item>
+		<item>elevada</item>
 		<item>brillante</item>
 		<item>guante</item>
-		<item>dejado, da</item>
+		<item>dejado</item>
+		<item>dejada</item>
 		<item>aluminio</item>
 		<item>confirmar</item>
 		<item>fragmento</item>
@@ -1774,10 +2058,12 @@
 		<item>borrar</item>
 		<item>orgullo</item>
 		<item>escalera</item>
-		<item>conde, desa</item>
+		<item>conde</item>
+		<item>cdesa</item>
 		<item>taller</item>
 		<item>te</item>
-		<item>quirúrgico, ca</item>
+		<item>quirúrgico</item>
+		<item>quirúrgica</item>
 		<item>crear</item>
 		<item>visita</item>
 		<item>implacable</item>
@@ -1795,34 +2081,40 @@
 		<item>industria</item>
 		<item>solar</item>
 		<item>átomo</item>
-		<item>bienvenido, da</item>
+		<item>bienvenido</item>
+		<item>bienvenida</item>
 		<item>término</item>
 		<item>chinar</item>
 		<item>banda</item>
 		<item>quedar</item>
 		<item>ruido</item>
 		<item>disco</item>
-		<item>caro, ra</item>
+		<item>caro</item>
+		<item>cara</item>
 		<item>noticia</item>
 		<item>abuso</item>
 		<item>costo</item>
 		<item>partir</item>
-		<item>fresco, ca</item>
+		<item>fresco</item>
+		<item>fresca</item>
 		<item>complicación</item>
 		<item>aeropuerto</item>
 		<item>patrocinio</item>
-		<item>serio, ria</item>
+		<item>serio</item>
+		<item>seria</item>
 		<item>separación</item>
 		<item>comprar</item>
 		<item>probabilidad</item>
 		<item>éxito</item>
 		<item>fuego</item>
 		<item>asilar</item>
-		<item>aliado, da</item>
+		<item>aliado</item>
+		<item>aliada</item>
 		<item>saludar</item>
 		<item>disciplina</item>
 		<item>dictadura</item>
-		<item>graso, sa</item>
+		<item>graso</item>
+		<item>grasa</item>
 		<item>ida</item>
 		<item>carecer</item>
 		<item>asesinato</item>
@@ -1835,10 +2127,12 @@
 		<item>jefatura</item>
 		<item>infancia</item>
 		<item>colonial</item>
-		<item>aislado, da</item>
+		<item>aislado</item>
+		<item>aislada</item>
 		<item>demostrar</item>
 		<item>enfrentamiento</item>
-		<item>crespo, pa</item>
+		<item>crespo</item>
+		<item>crespa</item>
 		<item>gama</item>
 		<item>instrumental</item>
 		<item>occidente</item>
@@ -1849,7 +2143,8 @@
 		<item>vender</item>
 		<item>fatiga</item>
 		<item>puramente</item>
-		<item>operativo, va</item>
+		<item>operativo</item>
+		<item>operativa</item>
 		<item>cuchillo</item>
 		<item>tratar</item>
 		<item>pobreza</item>
@@ -1858,9 +2153,12 @@
 		<item>interrogante</item>
 		<item>seguir</item>
 		<item>proporcionar</item>
-		<item>preparativo, va</item>
-		<item>agresivo, va</item>
-		<item>propietario, ria</item>
+		<item>preparativo</item>
+		<item>preparativa</item>
+		<item>agresivo</item>
+		<item>agresiva</item>
+		<item>propietario</item>
+		<item>propietaria</item>
 		<item>funda</item>
 		<item>arroz</item>
 		<item>campo</item>
@@ -1873,45 +2171,59 @@
 		<item>estatus</item>
 		<item>suicida</item>
 		<item>diferenciación</item>
-		<item>duro, ra</item>
+		<item>duro</item>
+		<item>dura</item>
 		<item>públicamente</item>
 		<item>semejante</item>
-		<item>funcionario, ria</item>
+		<item>funcionario</item>
+		<item>funcionaria</item>
 		<item>obligatorio</item>
-		<item>disminuido, da</item>
-		<item>desesperado, da</item>
-		<item>franco, ca</item>
+		<item>disminuido</item>
+		<item>disminuida</item>
+		<item>desesperado</item>
+		<item>desesperada</item>
+		<item>franco</item>
+		<item>franca</item>
 		<item>quebrar</item>
 		<item>ir</item>
 		<item>respetar</item>
 		<item>ocupar</item>
 		<item>elección</item>
 		<item>foro</item>
-		<item>redactor, ra</item>
+		<item>redactor</item>
+		<item>redactra</item>
 		<item>aumento</item>
-		<item>académico, ca</item>
+		<item>académico</item>
+		<item>académica</item>
 		<item>orquesta</item>
 		<item>basada</item>
 		<item>nuca</item>
-		<item>decisivo, va</item>
+		<item>decisivo</item>
+		<item>decisiva</item>
 		<item>hallar</item>
-		<item>solitario, ria</item>
+		<item>solitario</item>
+		<item>solitaria</item>
 		<item>aconsejable</item>
 		<item>evitar</item>
 		<item>gremio</item>
-		<item>liberado, da</item>
+		<item>liberado</item>
+		<item>liberada</item>
 		<item>solana</item>
 		<item>hablar</item>
 		<item>cancha</item>
 		<item>trozo</item>
 		<item>entusiasmar</item>
-		<item>hondo, da</item>
-		<item>deportivo, va</item>
+		<item>hondo</item>
+		<item>honda</item>
+		<item>deportivo</item>
+		<item>deportiva</item>
 		<item>alerta</item>
 		<item>escorial</item>
 		<item>demócrata</item>
-		<item>escritor, ra</item>
-		<item>seguro, ra</item>
+		<item>escritor</item>
+		<item>escritra</item>
+		<item>seguro</item>
+		<item>segura</item>
 		<item>estrato</item>
 		<item>arrancar</item>
 		<item>guayaquil</item>
@@ -1934,12 +2246,14 @@
 		<item>municipal</item>
 		<item>dirección</item>
 		<item>abundancia</item>
-		<item>magnífico, ca</item>
+		<item>magnífico</item>
+		<item>magnífica</item>
 		<item>prosa</item>
 		<item>feriar</item>
 		<item>amargar</item>
 		<item>plana</item>
-		<item>portero, ra</item>
+		<item>portero</item>
+		<item>portera</item>
 		<item>veneno</item>
 		<item>café</item>
 		<item>ceder</item>
@@ -1952,28 +2266,37 @@
 		<item>opinión</item>
 		<item>imposición</item>
 		<item>enero</item>
-		<item>minuto, ta</item>
-		<item>diagnóstico, ca</item>
+		<item>minuto</item>
+		<item>minuta</item>
+		<item>diagnóstico</item>
+		<item>diagnóstica</item>
 		<item>frenar</item>
 		<item>suceso</item>
-		<item>ido, da</item>
+		<item>ido</item>
+		<item>ida</item>
 		<item>padre</item>
 		<item>vejez</item>
 		<item>ecuación</item>
 		<item>seña</item>
-		<item>heredero, ra</item>
+		<item>heredero</item>
+		<item>heredera</item>
 		<item>sustancialmente</item>
-		<item>derrotado, da</item>
+		<item>derrotado</item>
+		<item>derrotada</item>
 		<item>continente</item>
 		<item>influir</item>
-		<item>derecho, cha</item>
+		<item>derecho</item>
+		<item>derecha</item>
 		<item>llegar</item>
 		<item>internar</item>
 		<item>manzana</item>
 		<item>corto</item>
-		<item>presunto, ta</item>
-		<item>jugado, da</item>
-		<item>puro, ra</item>
+		<item>presunto</item>
+		<item>presunta</item>
+		<item>jugado</item>
+		<item>jugada</item>
+		<item>puro</item>
+		<item>pura</item>
 		<item>naranja</item>
 		<item>trascendencia</item>
 		<item>fundación</item>
@@ -1982,7 +2305,8 @@
 		<item>enorme</item>
 		<item>allí</item>
 		<item>grabado</item>
-		<item>complementario, ria</item>
+		<item>complementario</item>
+		<item>complementaria</item>
 		<item>olvidar</item>
 		<item>maldecir</item>
 		<item>regalar</item>
@@ -1991,9 +2315,11 @@
 		<item>aviación</item>
 		<item>sospecha</item>
 		<item>excepción</item>
-		<item>ofensivo, va</item>
+		<item>ofensivo</item>
+		<item>ofensiva</item>
 		<item>regulación</item>
-		<item>voluntario, ria</item>
+		<item>voluntario</item>
+		<item>voluntaria</item>
 		<item>clarín</item>
 		<item>múltiple</item>
 		<item>ambiental</item>
@@ -2003,24 +2329,29 @@
 		<item>pabellón</item>
 		<item>preferible</item>
 		<item>estudiantil</item>
-		<item>descubierto, ta</item>
+		<item>descubierto</item>
+		<item>descubierta</item>
 		<item>paciente</item>
 		<item>quehacer</item>
-		<item>encargado, da</item>
+		<item>encargado</item>
+		<item>encargada</item>
 		<item>repertorio</item>
 		<item>sustitución</item>
 		<item>afilar</item>
 		<item>país</item>
 		<item>núcleo</item>
 		<item>despertar</item>
-		<item>asesino, na</item>
+		<item>asesino</item>
+		<item>asesina</item>
 		<item>mejilla</item>
 		<item>círculo</item>
 		<item>constantemente</item>
 		<item>móvil</item>
-		<item>aquel, lla</item>
+		<item>aquel</item>
+		<item>aqlla</item>
 		<item>denunciar</item>
-		<item>editor, ra</item>
+		<item>editor</item>
+		<item>editra</item>
 		<item>capa</item>
 		<item>celo</item>
 		<item>régimen</item>
@@ -2039,8 +2370,10 @@
 		<item>legitimidad</item>
 		<item>temor</item>
 		<item>competente</item>
-		<item>emisor, ra</item>
-		<item>moderado, da</item>
+		<item>emisor</item>
+		<item>emisra</item>
+		<item>moderado</item>
+		<item>moderada</item>
 		<item>moneda</item>
 		<item>fachada</item>
 		<item>desprender</item>
@@ -2053,47 +2386,61 @@
 		<item>siempre</item>
 		<item>sala</item>
 		<item>detallar</item>
-		<item>cliente, ta</item>
+		<item>cliente</item>
+		<item>clienta</item>
 		<item>expectativa</item>
-		<item>inspirado, da</item>
-		<item>gobernador, ra</item>
+		<item>inspirado</item>
+		<item>inspirada</item>
+		<item>gobernador</item>
+		<item>gobernadra</item>
 		<item>preferir</item>
 		<item>mudar</item>
 		<item>deportar</item>
 		<item>dibujo</item>
 		<item>demostración</item>
-		<item>nuboso, sa</item>
-		<item>llegado, da</item>
-		<item>modesto, ta</item>
-		<item>sentido, da</item>
+		<item>nuboso</item>
+		<item>nubosa</item>
+		<item>llegado</item>
+		<item>llegada</item>
+		<item>modesto</item>
+		<item>modesta</item>
+		<item>sentido</item>
+		<item>sentida</item>
 		<item>inversión</item>
-		<item>sagrado, da</item>
+		<item>sagrado</item>
+		<item>sagrada</item>
 		<item>constatar</item>
 		<item>curiosamente</item>
 		<item>destruir</item>
 		<item>alcaldía</item>
-		<item>creativo, va</item>
+		<item>creativo</item>
+		<item>creativa</item>
 		<item>impotencia</item>
 		<item>recordar</item>
 		<item>inyección</item>
 		<item>destrucción</item>
-		<item>armado, da</item>
+		<item>armado</item>
+		<item>armada</item>
 		<item>despedida</item>
 		<item>alguien</item>
 		<item>kilo</item>
 		<item>monopolio</item>
-		<item>secundario, ria</item>
+		<item>secundario</item>
+		<item>secundaria</item>
 		<item>caber</item>
 		<item>relevar</item>
-		<item>ciudadano, na</item>
+		<item>ciudadano</item>
+		<item>ciudadana</item>
 		<item>tragar</item>
-		<item>preciso, sa</item>
+		<item>preciso</item>
+		<item>precisa</item>
 		<item>biología</item>
 		<item>inquietar</item>
 		<item>lema</item>
 		<item>campana</item>
 		<item>fruto</item>
-		<item>servidor, ra</item>
+		<item>servidor</item>
+		<item>servidra</item>
 		<item>exportación</item>
 		<item>octubre</item>
 		<item>rotación</item>
@@ -2113,15 +2460,18 @@
 		<item>profesión</item>
 		<item>complementar</item>
 		<item>charlar</item>
-		<item>básico, ca</item>
+		<item>básico</item>
+		<item>básica</item>
 		<item>corresponder</item>
-		<item>capitán, na</item>
+		<item>capitán</item>
+		<item>capitna</item>
 		<item>crea</item>
 		<item>excepto</item>
 		<item>espesar</item>
 		<item>lima</item>
 		<item>efectividad</item>
-		<item>siniestro, tra</item>
+		<item>siniestro</item>
+		<item>siniestra</item>
 		<item>aquí</item>
 		<item>comandante</item>
 		<item>diálogo</item>
@@ -2141,7 +2491,8 @@
 		<item>impulsar</item>
 		<item>episcopal</item>
 		<item>diabetes</item>
-		<item>árbitro, tra</item>
+		<item>árbitro</item>
+		<item>árbitra</item>
 		<item>recuerdo</item>
 		<item>os</item>
 		<item>preocupación</item>
@@ -2168,15 +2519,18 @@
 		<item>soldar</item>
 		<item>lesión</item>
 		<item>testigo</item>
-		<item>bueno, na</item>
+		<item>bueno</item>
+		<item>buena</item>
 		<item>balón</item>
-		<item>externo, na</item>
+		<item>externo</item>
+		<item>externa</item>
 		<item>regalo</item>
 		<item>cúpula</item>
 		<item>lámina</item>
 		<item>sensibilidad</item>
 		<item>supresión</item>
-		<item>esclavo, va</item>
+		<item>esclavo</item>
+		<item>esclava</item>
 		<item>imperio</item>
 		<item>morena</item>
 		<item>grado</item>
@@ -2196,7 +2550,8 @@
 		<item>estrenar</item>
 		<item>artificial</item>
 		<item>asegurar</item>
-		<item>apartado, da</item>
+		<item>apartado</item>
+		<item>apartada</item>
 		<item>pasión</item>
 		<item>saludable</item>
 		<item>reunión</item>
@@ -2214,14 +2569,19 @@
 		<item>dato</item>
 		<item>relacionar</item>
 		<item>confrontación</item>
-		<item>inversor, ra</item>
-		<item>cantábrico, ca</item>
+		<item>inversor</item>
+		<item>inversra</item>
+		<item>cantábrico</item>
+		<item>cantábrica</item>
 		<item>manera</item>
 		<item>rosa</item>
-		<item>adversario, ria</item>
+		<item>adversario</item>
+		<item>adversaria</item>
 		<item>hacia</item>
-		<item>contrario, ria</item>
-		<item>sobrino, na</item>
+		<item>contrario</item>
+		<item>contraria</item>
+		<item>sobrino</item>
+		<item>sobrina</item>
 		<item>ejemplar</item>
 		<item>impaciencia</item>
 		<item>adonde</item>
@@ -2238,26 +2598,35 @@
 		<item>mover</item>
 		<item>solidaridad</item>
 		<item>batería</item>
-		<item>tecnológico, ca</item>
+		<item>tecnológico</item>
+		<item>tecnológica</item>
 		<item>emprender</item>
-		<item>compañero, ra</item>
+		<item>compañero</item>
+		<item>compañera</item>
 		<item>implicación</item>
-		<item>herido, da</item>
+		<item>herido</item>
+		<item>herida</item>
 		<item>girar</item>
-		<item>cerdo, da</item>
+		<item>cerdo</item>
+		<item>cerda</item>
 		<item>mozo</item>
 		<item>estudiar</item>
-		<item>bombero, ra</item>
+		<item>bombero</item>
+		<item>bombera</item>
 		<item>limitación</item>
-		<item>idéntico, ca</item>
+		<item>idéntico</item>
+		<item>idéntica</item>
 		<item>coalición</item>
 		<item>bruscamente</item>
 		<item>económicamente</item>
 		<item>temporal</item>
-		<item>vencedor, ra</item>
+		<item>vencedor</item>
+		<item>vencedra</item>
 		<item>junta</item>
-		<item>fluido, da</item>
-		<item>estratégico, ca</item>
+		<item>fluido</item>
+		<item>fluida</item>
+		<item>estratégico</item>
+		<item>estratégica</item>
 		<item>vestir</item>
 		<item>catorce</item>
 		<item>querella</item>
@@ -2274,37 +2643,45 @@
 		<item>escribir</item>
 		<item>trastornar</item>
 		<item>racionalidad</item>
-		<item>diario, ria</item>
+		<item>diario</item>
+		<item>diaria</item>
 		<item>nutrición</item>
-		<item>eliminatorio, ria</item>
+		<item>eliminatorio</item>
+		<item>eliminatoria</item>
 		<item>rayo</item>
 		<item>hondura</item>
-		<item>sucio, cia</item>
+		<item>sucio</item>
+		<item>sucia</item>
 		<item>camión</item>
 		<item>mutua</item>
 		<item>inútil</item>
 		<item>cuadrar</item>
 		<item>contribuyente</item>
 		<item>autopista</item>
-		<item>entrenador, ra</item>
+		<item>entrenador</item>
+		<item>entrenadra</item>
 		<item>sutil</item>
 		<item>estrella</item>
 		<item>club</item>
 		<item>fondo</item>
 		<item>capítulo</item>
-		<item>universo, sa</item>
+		<item>universo</item>
+		<item>universa</item>
 		<item>visitante</item>
 		<item>división</item>
 		<item>unión</item>
 		<item>convertir</item>
 		<item>mantenimiento</item>
 		<item>ginebra</item>
-		<item>significativo, va</item>
+		<item>significativo</item>
+		<item>significativa</item>
 		<item>vital</item>
-		<item>autónomo, ma</item>
+		<item>autónomo</item>
+		<item>autónoma</item>
 		<item>vínculo</item>
 		<item>intervalo</item>
-		<item>estricto, ta</item>
+		<item>estricto</item>
+		<item>estricta</item>
 		<item>estimulación</item>
 		<item>teoría</item>
 		<item>barrera</item>
@@ -2317,20 +2694,26 @@
 		<item>corporal</item>
 		<item>piel</item>
 		<item>oficiar</item>
-		<item>realizador, ra</item>
+		<item>realizador</item>
+		<item>realizadra</item>
 		<item>innumerable</item>
 		<item>disgustar</item>
-		<item>patrón, na</item>
-		<item>serrano, na</item>
+		<item>patrón</item>
+		<item>patrna</item>
+		<item>serrano</item>
+		<item>serrana</item>
 		<item>contrato</item>
-		<item>presidente, ta</item>
+		<item>presidente</item>
+		<item>presidenta</item>
 		<item>nave</item>
 		<item>expresión</item>
 		<item>superación</item>
 		<item>montón</item>
 		<item>concepción</item>
-		<item>democrático, ca</item>
-		<item>acabado, da</item>
+		<item>democrático</item>
+		<item>democrática</item>
+		<item>acabado</item>
+		<item>acabada</item>
 		<item>menos</item>
 		<item>castigar</item>
 		<item>habitación</item>
@@ -2339,7 +2722,8 @@
 		<item>gasolina</item>
 		<item>barba</item>
 		<item>usted</item>
-		<item>anciano, na</item>
+		<item>anciano</item>
+		<item>anciana</item>
 		<item>afectar</item>
 		<item>detectar</item>
 		<item>apoyar</item>
@@ -2363,16 +2747,21 @@
 		<item>esquina</item>
 		<item>poblar</item>
 		<item>anexar</item>
-		<item>mediano, na</item>
+		<item>mediano</item>
+		<item>mediana</item>
 		<item>persecución</item>
 		<item>irregularidad</item>
 		<item>ante</item>
-		<item>dependiente, ta</item>
-		<item>bajo, ja</item>
-		<item>mío, a</item>
+		<item>dependiente</item>
+		<item>dependienta</item>
+		<item>bajo</item>
+		<item>baja</item>
+		<item>mío</item>
+		<item>mía</item>
 		<item>administrar</item>
 		<item>ilusión</item>
-		<item>perfecto, ta</item>
+		<item>perfecto</item>
+		<item>perfecta</item>
 		<item>metodología</item>
 		<item>carnaval</item>
 		<item>sufrir</item>
@@ -2382,12 +2771,15 @@
 		<item>ex</item>
 		<item>insulto</item>
 		<item>mama</item>
-		<item>variado, da</item>
+		<item>variado</item>
+		<item>variada</item>
 		<item>replicar</item>
 		<item>comedir</item>
-		<item>masivo, va</item>
+		<item>masivo</item>
+		<item>masiva</item>
 		<item>pañuelo</item>
-		<item>conductor, ra</item>
+		<item>conductor</item>
+		<item>conductra</item>
 		<item>biografía</item>
 		<item>cruza</item>
 		<item>diferencia</item>
@@ -2401,12 +2793,14 @@
 		<item>raer</item>
 		<item>definir</item>
 		<item>pesadilla</item>
-		<item>cortado, da</item>
+		<item>cortado</item>
+		<item>cortada</item>
 		<item>encontrar</item>
 		<item>emplear</item>
 		<item>comerciante</item>
 		<item>terrible</item>
-		<item>sonoro, ra</item>
+		<item>sonoro</item>
+		<item>sonora</item>
 		<item>advertencia</item>
 		<item>carta</item>
 		<item>inversionista</item>
@@ -2423,46 +2817,55 @@
 		<item>relatar</item>
 		<item>equipamiento</item>
 		<item>inconveniente</item>
-		<item>colín, na</item>
+		<item>colín</item>
+		<item>colna</item>
 		<item>proceso</item>
 		<item>tortura</item>
 		<item>estallar</item>
 		<item>estatua</item>
-		<item>riguroso, sa</item>
+		<item>riguroso</item>
+		<item>rigurosa</item>
 		<item>vez</item>
 		<item>lucidez</item>
 		<item>resistencia</item>
 		<item>influencia</item>
-		<item>guerrillero, ra</item>
+		<item>guerrillero</item>
+		<item>guerrillera</item>
 		<item>medicina</item>
 		<item>teología</item>
 		<item>sacar</item>
 		<item>actividad</item>
 		<item>mes</item>
-		<item>negativo, va</item>
+		<item>negativo</item>
+		<item>negativa</item>
 		<item>francamente</item>
 		<item>adicional</item>
 		<item>envolver</item>
-		<item>comedor, ra</item>
+		<item>comedor</item>
+		<item>comedra</item>
 		<item>convento</item>
 		<item>inmóvil</item>
 		<item>heraldo</item>
 		<item>ensalada</item>
-		<item>español, la</item>
+		<item>español</item>
+		<item>españla</item>
 		<item>ausentar</item>
 		<item>posteriormente</item>
 		<item>enfermería</item>
 		<item>analista</item>
 		<item>contrabando</item>
-		<item>ocurrido, da</item>
+		<item>ocurrido</item>
+		<item>ocurrida</item>
 		<item>simplemente</item>
 		<item>entendimiento</item>
 		<item>burguesía</item>
 		<item>orar</item>
-		<item>directo, ta</item>
+		<item>directo</item>
+		<item>directa</item>
 		<item>obsesión</item>
 		<item>firma</item>
-		<item>primitivo, va</item>
+		<item>primitivo</item>
+		<item>primitiva</item>
 		<item>destinar</item>
 		<item>suficientemente</item>
 		<item>humanidad</item>
@@ -2470,8 +2873,10 @@
 		<item>telefonía</item>
 		<item>portal</item>
 		<item>situación</item>
-		<item>veterano, na</item>
-		<item>atlético, ca</item>
+		<item>veterano</item>
+		<item>veterana</item>
+		<item>atlético</item>
+		<item>atlética</item>
 		<item>designación</item>
 		<item>íntimamente</item>
 		<item>tesoro</item>
@@ -2495,7 +2900,8 @@
 		<item>jugada</item>
 		<item>ron</item>
 		<item>esconder</item>
-		<item>desierto, ta</item>
+		<item>desierto</item>
+		<item>desierta</item>
 		<item>aventura</item>
 		<item>ordenamiento</item>
 		<item>sin</item>
@@ -2509,9 +2915,11 @@
 		<item>marchar</item>
 		<item>asunto</item>
 		<item>cabeza</item>
-		<item>ambos, bas</item>
+		<item>ambos</item>
+		<item>ambas</item>
 		<item>marea</item>
-		<item>condenado, da</item>
+		<item>condenado</item>
+		<item>condenada</item>
 		<item>un</item>
 		<item>aproximación</item>
 		<item>desempeñar</item>
@@ -2521,7 +2929,8 @@
 		<item>divinar</item>
 		<item>realmente</item>
 		<item>captura</item>
-		<item>cerrado, da</item>
+		<item>cerrado</item>
+		<item>cerrada</item>
 		<item>enseña</item>
 		<item>glucosa</item>
 		<item>anterior</item>
@@ -2546,7 +2955,8 @@
 		<item>paso</item>
 		<item>espacial</item>
 		<item>afán</item>
-		<item>creador, ra</item>
+		<item>creador</item>
+		<item>creadra</item>
 		<item>adoptar</item>
 		<item>integrado</item>
 		<item>violín</item>
@@ -2554,9 +2964,11 @@
 		<item>estimación</item>
 		<item>cerro</item>
 		<item>cosecha</item>
-		<item>periodístico, ca</item>
+		<item>periodístico</item>
+		<item>periodística</item>
 		<item>lámpara</item>
-		<item>nuevo, va</item>
+		<item>nuevo</item>
+		<item>nueva</item>
 		<item>tía</item>
 		<item>valentía</item>
 		<item>pagar</item>
@@ -2564,14 +2976,18 @@
 		<item>prioridad</item>
 		<item>fumar</item>
 		<item>confianza</item>
-		<item>fracasado, da</item>
-		<item>marcado, da</item>
-		<item>espinoso, sa</item>
+		<item>fracasado</item>
+		<item>fracasada</item>
+		<item>marcado</item>
+		<item>marcada</item>
+		<item>espinoso</item>
+		<item>espinosa</item>
 		<item>alma</item>
 		<item>ahorro</item>
 		<item>llamada</item>
 		<item>sector</item>
-		<item>pesado, da</item>
+		<item>pesado</item>
+		<item>pesada</item>
 		<item>maíz</item>
 		<item>bachillerato</item>
 		<item>ascensor</item>
@@ -2587,25 +3003,32 @@
 		<item>escenario</item>
 		<item>lobo</item>
 		<item>conspiración</item>
-		<item>tierno, na</item>
+		<item>tierno</item>
+		<item>tierna</item>
 		<item>testimonio</item>
 		<item>atraer</item>
 		<item>instrumento</item>
-		<item>acostumbrado, da</item>
+		<item>acostumbrado</item>
+		<item>acostumbrada</item>
 		<item>pecado</item>
 		<item>respectivamente</item>
 		<item>morir</item>
 		<item>vientre</item>
-		<item>mixto, ta</item>
+		<item>mixto</item>
+		<item>mixta</item>
 		<item>etcétera</item>
 		<item>adolescencia</item>
-		<item>plano, na</item>
+		<item>plano</item>
+		<item>plana</item>
 		<item>diligencia</item>
 		<item>absorción</item>
-		<item>sinfónico, ca</item>
+		<item>sinfónico</item>
+		<item>sinfónica</item>
 		<item>oficina</item>
-		<item>novio, via</item>
-		<item>motor, ra</item>
+		<item>novio</item>
+		<item>novia</item>
+		<item>motor</item>
+		<item>motra</item>
 		<item>notar</item>
 		<item>esposar</item>
 		<item>tierra</item>
@@ -2613,13 +3036,16 @@
 		<item>motivación</item>
 		<item>ambientar</item>
 		<item>hormona</item>
-		<item>benjamín, na</item>
+		<item>benjamín</item>
+		<item>benjamna</item>
 		<item>vocación</item>
-		<item>ninguno, na</item>
+		<item>ninguno</item>
+		<item>ninguna</item>
 		<item>ave</item>
 		<item>chocolate</item>
 		<item>conexión</item>
-		<item>senador, ra</item>
+		<item>senador</item>
+		<item>senadra</item>
 		<item>objeto</item>
 		<item>obligación</item>
 		<item>sanidad</item>
@@ -2639,37 +3065,48 @@
 		<item>conceptual</item>
 		<item>aludir</item>
 		<item>manda</item>
-		<item>otro, tra</item>
+		<item>otro</item>
+		<item>otra</item>
 		<item>flexible</item>
 		<item>eje</item>
 		<item>atrever</item>
-		<item>profundo, da</item>
+		<item>profundo</item>
+		<item>profunda</item>
 		<item>cocer</item>
 		<item>cualidad</item>
-		<item>dispositivo, va</item>
+		<item>dispositivo</item>
+		<item>dispositiva</item>
 		<item>acoger</item>
-		<item>agudo, da</item>
-		<item>metálico, ca</item>
+		<item>agudo</item>
+		<item>aguda</item>
+		<item>metálico</item>
+		<item>metálica</item>
 		<item>equipo</item>
 		<item>patria</item>
 		<item>indio</item>
 		<item>prosperidad</item>
 		<item>nación</item>
 		<item>laguna</item>
-		<item>característico, ca</item>
-		<item>informático, ca</item>
+		<item>característico</item>
+		<item>característica</item>
+		<item>informático</item>
+		<item>informática</item>
 		<item>noción</item>
 		<item>síntoma</item>
 		<item>arquitectura</item>
-		<item>colaborador, ra</item>
-		<item>periódico, ca</item>
+		<item>colaborador</item>
+		<item>colaboradra</item>
+		<item>periódico</item>
+		<item>periódica</item>
 		<item>navegación</item>
-		<item>continuo, nua</item>
+		<item>continuo</item>
+		<item>continua</item>
 		<item>rehabilitación</item>
 		<item>psiquiatra</item>
 		<item>norte</item>
 		<item>cuaderno</item>
-		<item>atractivo, va</item>
+		<item>atractivo</item>
+		<item>atractiva</item>
 		<item>costumbrar</item>
 		<item>encender</item>
 		<item>combustible</item>
@@ -2678,7 +3115,8 @@
 		<item>treinta</item>
 		<item>nomás</item>
 		<item>mayoría</item>
-		<item>vendedor, ra</item>
+		<item>vendedor</item>
+		<item>vendedra</item>
 		<item>reír</item>
 		<item>cordón</item>
 		<item>montar</item>
@@ -2688,8 +3126,10 @@
 		<item>explosión</item>
 		<item>chimenea</item>
 		<item>fútbol</item>
-		<item>práctico, ca</item>
-		<item>vivo, va</item>
+		<item>práctico</item>
+		<item>práctica</item>
+		<item>vivo</item>
+		<item>viva</item>
 		<item>cobertura</item>
 		<item>concreto</item>
 		<item>participar</item>
@@ -2702,10 +3142,12 @@
 		<item>comparecencia</item>
 		<item>motivar</item>
 		<item>zona</item>
-		<item>eléctrico, ca</item>
+		<item>eléctrico</item>
+		<item>eléctrica</item>
 		<item>trato</item>
 		<item>tacto</item>
-		<item>jurado, da</item>
+		<item>jurado</item>
+		<item>jurada</item>
 		<item>falsedad</item>
 		<item>joya</item>
 		<item>ampliar</item>
@@ -2729,19 +3171,24 @@
 		<item>almirante</item>
 		<item>despedir</item>
 		<item>pilar</item>
-		<item>plástico, ca</item>
-		<item>rápido, da</item>
-		<item>extraordinario, ria</item>
+		<item>plástico</item>
+		<item>plástica</item>
+		<item>rápido</item>
+		<item>rápida</item>
+		<item>extraordinario</item>
+		<item>extraordinaria</item>
 		<item>oeste</item>
 		<item>asistir</item>
 		<item>portavoz</item>
 		<item>balcón</item>
 		<item>contribución</item>
 		<item>civil</item>
-		<item>claro, ra</item>
+		<item>claro</item>
+		<item>clara</item>
 		<item>manifestar</item>
 		<item>parada</item>
-		<item>concentrado, da</item>
+		<item>concentrado</item>
+		<item>concentrada</item>
 		<item>atacar</item>
 		<item>ingesta</item>
 		<item>rendir</item>
@@ -2749,8 +3196,10 @@
 		<item>operación</item>
 		<item>únicamente</item>
 		<item>disparo</item>
-		<item>consumidor, ra</item>
-		<item>injusto, ta</item>
+		<item>consumidor</item>
+		<item>consumidra</item>
+		<item>injusto</item>
+		<item>injusta</item>
 		<item>leer</item>
 		<item>calidad</item>
 		<item>prolongación</item>
@@ -2758,7 +3207,8 @@
 		<item>monarca</item>
 		<item>intelectual</item>
 		<item>mafia</item>
-		<item>ligero, ra</item>
+		<item>ligero</item>
+		<item>ligera</item>
 		<item>igual</item>
 		<item>símbolo</item>
 		<item>movilización</item>
@@ -2776,9 +3226,12 @@
 		<item>pena</item>
 		<item>orina</item>
 		<item>hilar</item>
-		<item>frío, a</item>
-		<item>considerado, da</item>
-		<item>abandonado, da</item>
+		<item>frío</item>
+		<item>fría</item>
+		<item>considerado</item>
+		<item>considerada</item>
+		<item>abandonado</item>
+		<item>abandonada</item>
 		<item>año</item>
 		<item>brindar</item>
 		<item>margarita</item>
@@ -2793,7 +3246,8 @@
 		<item>desastre</item>
 		<item>impulso</item>
 		<item>aceptación</item>
-		<item>monetario, ria</item>
+		<item>monetario</item>
+		<item>monetaria</item>
 		<item>inercia</item>
 		<item>grabación</item>
 		<item>sucesión</item>
@@ -2807,14 +3261,19 @@
 		<item>anécdota</item>
 		<item>necesariamente</item>
 		<item>maridar</item>
-		<item>antiguo, gua</item>
-		<item>raro, ra</item>
+		<item>antiguo</item>
+		<item>antigua</item>
+		<item>raro</item>
+		<item>rara</item>
 		<item>reconciliación</item>
-		<item>chico, ca</item>
+		<item>chico</item>
+		<item>chica</item>
 		<item>espíritu</item>
-		<item>ideológico, ca</item>
+		<item>ideológico</item>
+		<item>ideológica</item>
 		<item>docente</item>
-		<item>elector, ra</item>
+		<item>elector</item>
+		<item>electra</item>
 		<item>página</item>
 		<item>caudillo</item>
 		<item>mercado</item>
@@ -2827,12 +3286,14 @@
 		<item>hacendar</item>
 		<item>receta</item>
 		<item>sincerar</item>
-		<item>declarado, da</item>
+		<item>declarado</item>
+		<item>declarada</item>
 		<item>sencillamente</item>
 		<item>cascar</item>
 		<item>independiente</item>
 		<item>recepción</item>
-		<item>todo, da</item>
+		<item>todo</item>
+		<item>toda</item>
 		<item>metal</item>
 		<item>sonreír</item>
 		<item>tres</item>
@@ -2848,26 +3309,31 @@
 		<item>traje</item>
 		<item>énfasis</item>
 		<item>radiación</item>
-		<item>relativo, va</item>
+		<item>relativo</item>
+		<item>relativa</item>
 		<item>documento</item>
 		<item>temer</item>
 		<item>humildad</item>
 		<item>gimnasia</item>
 		<item>relevancia</item>
-		<item>aficionado, da</item>
+		<item>aficionado</item>
+		<item>aficionada</item>
 		<item>federal</item>
 		<item>pesada</item>
 		<item>revisión</item>
-		<item>licenciado, da</item>
+		<item>licenciado</item>
+		<item>licenciada</item>
 		<item>realidad</item>
-		<item>temprano, na</item>
+		<item>temprano</item>
+		<item>temprana</item>
 		<item>unificación</item>
 		<item>llave</item>
 		<item>vena</item>
 		<item>semanal</item>
 		<item>pista</item>
 		<item>asunción</item>
-		<item>amoroso, sa</item>
+		<item>amoroso</item>
+		<item>amorosa</item>
 		<item>familia</item>
 		<item>secreto</item>
 		<item>vapor</item>
@@ -2891,22 +3357,26 @@
 		<item>población</item>
 		<item>mal</item>
 		<item>respirar</item>
-		<item>sucesor, ra</item>
+		<item>sucesor</item>
+		<item>sucesra</item>
 		<item>llama</item>
 		<item>apoyo</item>
 		<item>ampliación</item>
 		<item>monumento</item>
 		<item>presidir</item>
 		<item>cortesía</item>
-		<item>primero, ra</item>
+		<item>primero</item>
+		<item>primera</item>
 		<item>dulce</item>
 		<item>invisible</item>
 		<item>asistencia</item>
-		<item>cirujano, na</item>
+		<item>cirujano</item>
+		<item>cirujana</item>
 		<item>quien</item>
 		<item>valor</item>
 		<item>plato</item>
-		<item>estético, ca</item>
+		<item>estético</item>
+		<item>estética</item>
 		<item>calcio</item>
 		<item>publicidad</item>
 		<item>beneficio</item>
@@ -2917,7 +3387,8 @@
 		<item>honestidad</item>
 		<item>broma</item>
 		<item>salir</item>
-		<item>lingüístico, ca</item>
+		<item>lingüístico</item>
+		<item>lingüística</item>
 		<item>satisfacer</item>
 		<item>inminente</item>
 		<item>desconocimiento</item>
@@ -2927,26 +3398,31 @@
 		<item>agenda</item>
 		<item>virtud</item>
 		<item>cristal</item>
-		<item>absurdo, da</item>
+		<item>absurdo</item>
+		<item>absurda</item>
 		<item>literatura</item>
 		<item>solucionar</item>
-		<item>asociado, da</item>
+		<item>asociado</item>
+		<item>asociada</item>
 		<item>diablo</item>
 		<item>prevalencia</item>
 		<item>habitualmente</item>
 		<item>niñez</item>
-		<item>precioso, sa</item>
+		<item>precioso</item>
+		<item>preciosa</item>
 		<item>esquema</item>
 		<item>previamente</item>
 		<item>voluntad</item>
 		<item>lanzar</item>
-		<item>cerámico, ca</item>
+		<item>cerámico</item>
+		<item>cerámica</item>
 		<item>especulación</item>
 		<item>escudar</item>
 		<item>patronal</item>
 		<item>reposar</item>
 		<item>integración</item>
-		<item>político, ca</item>
+		<item>político</item>
+		<item>política</item>
 		<item>charla</item>
 		<item>parra</item>
 		<item>resultante</item>
@@ -2962,28 +3438,34 @@
 		<item>explotar</item>
 		<item>inquietud</item>
 		<item>rehacer</item>
-		<item>empleado, da</item>
+		<item>empleado</item>
+		<item>empleada</item>
 		<item>grandeza</item>
 		<item>suponer</item>
-		<item>cumplido, da</item>
+		<item>cumplido</item>
+		<item>cumplida</item>
 		<item>contradicción</item>
 		<item>cura</item>
 		<item>turista</item>
 		<item>juzgar</item>
 		<item>rendimiento</item>
-		<item>adecuado, da</item>
+		<item>adecuado</item>
+		<item>adecuada</item>
 		<item>hiena</item>
-		<item>retirado, da</item>
+		<item>retirado</item>
+		<item>retirada</item>
 		<item>compensar</item>
 		<item>territorio</item>
 		<item>centro</item>
 		<item>acción</item>
 		<item>barra</item>
 		<item>concertar</item>
-		<item>trescientos, tas</item>
+		<item>trescientos</item>
+		<item>trescientas</item>
 		<item>penetración</item>
 		<item>suspensión</item>
-		<item>doctor, ra</item>
+		<item>doctor</item>
+		<item>doctra</item>
 		<item>verdad</item>
 		<item>restaurante</item>
 		<item>básicamente</item>
@@ -2994,20 +3476,24 @@
 		<item>consolidación</item>
 		<item>increíble</item>
 		<item>artículo</item>
-		<item>complejo, ja</item>
+		<item>complejo</item>
+		<item>compleja</item>
 		<item>estado</item>
 		<item>bienestar</item>
 		<item>baldar</item>
 		<item>pintar</item>
-		<item>crudo, da</item>
+		<item>crudo</item>
+		<item>cruda</item>
 		<item>odiar</item>
 		<item>raza</item>
 		<item>recaudación</item>
 		<item>diez</item>
 		<item>cocinar</item>
 		<item>punta</item>
-		<item>delgado, da</item>
-		<item>inverso, sa</item>
+		<item>delgado</item>
+		<item>delgada</item>
+		<item>inverso</item>
+		<item>inversa</item>
 		<item>diferente</item>
 		<item>interpretar</item>
 		<item>molestia</item>
@@ -3021,21 +3507,25 @@
 		<item>alfa</item>
 		<item>autoridad</item>
 		<item>lineal</item>
-		<item>matemático, ca</item>
+		<item>matemático</item>
+		<item>matemática</item>
 		<item>lograr</item>
 		<item>liberalismo</item>
 		<item>bolsa</item>
 		<item>peso</item>
 		<item>componer</item>
 		<item>patata</item>
-		<item>protector, ra</item>
-		<item>futuro, ra</item>
+		<item>protector</item>
+		<item>protectra</item>
+		<item>futuro</item>
+		<item>futura</item>
 		<item>corteza</item>
 		<item>susceptible</item>
 		<item>legislación</item>
 		<item>debidamente</item>
 		<item>tranquilidad</item>
-		<item>cárdeno, na</item>
+		<item>cárdeno</item>
+		<item>cárdena</item>
 		<item>injusticia</item>
 		<item>limpiar</item>
 		<item>cuidar</item>
@@ -3045,34 +3535,43 @@
 		<item>letra</item>
 		<item>tormenta</item>
 		<item>escritura</item>
-		<item>legislador, ra</item>
+		<item>legislador</item>
+		<item>legisladra</item>
 		<item>electorado</item>
-		<item>comprador, ra</item>
+		<item>comprador</item>
+		<item>compradra</item>
 		<item>mentalidad</item>
 		<item>clavar</item>
 		<item>coma</item>
 		<item>relación</item>
 		<item>módulo</item>
 		<item>dama</item>
-		<item>escultor, ra</item>
-		<item>fotógrafo, fa</item>
+		<item>escultor</item>
+		<item>escultra</item>
+		<item>fotógrafo</item>
+		<item>fotógrafa</item>
 		<item>disminución</item>
 		<item>estabilidad</item>
 		<item>fijo</item>
 		<item>aprovechamiento</item>
 		<item>facultad</item>
 		<item>compra</item>
-		<item>continuado, da</item>
+		<item>continuado</item>
+		<item>continuada</item>
 		<item>soltar</item>
-		<item>iluminado, da</item>
+		<item>iluminado</item>
+		<item>iluminada</item>
 		<item>deficiente</item>
 		<item>intimidad</item>
-		<item>historiador, ra</item>
+		<item>historiador</item>
+		<item>historiadra</item>
 		<item>pisar</item>
 		<item>establecimiento</item>
 		<item>cero</item>
-		<item>alcalde, desa</item>
-		<item>preparado, da</item>
+		<item>alcalde</item>
+		<item>alcdesa</item>
+		<item>preparado</item>
+		<item>preparada</item>
 		<item>seguimiento</item>
 		<item>horrible</item>
 		<item>gente</item>
@@ -3084,7 +3583,8 @@
 		<item>transformar</item>
 		<item>diana</item>
 		<item>escalada</item>
-		<item>casado, da</item>
+		<item>casado</item>
+		<item>casada</item>
 		<item>operar</item>
 		<item>formal</item>
 		<item>ciento</item>
@@ -3101,22 +3601,28 @@
 		<item>indiscutible</item>
 		<item>alusión</item>
 		<item>brisa</item>
-		<item>alumno, na</item>
+		<item>alumno</item>
+		<item>alumna</item>
 		<item>utilización</item>
 		<item>limitar</item>
 		<item>imposible</item>
-		<item>gratuito, ta</item>
+		<item>gratuito</item>
+		<item>gratuita</item>
 		<item>programación</item>
 		<item>ficha</item>
 		<item>preferentemente</item>
 		<item>crema</item>
-		<item>prieto, ta</item>
+		<item>prieto</item>
+		<item>prieta</item>
 		<item>libro</item>
-		<item>cuadro, dra</item>
+		<item>cuadro</item>
+		<item>cuadra</item>
 		<item>acostar</item>
-		<item>tigre, gresa</item>
+		<item>tigre</item>
+		<item>gresa</item>
 		<item>tradicional</item>
-		<item>insólito, ta</item>
+		<item>insólito</item>
+		<item>insólita</item>
 		<item>equipar</item>
 		<item>desigualdad</item>
 		<item>personaje</item>
@@ -3133,7 +3639,8 @@
 		<item>tubo</item>
 		<item>circular</item>
 		<item>mirada</item>
-		<item>pescador, ra</item>
+		<item>pescador</item>
+		<item>pescadra</item>
 		<item>melodía</item>
 		<item>lágrima</item>
 		<item>descripción</item>
@@ -3144,7 +3651,8 @@
 		<item>apartar</item>
 		<item>generalizar</item>
 		<item>teatral</item>
-		<item>complicado, da</item>
+		<item>complicado</item>
+		<item>complicada</item>
 		<item>enviada</item>
 		<item>complicidad</item>
 		<item>liberar</item>
@@ -3163,13 +3671,16 @@
 		<item>brigada</item>
 		<item>detección</item>
 		<item>justamente</item>
-		<item>lector, ra</item>
+		<item>lector</item>
+		<item>lectra</item>
 		<item>concebir</item>
 		<item>abril</item>
 		<item>porta</item>
-		<item>petrolero, ra</item>
+		<item>petrolero</item>
+		<item>petrolera</item>
 		<item>grande</item>
-		<item>monje, ja</item>
+		<item>monje</item>
+		<item>monja</item>
 		<item>sueldo</item>
 		<item>notablemente</item>
 		<item>escena</item>
@@ -3194,7 +3705,8 @@
 		<item>anotar</item>
 		<item>anuncio</item>
 		<item>redacción</item>
-		<item>antibiótico, ca</item>
+		<item>antibiótico</item>
+		<item>antibiótica</item>
 		<item>formar</item>
 		<item>insuficiencia</item>
 		<item>significación</item>
@@ -3215,7 +3727,8 @@
 		<item>década</item>
 		<item>cerrada</item>
 		<item>información</item>
-		<item>nocturno, na</item>
+		<item>nocturno</item>
+		<item>nocturna</item>
 		<item>telescopio</item>
 		<item>flor</item>
 		<item>corrupción</item>
@@ -3225,28 +3738,35 @@
 		<item>consistir</item>
 		<item>amable</item>
 		<item>equivocar</item>
-		<item>ganador, ra</item>
-		<item>titulado, da</item>
+		<item>ganador</item>
+		<item>ganadra</item>
+		<item>titulado</item>
+		<item>titulada</item>
 		<item>penetrar</item>
 		<item>transparencia</item>
-		<item>ladrón, na</item>
+		<item>ladrón</item>
+		<item>ladrna</item>
 		<item>archivar</item>
 		<item>vértigo</item>
-		<item>bello, lla</item>
+		<item>bello</item>
+		<item>bella</item>
 		<item>real</item>
 		<item>flujo</item>
 		<item>sargento</item>
-		<item>mismo, ma</item>
+		<item>mismo</item>
+		<item>misma</item>
 		<item>encabezar</item>
 		<item>circulación</item>
 		<item>antropología</item>
 		<item>brazo</item>
 		<item>doctrina</item>
 		<item>estudiante</item>
-		<item>normativo, va</item>
+		<item>normativo</item>
+		<item>normativa</item>
 		<item>conducta</item>
 		<item>nacer</item>
-		<item>doscientos, tas</item>
+		<item>doscientos</item>
+		<item>doscientas</item>
 		<item>imperial</item>
 		<item>manga</item>
 		<item>igualdad</item>
@@ -3271,10 +3791,12 @@
 		<item>convenio</item>
 		<item>napoleón</item>
 		<item>solicitar</item>
-		<item>entrevistado, da</item>
+		<item>entrevistado</item>
+		<item>entrevistada</item>
 		<item>maquinaria</item>
 		<item>con</item>
-		<item>ácido, da</item>
+		<item>ácido</item>
+		<item>ácida</item>
 		<item>factura</item>
 		<item>vivienda</item>
 		<item>perspectiva</item>
@@ -3285,38 +3807,50 @@
 		<item>hembra</item>
 		<item>constancia</item>
 		<item>obesidad</item>
-		<item>ganadero, ra</item>
+		<item>ganadero</item>
+		<item>ganadera</item>
 		<item>boxear</item>
 		<item>llamar</item>
 		<item>ético</item>
 		<item>cobra</item>
-		<item>financiero, ra</item>
+		<item>financiero</item>
+		<item>financiera</item>
 		<item>disparar</item>
 		<item>misa</item>
-		<item>pasado, da</item>
+		<item>pasado</item>
+		<item>pasada</item>
 		<item>estudio</item>
 		<item>radicalmente</item>
-		<item>romo, ma</item>
-		<item>promotor, ra</item>
-		<item>dotado, da</item>
+		<item>romo</item>
+		<item>roma</item>
+		<item>promotor</item>
+		<item>promotra</item>
+		<item>dotado</item>
+		<item>dotada</item>
 		<item>ciencia</item>
 		<item>merecer</item>
 		<item>variante</item>
 		<item>cinco</item>
 		<item>recurrir</item>
-		<item>salino, na</item>
-		<item>despejado, da</item>
+		<item>salino</item>
+		<item>salina</item>
+		<item>despejado</item>
+		<item>despejada</item>
 		<item>gritar</item>
 		<item>terror</item>
-		<item>calificado, da</item>
-		<item>genético, ca</item>
+		<item>calificado</item>
+		<item>calificada</item>
+		<item>genético</item>
+		<item>genética</item>
 		<item>recinto</item>
 		<item>ritmo</item>
 		<item>mostrar</item>
 		<item>suelo</item>
-		<item>fiscal, la</item>
+		<item>fiscal</item>
+		<item>fiscla</item>
 		<item>invitación</item>
-		<item>careto, ta</item>
+		<item>careto</item>
+		<item>careta</item>
 		<item>caja</item>
 		<item>astucia</item>
 		<item>experimentación</item>
@@ -3331,7 +3865,8 @@
 		<item>ingestión</item>
 		<item>cargar</item>
 		<item>pactar</item>
-		<item>cinematográfico, ca</item>
+		<item>cinematográfico</item>
+		<item>cinematográfica</item>
 		<item>pan</item>
 		<item>turismo</item>
 		<item>licitación</item>
@@ -3341,8 +3876,10 @@
 		<item>curiosidad</item>
 		<item>elemental</item>
 		<item>alianza</item>
-		<item>corredor, ra</item>
-		<item>jugador, ra</item>
+		<item>corredor</item>
+		<item>corredra</item>
+		<item>jugador</item>
+		<item>jugadra</item>
 		<item>carrillo</item>
 		<item>para</item>
 		<item>plenamente</item>
@@ -3353,27 +3890,32 @@
 		<item>consentimiento</item>
 		<item>pelar</item>
 		<item>librería</item>
-		<item>legítimo, ma</item>
+		<item>legítimo</item>
+		<item>legítima</item>
 		<item>terapia</item>
 		<item>subida</item>
 		<item>importante</item>
 		<item>acuerdo</item>
 		<item>fácilmente</item>
 		<item>juicio</item>
-		<item>prohibido, da</item>
+		<item>prohibido</item>
+		<item>prohibida</item>
 		<item>censar</item>
 		<item>municipio</item>
 		<item>sindicato</item>
 		<item>amanecer</item>
 		<item>tejer</item>
 		<item>entrega</item>
-		<item>herrero, ra</item>
+		<item>herrero</item>
+		<item>herrera</item>
 		<item>botín</item>
 		<item>vehículo</item>
-		<item>flamenco, ca</item>
+		<item>flamenco</item>
+		<item>flamenca</item>
 		<item>espiritual</item>
 		<item>interacción</item>
-		<item>católico, ca</item>
+		<item>católico</item>
+		<item>católica</item>
 		<item>billón</item>
 		<item>informado</item>
 		<item>bestia</item>
@@ -3383,7 +3925,8 @@
 		<item>teatro</item>
 		<item>correo</item>
 		<item>nada</item>
-		<item>hallado, da</item>
+		<item>hallado</item>
+		<item>hallada</item>
 		<item>producir</item>
 		<item>hermanar</item>
 		<item>hoja</item>
@@ -3391,22 +3934,27 @@
 		<item>vallar</item>
 		<item>conocer</item>
 		<item>integral</item>
-		<item>director, ra</item>
+		<item>director</item>
+		<item>directra</item>
 		<item>acto</item>
 		<item>garantía</item>
 		<item>ciudad</item>
 		<item>parlamentar</item>
 		<item>rumor</item>
 		<item>tira</item>
-		<item>barato, ta</item>
-		<item>exclusivo, va</item>
+		<item>barato</item>
+		<item>barata</item>
+		<item>exclusivo</item>
+		<item>exclusiva</item>
 		<item>voto</item>
 		<item>muelle</item>
 		<item>silla</item>
 		<item>ilustración</item>
 		<item>refleja</item>
-		<item>específico, ca</item>
-		<item>lírico, ca</item>
+		<item>específico</item>
+		<item>específica</item>
+		<item>lírico</item>
+		<item>lírica</item>
 		<item>robar</item>
 		<item>tampoco</item>
 		<item>deriva</item>
@@ -3414,7 +3962,8 @@
 		<item>atracción</item>
 		<item>valer</item>
 		<item>tener</item>
-		<item>electo, ta</item>
+		<item>electo</item>
+		<item>electa</item>
 		<item>onda</item>
 		<item>averiguar</item>
 		<item>logro</item>
@@ -3430,7 +3979,8 @@
 		<item>precaución</item>
 		<item>solución</item>
 		<item>rechazar</item>
-		<item>seguido, da</item>
+		<item>seguido</item>
+		<item>seguida</item>
 		<item>lavar</item>
 		<item>cosa</item>
 		<item>cuidadosamente</item>
@@ -3443,10 +3993,12 @@
 		<item>calentar</item>
 		<item>riqueza</item>
 		<item>cabina</item>
-		<item>sufrido, da</item>
+		<item>sufrido</item>
+		<item>sufrida</item>
 		<item>admirable</item>
 		<item>creciente</item>
-		<item>héroe, ína</item>
+		<item>héroe</item>
+		<item>héína</item>
 		<item>miedo</item>
 		<item>comporta</item>
 		<item>movilidad</item>
@@ -3463,21 +4015,27 @@
 		<item>posada</item>
 		<item>planteamiento</item>
 		<item>ente</item>
-		<item>revolucionario, ria</item>
+		<item>revolucionario</item>
+		<item>revolucionaria</item>
 		<item>supervivencia</item>
 		<item>potente</item>
-		<item>señalado, da</item>
-		<item>problemático, ca</item>
+		<item>señalado</item>
+		<item>señalada</item>
+		<item>problemático</item>
+		<item>problemática</item>
 		<item>gesto</item>
-		<item>asustado, da</item>
+		<item>asustado</item>
+		<item>asustada</item>
 		<item>obtención</item>
 		<item>saliva</item>
 		<item>casa</item>
 		<item>multimedia</item>
 		<item>aproximadamente</item>
 		<item>tender</item>
-		<item>vecino, na</item>
-		<item>perro, rra</item>
+		<item>vecino</item>
+		<item>vecina</item>
+		<item>perro</item>
+		<item>perra</item>
 		<item>formular</item>
 		<item>envejecimiento</item>
 		<item>multitud</item>
@@ -3503,7 +4061,8 @@
 		<item>planificación</item>
 		<item>toro</item>
 		<item>conclusión</item>
-		<item>artesano, na</item>
+		<item>artesano</item>
+		<item>artesana</item>
 		<item>residente</item>
 		<item>serenidad</item>
 		<item>pirámide</item>
@@ -3514,8 +4073,10 @@
 		<item>reaccionar</item>
 		<item>firmar</item>
 		<item>impedir</item>
-		<item>tío, a</item>
-		<item>ejecutivo, va</item>
+		<item>tío</item>
+		<item>tía</item>
+		<item>ejecutivo</item>
+		<item>ejecutiva</item>
 		<item>euforia</item>
 		<item>coger</item>
 		<item>permanecer</item>
@@ -3523,7 +4084,8 @@
 		<item>habilidad</item>
 		<item>institución</item>
 		<item>retratar</item>
-		<item>cambiado, da</item>
+		<item>cambiado</item>
+		<item>cambiada</item>
 		<item>piloto</item>
 		<item>discreción</item>
 		<item>ministerio</item>
@@ -3536,12 +4098,15 @@
 		<item>cuento</item>
 		<item>edificio</item>
 		<item>emisión</item>
-		<item>contemporáneo, a</item>
-		<item>ordinario, ria</item>
+		<item>contemporáneo</item>
+		<item>contemporánea</item>
+		<item>ordinario</item>
+		<item>ordinaria</item>
 		<item>descubrir</item>
 		<item>amistad</item>
 		<item>cirugía</item>
-		<item>helado, da</item>
+		<item>helado</item>
+		<item>helada</item>
 		<item>vivir</item>
 		<item>escoger</item>
 		<item>mando</item>
@@ -3549,38 +4114,46 @@
 		<item>competición</item>
 		<item>mitad</item>
 		<item>sensible</item>
-		<item>refugiado, da</item>
+		<item>refugiado</item>
+		<item>refugiada</item>
 		<item>ordenación</item>
 		<item>datar</item>
 		<item>tristeza</item>
 		<item>medir</item>
 		<item>narra</item>
 		<item>codo</item>
-		<item>itinerario, ria</item>
+		<item>itinerario</item>
+		<item>itineraria</item>
 		<item>ceniza</item>
 		<item>adaptar</item>
 		<item>ferrocarril</item>
 		<item>aprobado</item>
 		<item>planeta</item>
-		<item>secretario, ria</item>
+		<item>secretario</item>
+		<item>secretaria</item>
 		<item>hongo</item>
-		<item>el, la</item>
+		<item>el</item>
+		<item>la</item>
 		<item>establecer</item>
 		<item>postura</item>
 		<item>caudal</item>
-		<item>cuánto, ta</item>
+		<item>cuánto</item>
+		<item>cuánta</item>
 		<item>guay</item>
 		<item>peculiar</item>
 		<item>nudo</item>
 		<item>piar</item>
 		<item>contar</item>
 		<item>vencer</item>
-		<item>intento, ta</item>
+		<item>intento</item>
+		<item>intenta</item>
 		<item>comprensible</item>
 		<item>mental</item>
-		<item>tóxico, ca</item>
+		<item>tóxico</item>
+		<item>tóxica</item>
 		<item>viajar</item>
-		<item>encontrado, da</item>
+		<item>encontrado</item>
+		<item>encontrada</item>
 		<item>certeza</item>
 		<item>escaño</item>
 		<item>plancha</item>
@@ -3599,7 +4172,8 @@
 		<item>caldo</item>
 		<item>deseable</item>
 		<item>empresarial</item>
-		<item>levantado, da</item>
+		<item>levantado</item>
+		<item>levantada</item>
 		<item>tratamiento</item>
 		<item>campeonato</item>
 		<item>fauna</item>
@@ -3620,11 +4194,14 @@
 		<item>inclusión</item>
 		<item>específicamente</item>
 		<item>mora</item>
-		<item>derivado, da</item>
+		<item>derivado</item>
+		<item>derivada</item>
 		<item>propiedad</item>
 		<item>creatividad</item>
-		<item>parado, da</item>
-		<item>clínico, ca</item>
+		<item>parado</item>
+		<item>parada</item>
+		<item>clínico</item>
+		<item>clínica</item>
 		<item>legalmente</item>
 		<item>sabio</item>
 		<item>senda</item>
@@ -3635,7 +4212,8 @@
 		<item>norma</item>
 		<item>abstracción</item>
 		<item>industrial</item>
-		<item>válido, da</item>
+		<item>válido</item>
+		<item>válida</item>
 		<item>aprendizaje</item>
 		<item>cortina</item>
 		<item>haber</item>
@@ -3643,18 +4221,21 @@
 		<item>relevante</item>
 		<item>ochenta</item>
 		<item>competir</item>
-		<item>activo, va</item>
+		<item>activo</item>
+		<item>activa</item>
 		<item>nueve</item>
 		<item>escultura</item>
 		<item>noventa</item>
 		<item>venta</item>
-		<item>remoto, ta</item>
+		<item>remoto</item>
+		<item>remota</item>
 		<item>vacunar</item>
 		<item>afirmación</item>
 		<item>cocción</item>
 		<item>galería</item>
 		<item>prólogo</item>
-		<item>olímpico, ca</item>
+		<item>olímpico</item>
+		<item>olímpica</item>
 		<item>insulina</item>
 		<item>cuota</item>
 		<item>negación</item>
@@ -3677,10 +4258,13 @@
 		<item>pieza</item>
 		<item>aprobación</item>
 		<item>experimentar</item>
-		<item>supremo, ma</item>
+		<item>supremo</item>
+		<item>suprema</item>
 		<item>verdaderamente</item>
-		<item>definido, da</item>
-		<item>decidido, da</item>
+		<item>definido</item>
+		<item>definida</item>
+		<item>decidido</item>
+		<item>decidida</item>
 		<item>estampa</item>
 		<item>incendio</item>
 		<item>mente</item>
@@ -3689,7 +4273,8 @@
 		<item>temperatura</item>
 		<item>anteriormente</item>
 		<item>mierda</item>
-		<item>psicológico, ca</item>
+		<item>psicológico</item>
+		<item>psicológica</item>
 		<item>avance</item>
 		<item>dosis</item>
 		<item>seriamente</item>
@@ -3699,7 +4284,8 @@
 		<item>visual</item>
 		<item>raíz</item>
 		<item>cuidado</item>
-		<item>abstracto, ta</item>
+		<item>abstracto</item>
+		<item>abstracta</item>
 		<item>emplea</item>
 		<item>herida</item>
 		<item>capilla</item>
@@ -3709,8 +4295,10 @@
 		<item>más</item>
 		<item>imaginar</item>
 		<item>cama</item>
-		<item>burlón, na</item>
-		<item>ligado, da</item>
+		<item>burlón</item>
+		<item>burlna</item>
+		<item>ligado</item>
+		<item>ligada</item>
 		<item>acera</item>
 		<item>quizás</item>
 		<item>hilo</item>
@@ -3720,22 +4308,27 @@
 		<item>desaparecer</item>
 		<item>genial</item>
 		<item>repetir</item>
-		<item>llano, na</item>
-		<item>administrativo, va</item>
+		<item>llano</item>
+		<item>llana</item>
+		<item>administrativo</item>
+		<item>administrativa</item>
 		<item>incumplimiento</item>
 		<item>calificar</item>
 		<item>librar</item>
-		<item>sucesivo, va</item>
+		<item>sucesivo</item>
+		<item>sucesiva</item>
 		<item>entraña</item>
 		<item>distinción</item>
-		<item>conjunto, ta</item>
+		<item>conjunto</item>
+		<item>conjunta</item>
 		<item>alcoholismo</item>
 		<item>auxiliar</item>
 		<item>dormir</item>
 		<item>foto</item>
 		<item>mecanismo</item>
 		<item>sábado</item>
-		<item>enviado, da</item>
+		<item>enviado</item>
+		<item>enviada</item>
 		<item>taragoza</item>
 		<item>armario</item>
 		<item>ojalá</item>
@@ -3746,20 +4339,25 @@
 		<item>garantizar</item>
 		<item>travesía</item>
 		<item>concesión</item>
-		<item>aéreo, a</item>
+		<item>aéreo</item>
+		<item>aérea</item>
 		<item>código</item>
 		<item>correa</item>
 		<item>vigente</item>
-		<item>verdadero, ra</item>
-		<item>dorado, da</item>
+		<item>verdadero</item>
+		<item>verdadera</item>
+		<item>dorado</item>
+		<item>dorada</item>
 		<item>precisión</item>
-		<item>ruso, sa</item>
+		<item>ruso</item>
+		<item>rusa</item>
 		<item>entonces</item>
 		<item>rubia</item>
 		<item>lista</item>
 		<item>fallecimiento</item>
 		<item>casi</item>
-		<item>sencillo, lla</item>
+		<item>sencillo</item>
+		<item>sencilla</item>
 		<item>altar</item>
 		<item>tren</item>
 		<item>oposición</item>
@@ -3773,7 +4371,8 @@
 		<item>corona</item>
 		<item>trofeo</item>
 		<item>gobierno</item>
-		<item>generoso, sa</item>
+		<item>generoso</item>
+		<item>generosa</item>
 		<item>muscular</item>
 		<item>sacrificio</item>
 		<item>cáncer</item>
@@ -3783,28 +4382,33 @@
 		<item>tragedia</item>
 		<item>carácter</item>
 		<item>ventana</item>
-		<item>iniciativo, va</item>
+		<item>iniciativo</item>
+		<item>iniciativa</item>
 		<item>hipótesis</item>
 		<item>miserable</item>
 		<item>lanza</item>
 		<item>lógicamente</item>
 		<item>modalidad</item>
 		<item>almacén</item>
-		<item>ingeniero, ra</item>
+		<item>ingeniero</item>
+		<item>ingeniera</item>
 		<item>rasgar</item>
 		<item>fascinante</item>
-		<item>nombrado, da</item>
+		<item>nombrado</item>
+		<item>nombrada</item>
 		<item>consenso</item>
 		<item>gravedad</item>
 		<item>mezcla</item>
 		<item>orlar</item>
 		<item>idiota</item>
-		<item>terreno, na</item>
+		<item>terreno</item>
+		<item>terrena</item>
 		<item>aparecer</item>
 		<item>serrar</item>
 		<item>palma</item>
 		<item>retar</item>
-		<item>pleno, na</item>
+		<item>pleno</item>
+		<item>plena</item>
 		<item>transacción</item>
 		<item>costa</item>
 		<item>sofá</item>
@@ -3812,28 +4416,35 @@
 		<item>abandonar</item>
 		<item>ejercicio</item>
 		<item>desde</item>
-		<item>bravo, va</item>
+		<item>bravo</item>
+		<item>brava</item>
 		<item>aroma</item>
 		<item>interior</item>
 		<item>hotel</item>
-		<item>excesivo, va</item>
+		<item>excesivo</item>
+		<item>excesiva</item>
 		<item>noviembre</item>
 		<item>guitarra</item>
 		<item>triunfar</item>
-		<item>cruzado, da</item>
+		<item>cruzado</item>
+		<item>cruzada</item>
 		<item>retornar</item>
 		<item>tarjeta</item>
 		<item>declarar</item>
-		<item>bancario, ria</item>
-		<item>abierto, ta</item>
+		<item>bancario</item>
+		<item>bancaria</item>
+		<item>abierto</item>
+		<item>abierta</item>
 		<item>guardar</item>
 		<item>boletín</item>
 		<item>agente</item>
 		<item>sol</item>
 		<item>contemplación</item>
-		<item>misterioso, sa</item>
+		<item>misterioso</item>
+		<item>misteriosa</item>
 		<item>plataforma</item>
-		<item>negado, da</item>
+		<item>negado</item>
+		<item>negada</item>
 		<item>habla</item>
 		<item>radical</item>
 		<item>perdonar</item>
@@ -3841,24 +4452,31 @@
 		<item>espacio</item>
 		<item>sembrar</item>
 		<item>evento</item>
-		<item>opositor, ra</item>
+		<item>opositor</item>
+		<item>opositra</item>
 		<item>alquiler</item>
 		<item>pensamiento</item>
 		<item>bloquear</item>
 		<item>desfilar</item>
 		<item>producción</item>
 		<item>transición</item>
-		<item>encerrado, da</item>
+		<item>encerrado</item>
+		<item>encerrada</item>
 		<item>cuero</item>
-		<item>sexto, ta</item>
+		<item>sexto</item>
+		<item>sexta</item>
 		<item>refugiar</item>
-		<item>tonto, ta</item>
-		<item>divertido, da</item>
-		<item>pájaro, ra</item>
+		<item>tonto</item>
+		<item>tonta</item>
+		<item>divertido</item>
+		<item>divertida</item>
+		<item>pájaro</item>
+		<item>pájara</item>
 		<item>paraíso</item>
 		<item>engañar</item>
 		<item>parir</item>
-		<item>clásico, ca</item>
+		<item>clásico</item>
+		<item>clásica</item>
 		<item>por</item>
 		<item>cola</item>
 		<item>herrar</item>
@@ -3869,12 +4487,14 @@
 		<item>interesante</item>
 		<item>fuga</item>
 		<item>crecer</item>
-		<item>magistrado, da</item>
+		<item>magistrado</item>
+		<item>magistrada</item>
 		<item>anoche</item>
 		<item>pantalla</item>
 		<item>suspender</item>
 		<item>reunir</item>
-		<item>ayudado, da</item>
+		<item>ayudado</item>
+		<item>ayudada</item>
 		<item>disponibilidad</item>
 		<item>inclinación</item>
 		<item>admisión</item>
@@ -3887,16 +4507,21 @@
 		<item>indudablemente</item>
 		<item>descansar</item>
 		<item>madurar</item>
-		<item>único, ca</item>
+		<item>único</item>
+		<item>única</item>
 		<item>puño</item>
 		<item>incertidumbre</item>
-		<item>lleno, na</item>
+		<item>lleno</item>
+		<item>llena</item>
 		<item>mantel</item>
 		<item>comenzar</item>
 		<item>testimoniar</item>
-		<item>directorio, ria</item>
-		<item>receptor, ra</item>
-		<item>león, na</item>
+		<item>directorio</item>
+		<item>directoria</item>
+		<item>receptor</item>
+		<item>receptra</item>
+		<item>león</item>
+		<item>lena</item>
 		<item>categoría</item>
 		<item>consciente</item>
 		<item>escolar</item>
@@ -3910,7 +4535,8 @@
 		<item>meter</item>
 		<item>especial</item>
 		<item>razón</item>
-		<item>exacto, ta</item>
+		<item>exacto</item>
+		<item>exacta</item>
 		<item>tercer</item>
 		<item>gravemente</item>
 		<item>gestar</item>
@@ -3919,27 +4545,37 @@
 		<item>obviamente</item>
 		<item>notable</item>
 		<item>bonito</item>
-		<item>parlamentario, ria</item>
-		<item>borracho, cha</item>
+		<item>parlamentario</item>
+		<item>parlamentaria</item>
+		<item>borracho</item>
+		<item>borracha</item>
 		<item>potenciar</item>
 		<item>común</item>
-		<item>extenso, sa</item>
+		<item>extenso</item>
+		<item>extensa</item>
 		<item>soldado</item>
-		<item>fijado, da</item>
-		<item>pequeño, ña</item>
+		<item>fijado</item>
+		<item>fijada</item>
+		<item>pequeño</item>
+		<item>pequeña</item>
 		<item>de</item>
-		<item>biológico, ca</item>
+		<item>biológico</item>
+		<item>biológica</item>
 		<item>fibra</item>
 		<item>investigar</item>
 		<item>fuente</item>
-		<item>enterado, da</item>
+		<item>enterado</item>
+		<item>enterada</item>
 		<item>armar</item>
-		<item>poético, ca</item>
+		<item>poético</item>
+		<item>poética</item>
 		<item>par</item>
 		<item>hemisferio</item>
-		<item>mediado, da</item>
+		<item>mediado</item>
+		<item>mediada</item>
 		<item>dominio</item>
-		<item>anónimo, ma</item>
+		<item>anónimo</item>
+		<item>anónima</item>
 		<item>temporada</item>
 		<item>consejería</item>
 		<item>inicialmente</item>
@@ -3951,21 +4587,28 @@
 		<item>alentar</item>
 		<item>sustancial</item>
 		<item>templo</item>
-		<item>obrero, ra</item>
+		<item>obrero</item>
+		<item>obrera</item>
 		<item>novedad</item>
-		<item>teniente, ta</item>
-		<item>gigante, ta</item>
+		<item>teniente</item>
+		<item>tenienta</item>
+		<item>gigante</item>
+		<item>giganta</item>
 		<item>comienzo</item>
 		<item>llevada</item>
 		<item>rodaje</item>
 		<item>anomalía</item>
 		<item>abortar</item>
-		<item>embarazado, da</item>
+		<item>embarazado</item>
+		<item>embarazada</item>
 		<item>secretar</item>
-		<item>ciego, ga</item>
-		<item>alimentario, ria</item>
+		<item>ciego</item>
+		<item>ciega</item>
+		<item>alimentario</item>
+		<item>alimentaria</item>
 		<item>aceptar</item>
-		<item>rico, ca</item>
+		<item>rico</item>
+		<item>rica</item>
 		<item>camino</item>
 		<item>oficio</item>
 		<item>banca</item>
@@ -3979,14 +4622,17 @@
 		<item>calor</item>
 		<item>provocar</item>
 		<item>cumplimiento</item>
-		<item>obligado, da</item>
+		<item>obligado</item>
+		<item>obligada</item>
 		<item>dividir</item>
 		<item>continuidad</item>
 		<item>utopía</item>
 		<item>compatriota</item>
-		<item>picado, da</item>
+		<item>picado</item>
+		<item>picada</item>
 		<item>permanente</item>
-		<item>viudo, da</item>
+		<item>viudo</item>
+		<item>viuda</item>
 		<item>caso</item>
 		<item>célebre</item>
 		<item>homenaje</item>
@@ -4003,24 +4649,30 @@
 		<item>comprender</item>
 		<item>narcotráfico</item>
 		<item>parecer</item>
-		<item>mecánico, ca</item>
+		<item>mecánico</item>
+		<item>mecánica</item>
 		<item>vinagre</item>
 		<item>encerrar</item>
 		<item>inteligencia</item>
 		<item>estatura</item>
 		<item>cercar</item>
-		<item>filósofo, fa</item>
+		<item>filósofo</item>
+		<item>filósofa</item>
 		<item>interrumpir</item>
 		<item>ni</item>
 		<item>acordar</item>
-		<item>mutuo, tua</item>
+		<item>mutuo</item>
+		<item>mutua</item>
 		<item>transferencia</item>
-		<item>doméstico, ca</item>
+		<item>doméstico</item>
+		<item>doméstica</item>
 		<item>apreciación</item>
-		<item>gráfico, ca</item>
+		<item>gráfico</item>
+		<item>gráfica</item>
 		<item>descarga</item>
 		<item>dañar</item>
-		<item>último, ma</item>
+		<item>último</item>
+		<item>última</item>
 		<item>difícil</item>
 		<item>añadir</item>
 		<item>posesión</item>
@@ -4041,40 +4693,51 @@
 		<item>integridad</item>
 		<item>vulgar</item>
 		<item>ya</item>
-		<item>dramático, ca</item>
+		<item>dramático</item>
+		<item>dramática</item>
 		<item>dólar</item>
 		<item>adónde</item>
 		<item>rebaja</item>
 		<item>meramente</item>
-		<item>interesado, da</item>
+		<item>interesado</item>
+		<item>interesada</item>
 		<item>lucha</item>
-		<item>inspector, ra</item>
+		<item>inspector</item>
+		<item>inspectra</item>
 		<item>construir</item>
 		<item>inscripción</item>
 		<item>sí</item>
-		<item>hermoso, sa</item>
+		<item>hermoso</item>
+		<item>hermosa</item>
 		<item>diversión</item>
 		<item>verbo</item>
 		<item>leal</item>
 		<item>masa</item>
-		<item>mágico, ca</item>
+		<item>mágico</item>
+		<item>mágica</item>
 		<item>especialmente</item>
 		<item>extremadamente</item>
-		<item>pintor, ra</item>
+		<item>pintor</item>
+		<item>pintra</item>
 		<item>dedicar</item>
-		<item>enfermero, ra</item>
-		<item>hermano, na</item>
+		<item>enfermero</item>
+		<item>enfermera</item>
+		<item>hermano</item>
+		<item>hermana</item>
 		<item>mariscal</item>
 		<item>sexualidad</item>
 		<item>gravar</item>
 		<item>entera</item>
 		<item>civilización</item>
-		<item>mucho, cha</item>
-		<item>virrey, virreina</item>
+		<item>mucho</item>
+		<item>mucha</item>
+		<item>virrey</item>
+		<item>virrvirreina</item>
 		<item>verde</item>
 		<item>sentimental</item>
 		<item>rivera</item>
-		<item>invertido, da</item>
+		<item>invertido</item>
+		<item>invertida</item>
 		<item>cultural</item>
 		<item>ha</item>
 		<item>apellidar</item>
@@ -4085,7 +4748,8 @@
 		<item>tradición</item>
 		<item>atleta</item>
 		<item>afrontar</item>
-		<item>iberio, ria</item>
+		<item>iberio</item>
+		<item>iberia</item>
 		<item>feroz</item>
 		<item>descender</item>
 		<item>columna</item>
@@ -4093,13 +4757,18 @@
 		<item>calificación</item>
 		<item>carretera</item>
 		<item>rodilla</item>
-		<item>adelantado, da</item>
+		<item>adelantado</item>
+		<item>adelantada</item>
 		<item>psicosis</item>
 		<item>cereal</item>
-		<item>invitado, da</item>
-		<item>progresivo, va</item>
-		<item>líder, resa</item>
-		<item>medio, dia</item>
+		<item>invitado</item>
+		<item>invitada</item>
+		<item>progresivo</item>
+		<item>progresiva</item>
+		<item>líder</item>
+		<item>lresa</item>
+		<item>medio</item>
+		<item>media</item>
 		<item>fabricante</item>
 		<item>período</item>
 		<item>juguete</item>
@@ -4107,13 +4776,17 @@
 		<item>vega</item>
 		<item>visión</item>
 		<item>mandar</item>
-		<item>favorito, ta</item>
+		<item>favorito</item>
+		<item>favorita</item>
 		<item>principal</item>
 		<item>conferencia</item>
 		<item>índice</item>
-		<item>criado, da</item>
-		<item>asistido, da</item>
-		<item>turístico, ca</item>
+		<item>criado</item>
+		<item>criada</item>
+		<item>asistido</item>
+		<item>asistida</item>
+		<item>turístico</item>
+		<item>turística</item>
 		<item>mesa</item>
 		<item>estar</item>
 		<item>trono</item>
@@ -4121,38 +4794,48 @@
 		<item>relativamente</item>
 		<item>transcurrir</item>
 		<item>fiebre</item>
-		<item>agotado, da</item>
+		<item>agotado</item>
+		<item>agotada</item>
 		<item>contracción</item>
 		<item>almacenamiento</item>
 		<item>peste</item>
-		<item>británico, ca</item>
+		<item>británico</item>
+		<item>británica</item>
 		<item>celebración</item>
 		<item>julio</item>
-		<item>preso, sa</item>
+		<item>preso</item>
+		<item>presa</item>
 		<item>horizonte</item>
 		<item>parámetro</item>
 		<item>proceder</item>
 		<item>grito</item>
 		<item>equivaler</item>
-		<item>reflejo, ja</item>
+		<item>reflejo</item>
+		<item>refleja</item>
 		<item>tal</item>
 		<item>contra</item>
 		<item>cubierta</item>
 		<item>religión</item>
 		<item>impactar</item>
-		<item>oscuro, ra</item>
+		<item>oscuro</item>
+		<item>oscura</item>
 		<item>hígado</item>
-		<item>hijo, ja</item>
-		<item>físico, ca</item>
+		<item>hijo</item>
+		<item>hija</item>
+		<item>físico</item>
+		<item>física</item>
 		<item>pinta</item>
-		<item>caracterizado, da</item>
+		<item>caracterizado</item>
+		<item>caracterizada</item>
 		<item>equivalente</item>
 		<item>relajación</item>
-		<item>callado, da</item>
+		<item>callado</item>
+		<item>callada</item>
 		<item>asombrar</item>
 		<item>tumba</item>
 		<item>aunque</item>
-		<item>pegado, da</item>
+		<item>pegado</item>
+		<item>pegada</item>
 		<item>conllevar</item>
 		<item>canciller</item>
 		<item>rentable</item>
@@ -4167,14 +4850,17 @@
 		<item>vómito</item>
 		<item>recesión</item>
 		<item>época</item>
-		<item>máximo, ma</item>
+		<item>máximo</item>
+		<item>máxima</item>
 		<item>invitar</item>
 		<item>aparición</item>
-		<item>ratón, na</item>
+		<item>ratón</item>
+		<item>ratna</item>
 		<item>excepcional</item>
 		<item>poder</item>
 		<item>referencia</item>
-		<item>dictador, ra</item>
+		<item>dictador</item>
+		<item>dictadra</item>
 		<item>ahorrar</item>
 		<item>palacio</item>
 		<item>serpiente</item>
@@ -4185,7 +4871,8 @@
 		<item>convencimiento</item>
 		<item>epidemia</item>
 		<item>expulsión</item>
-		<item>filosófico, ca</item>
+		<item>filosófico</item>
+		<item>filosófica</item>
 		<item>papel</item>
 		<item>votación</item>
 		<item>prestigiar</item>
@@ -4198,12 +4885,14 @@
 		<item>bajar</item>
 		<item>empleo</item>
 		<item>furia</item>
-		<item>discreto, ta</item>
+		<item>discreto</item>
+		<item>discreta</item>
 		<item>consecución</item>
 		<item>llega</item>
 		<item>recomendar</item>
 		<item>privilegio</item>
-		<item>intenso, sa</item>
+		<item>intenso</item>
+		<item>intensa</item>
 		<item>primer</item>
 		<item>queja</item>
 		<item>oral</item>
@@ -4211,10 +4900,12 @@
 		<item>alimentar</item>
 		<item>requisito</item>
 		<item>cerca</item>
-		<item>bruto, ta</item>
+		<item>bruto</item>
+		<item>bruta</item>
 		<item>organizar</item>
 		<item>iniciación</item>
-		<item>difunto, ta</item>
+		<item>difunto</item>
+		<item>difunta</item>
 		<item>mediar</item>
 		<item>desarrollar</item>
 		<item>milla</item>
@@ -4235,13 +4926,15 @@
 		<item>estatuto</item>
 		<item>sudor</item>
 		<item>pero</item>
-		<item>jefe, fa</item>
+		<item>jefe</item>
+		<item>jefa</item>
 		<item>inquietante</item>
 		<item>cajón</item>
 		<item>ajustar</item>
 		<item>tenor</item>
 		<item>generación</item>
-		<item>infinito, ta</item>
+		<item>infinito</item>
+		<item>infinita</item>
 		<item>optimista</item>
 		<item>ascendente</item>
 		<item>portada</item>
@@ -4250,26 +4943,36 @@
 		<item>coyuntura</item>
 		<item>contratar</item>
 		<item>electoral</item>
-		<item>inesperado, da</item>
-		<item>autor, ra</item>
-		<item>adquirido, da</item>
-		<item>pensado, da</item>
+		<item>inesperado</item>
+		<item>inesperada</item>
+		<item>autor</item>
+		<item>autra</item>
+		<item>adquirido</item>
+		<item>adquirida</item>
+		<item>pensado</item>
+		<item>pensada</item>
 		<item>decisión</item>
-		<item>enemigo, ga</item>
+		<item>enemigo</item>
+		<item>enemiga</item>
 		<item>sumamente</item>
 		<item>continental</item>
-		<item>sentado, da</item>
+		<item>sentado</item>
+		<item>sentada</item>
 		<item>eco</item>
-		<item>botón, na</item>
+		<item>botón</item>
+		<item>botna</item>
 		<item>acosar</item>
 		<item>contundente</item>
 		<item>ayudante</item>
-		<item>humano, na</item>
-		<item>tipo, pa</item>
+		<item>humano</item>
+		<item>humana</item>
+		<item>tipo</item>
+		<item>tipa</item>
 		<item>desear</item>
 		<item>si</item>
 		<item>acumulación</item>
-		<item>destacado, da</item>
+		<item>destacado</item>
+		<item>destacada</item>
 		<item>fe</item>
 		<item>rigor</item>
 		<item>recomendación</item>
@@ -4278,7 +4981,8 @@
 		<item>contigo</item>
 		<item>exclamar</item>
 		<item>aportar</item>
-		<item>pagado, da</item>
+		<item>pagado</item>
+		<item>pagada</item>
 		<item>panorama</item>
 		<item>coincidir</item>
 		<item>juego</item>
@@ -4297,7 +5001,8 @@
 		<item>sábana</item>
 		<item>encantar</item>
 		<item>decoración</item>
-		<item>apto, ta</item>
+		<item>apto</item>
+		<item>apta</item>
 		<item>carga</item>
 		<item>procesión</item>
 		<item>cien</item>
@@ -4320,10 +5025,12 @@
 		<item>describir</item>
 		<item>cintura</item>
 		<item>expedientar</item>
-		<item>guapo, pa</item>
+		<item>guapo</item>
+		<item>guapa</item>
 		<item>pugna</item>
 		<item>extra</item>
-		<item>proveedor, ra</item>
+		<item>proveedor</item>
+		<item>proveedra</item>
 		<item>cuadra</item>
 		<item>virtual</item>
 		<item>mala</item>
@@ -4331,7 +5038,8 @@
 		<item>comparar</item>
 		<item>álbum</item>
 		<item>pierna</item>
-		<item>arquitecto, ta</item>
+		<item>arquitecto</item>
+		<item>arquitecta</item>
 		<item>contentar</item>
 		<item>coche</item>
 		<item>fuertemente</item>
@@ -4344,7 +5052,8 @@
 		<item>principalmente</item>
 		<item>vitalidad</item>
 		<item>seleccionado</item>
-		<item>superior, ra</item>
+		<item>superior</item>
+		<item>superira</item>
 		<item>pureza</item>
 		<item>triple</item>
 		<item>gana</item>
@@ -4355,12 +5064,14 @@
 		<item>bolso</item>
 		<item>júbilo</item>
 		<item>altamente</item>
-		<item>severo, ra</item>
+		<item>severo</item>
+		<item>severa</item>
 		<item>poner</item>
 		<item>crédito</item>
 		<item>liquidación</item>
 		<item>gusto</item>
-		<item>primario, ria</item>
+		<item>primario</item>
+		<item>primaria</item>
 		<item>corresponsal</item>
 		<item>tentación</item>
 		<item>universidad</item>
@@ -4370,13 +5081,15 @@
 		<item>conseguir</item>
 		<item>desorden</item>
 		<item>probar</item>
-		<item>temático, ca</item>
+		<item>temático</item>
+		<item>temática</item>
 		<item>esforzar</item>
 		<item>verificar</item>
 		<item>huevar</item>
 		<item>normalidad</item>
 		<item>mira</item>
-		<item>entero, ra</item>
+		<item>entero</item>
+		<item>entera</item>
 		<item>ceja</item>
 		<item>avenida</item>
 		<item>renovación</item>
@@ -4390,7 +5103,8 @@
 		<item>comodidad</item>
 		<item>bomba</item>
 		<item>autobús</item>
-		<item>asesor, ra</item>
+		<item>asesor</item>
+		<item>asesra</item>
 		<item>tregua</item>
 		<item>actuar</item>
 		<item>caridad</item>
@@ -4401,28 +5115,36 @@
 		<item>previsión</item>
 		<item>víctima</item>
 		<item>descentralización</item>
-		<item>leonado, da</item>
-		<item>trazado, da</item>
-		<item>santo, ta</item>
+		<item>leonado</item>
+		<item>leonada</item>
+		<item>trazado</item>
+		<item>trazada</item>
+		<item>santo</item>
+		<item>santa</item>
 		<item>indicio</item>
 		<item>ver</item>
 		<item>ganadería</item>
 		<item>vegetal</item>
 		<item>constituyente</item>
 		<item>facción</item>
-		<item>mínimo, ma</item>
+		<item>mínimo</item>
+		<item>mínima</item>
 		<item>aliviar</item>
 		<item>luego</item>
 		<item>concurso</item>
-		<item>aplicado, da</item>
+		<item>aplicado</item>
+		<item>aplicada</item>
 		<item>salarial</item>
 		<item>monarquía</item>
-		<item>objetivo, va</item>
+		<item>objetivo</item>
+		<item>objetiva</item>
 		<item>aprender</item>
 		<item>explicación</item>
-		<item>absoluto, ta</item>
+		<item>absoluto</item>
+		<item>absoluta</item>
 		<item>agresividad</item>
-		<item>preventivo, va</item>
+		<item>preventivo</item>
+		<item>preventiva</item>
 		<item>aceitar</item>
 		<item>hidrógeno</item>
 		<item>totalmente</item>
@@ -4441,18 +5163,22 @@
 		<item>análisis</item>
 		<item>murmurar</item>
 		<item>allá</item>
-		<item>amplio, plia</item>
+		<item>amplio</item>
+		<item>amplia</item>
 		<item>maleta</item>
 		<item>defecto</item>
-		<item>él, ella</item>
+		<item>él</item>
+		<item>ella</item>
 		<item>conversar</item>
 		<item>busca</item>
 		<item>prevenir</item>
 		<item>inocencia</item>
 		<item>deber</item>
-		<item>subsecretario, ria</item>
+		<item>subsecretario</item>
+		<item>subsecretaria</item>
 		<item>talla</item>
-		<item>lavado, da</item>
+		<item>lavado</item>
+		<item>lavada</item>
 		<item>cable</item>
 		<item>terrorismo</item>
 		<item>millón</item>
@@ -4460,7 +5186,8 @@
 		<item>azul</item>
 		<item>útil</item>
 		<item>aprovechar</item>
-		<item>asegurado, da</item>
+		<item>asegurado</item>
+		<item>asegurada</item>
 		<item>levantar</item>
 		<item>adelantar</item>
 		<item>párpado</item>
@@ -4476,16 +5203,20 @@
 		<item>bastar</item>
 		<item>vertical</item>
 		<item>batalla</item>
-		<item>químico, ca</item>
+		<item>químico</item>
+		<item>química</item>
 		<item>huevo</item>
 		<item>poesía</item>
-		<item>feo, a</item>
+		<item>feo</item>
+		<item>fea</item>
 		<item>idioma</item>
-		<item>energético, ca</item>
+		<item>energético</item>
+		<item>energética</item>
 		<item>episodio</item>
 		<item>azúcar</item>
 		<item>subrayar</item>
-		<item>delantero, ra</item>
+		<item>delantero</item>
+		<item>delantera</item>
 		<item>presión</item>
 		<item>inocente</item>
 		<item>serenar</item>
@@ -4493,48 +5224,59 @@
 		<item>sanar</item>
 		<item>modo</item>
 		<item>acelerar</item>
-		<item>socio, cia</item>
+		<item>socio</item>
+		<item>socia</item>
 		<item>humor</item>
-		<item>dueño, ña</item>
+		<item>dueño</item>
+		<item>dueña</item>
 		<item>comunicación</item>
 		<item>medieval</item>
-		<item>sanitario, ria</item>
+		<item>sanitario</item>
+		<item>sanitaria</item>
 		<item>momento</item>
 		<item>ejemplo</item>
 		<item>querer</item>
 		<item>expresar</item>
-		<item>delicado, da</item>
+		<item>delicado</item>
+		<item>delicada</item>
 		<item>rostro</item>
 		<item>península</item>
 		<item>romana</item>
 		<item>defender</item>
-		<item>montado, da</item>
+		<item>montado</item>
+		<item>montada</item>
 		<item>alimento</item>
 		<item>zapato</item>
 		<item>felicidad</item>
-		<item>crítico, ca</item>
+		<item>crítico</item>
+		<item>crítica</item>
 		<item>terremoto</item>
 		<item>natal</item>
 		<item>frialdad</item>
 		<item>dignidad</item>
-		<item>cordero, ra</item>
+		<item>cordero</item>
+		<item>cordera</item>
 		<item>bailar</item>
 		<item>enormemente</item>
 		<item>horno</item>
-		<item>contado, da</item>
+		<item>contado</item>
+		<item>contada</item>
 		<item>dieciocho</item>
 		<item>esencial</item>
 		<item>foco</item>
-		<item>acompañado, da</item>
+		<item>acompañado</item>
+		<item>acompañada</item>
 		<item>colega</item>
-		<item>defensor, ra</item>
+		<item>defensor</item>
+		<item>defensra</item>
 		<item>volante</item>
 		<item>hasta</item>
 		<item>terrorista</item>
 		<item>inmueble</item>
 		<item>juvenil</item>
 		<item>ayer</item>
-		<item>muñeco, ca</item>
+		<item>muñeco</item>
+		<item>muñeca</item>
 		<item>crimen</item>
 		<item>recortar</item>
 		<item>psicología</item>
@@ -4546,7 +5288,8 @@
 		<item>artista</item>
 		<item>sodio</item>
 		<item>dinero</item>
-		<item>vicepresidente, ta</item>
+		<item>vicepresidente</item>
+		<item>vicepresidenta</item>
 		<item>romero</item>
 		<item>renta</item>
 		<item>verdura</item>
@@ -4556,11 +5299,15 @@
 		<item>era</item>
 		<item>discutir</item>
 		<item>barco</item>
-		<item>económico, ca</item>
-		<item>augusto, ta</item>
+		<item>económico</item>
+		<item>económica</item>
+		<item>augusto</item>
+		<item>augusta</item>
 		<item>revisar</item>
-		<item>seminario, ria</item>
-		<item>experimentado, da</item>
+		<item>seminario</item>
+		<item>seminaria</item>
+		<item>experimentado</item>
+		<item>experimentada</item>
 		<item>negociación</item>
 		<item>cielo</item>
 		<item>albergar</item>
@@ -4569,7 +5316,8 @@
 		<item>corporación</item>
 		<item>trimestre</item>
 		<item>efecto</item>
-		<item>profesor, ra</item>
+		<item>profesor</item>
+		<item>profesra</item>
 		<item>comandar</item>
 		<item>soportar</item>
 		<item>hoy</item>
@@ -4584,13 +5332,16 @@
 		<item>inolvidable</item>
 		<item>cómoda</item>
 		<item>colonia</item>
-		<item>reducido, da</item>
+		<item>reducido</item>
+		<item>reducida</item>
 		<item>maternidad</item>
-		<item>cuarto, ta</item>
+		<item>cuarto</item>
+		<item>cuarta</item>
 		<item>cruce</item>
 		<item>parque</item>
 		<item>apariencia</item>
-		<item>luminoso, sa</item>
+		<item>luminoso</item>
+		<item>luminosa</item>
 		<item>entrever</item>
 		<item>adentrarse</item>
 		<item>cementerio</item>
@@ -4605,7 +5356,8 @@
 		<item>detener</item>
 		<item>sueño</item>
 		<item>modelar</item>
-		<item>espectador, ra</item>
+		<item>espectador</item>
+		<item>espectadra</item>
 		<item>república</item>
 		<item>insecto</item>
 		<item>filmar</item>
@@ -4618,22 +5370,27 @@
 		<item>coherente</item>
 		<item>policía</item>
 		<item>doler</item>
-		<item>moreno, na</item>
+		<item>moreno</item>
+		<item>morena</item>
 		<item>ubicación</item>
 		<item>distinguir</item>
-		<item>quitado, da</item>
+		<item>quitado</item>
+		<item>quitada</item>
 		<item>sorprender</item>
 		<item>fármaco</item>
 		<item>hábitat</item>
-		<item>doloroso, sa</item>
+		<item>doloroso</item>
+		<item>dolorosa</item>
 		<item>retrato</item>
 		<item>convicción</item>
 		<item>envidia</item>
 		<item>defensa</item>
-		<item>geográfico, ca</item>
+		<item>geográfico</item>
+		<item>geográfica</item>
 		<item>conquistar</item>
 		<item>pesca</item>
-		<item>nuestro, tra</item>
+		<item>nuestro</item>
+		<item>nuestra</item>
 		<item>tramar</item>
 		<item>septiembre</item>
 		<item>lateral</item>
@@ -4643,7 +5400,8 @@
 		<item>localizar</item>
 		<item>pozo</item>
 		<item>marcha</item>
-		<item>húmedo, da</item>
+		<item>húmedo</item>
+		<item>húmeda</item>
 		<item>angustia</item>
 		<item>servir</item>
 		<item>cruzar</item>
@@ -4651,7 +5409,8 @@
 		<item>umbral</item>
 		<item>tan</item>
 		<item>camioneta</item>
-		<item>público, ca</item>
+		<item>público</item>
+		<item>pública</item>
 		<item>hervir</item>
 		<item>enfermedad</item>
 		<item>subvención</item>
@@ -4664,7 +5423,8 @@
 		<item>mapa</item>
 		<item>óscar</item>
 		<item>certamen</item>
-		<item>jubilado, da</item>
+		<item>jubilado</item>
+		<item>jubilada</item>
 		<item>criticar</item>
 		<item>prado</item>
 		<item>tolerancia</item>
@@ -4678,15 +5438,18 @@
 		<item>seguida</item>
 		<item>concluir</item>
 		<item>suavemente</item>
-		<item>educativo, va</item>
+		<item>educativo</item>
+		<item>educativa</item>
 		<item>demás</item>
 		<item>tintar</item>
-		<item>musulmán, na</item>
+		<item>musulmán</item>
+		<item>musulmna</item>
 		<item>acudir</item>
 		<item>particular</item>
 		<item>ficción</item>
 		<item>contener</item>
-		<item>horario, ria</item>
+		<item>horario</item>
+		<item>horaria</item>
 		<item>esfuerzo</item>
 		<item>sugerencia</item>
 		<item>aportación</item>
@@ -4697,18 +5460,24 @@
 		<item>tumor</item>
 		<item>recibir</item>
 		<item>vengar</item>
-		<item>líquido, da</item>
+		<item>líquido</item>
+		<item>líquida</item>
 		<item>noble</item>
-		<item>organizado, da</item>
-		<item>señor, ra</item>
+		<item>organizado</item>
+		<item>organizada</item>
+		<item>señor</item>
+		<item>señra</item>
 		<item>recontar</item>
 		<item>lazo</item>
-		<item>motivo, va</item>
+		<item>motivo</item>
+		<item>motiva</item>
 		<item>cerveza</item>
-		<item>castellano, na</item>
+		<item>castellano</item>
+		<item>castellana</item>
 		<item>contacto</item>
 		<item>nevar</item>
-		<item>extremo, ma</item>
+		<item>extremo</item>
+		<item>extrema</item>
 		<item>espalda</item>
 		<item>discriminación</item>
 		<item>geometría</item>
@@ -4722,13 +5491,15 @@
 		<item>comer</item>
 		<item>atletismo</item>
 		<item>canto</item>
-		<item>vosotros, tras</item>
+		<item>vosotros</item>
+		<item>vosotras</item>
 		<item>flexibilidad</item>
 		<item>delirio</item>
 		<item>mandato</item>
 		<item>versión</item>
 		<item>revolución</item>
-		<item>artístico, ca</item>
+		<item>artístico</item>
+		<item>artística</item>
 		<item>perfil</item>
 		<item>grano</item>
 		<item>andar</item>
@@ -4738,15 +5509,18 @@
 		<item>menor</item>
 		<item>navaja</item>
 		<item>sistemáticamente</item>
-		<item>enfermo, ma</item>
+		<item>enfermo</item>
+		<item>enferma</item>
 		<item>estación</item>
 		<item>lugar</item>
 		<item>sobra</item>
 		<item>barranco</item>
 		<item>laboratorio</item>
 		<item>medalla</item>
-		<item>rector, ra</item>
-		<item>séptimo, ma</item>
+		<item>rector</item>
+		<item>rectra</item>
+		<item>séptimo</item>
+		<item>séptima</item>
 		<item>adaptación</item>
 		<item>central</item>
 		<item>conceder</item>
@@ -4755,17 +5529,20 @@
 		<item>espejar</item>
 		<item>número</item>
 		<item>situar</item>
-		<item>proyecto, ta</item>
+		<item>proyecto</item>
+		<item>proyecta</item>
 		<item>tratado</item>
 		<item>deficiencia</item>
 		<item>raco</item>
 		<item>queso</item>
-		<item>administrador, ra</item>
+		<item>administrador</item>
+		<item>administradra</item>
 		<item>jabón</item>
 		<item>decreto</item>
 		<item>estimular</item>
 		<item>campaña</item>
-		<item>iniciado, da</item>
+		<item>iniciado</item>
+		<item>iniciada</item>
 		<item>suicidio</item>
 		<item>fallo</item>
 		<item>preparar</item>
@@ -4774,7 +5551,8 @@
 		<item>rogar</item>
 		<item>contemplar</item>
 		<item>urbanismo</item>
-		<item>demasiado, da</item>
+		<item>demasiado</item>
+		<item>demasiada</item>
 		<item>tradicionalmente</item>
 		<item>arterial</item>
 		<item>casino</item>
@@ -4817,10 +5595,12 @@
 		<item>aislamiento</item>
 		<item>himno</item>
 		<item>callar</item>
-		<item>añadido, da</item>
+		<item>añadido</item>
+		<item>añadida</item>
 		<item>tráfico</item>
 		<item>extraer</item>
-		<item>silencioso, sa</item>
+		<item>silencioso</item>
+		<item>silenciosa</item>
 		<item>guía</item>
 		<item>río</item>
 		<item>déficit</item>
@@ -4831,7 +5611,8 @@
 		<item>desconfianza</item>
 		<item>semifinal</item>
 		<item>recentar</item>
-		<item>significado, da</item>
+		<item>significado</item>
+		<item>significada</item>
 		<item>comunión</item>
 		<item>ti</item>
 		<item>desesperación</item>
@@ -4841,7 +5622,8 @@
 		<item>celeste</item>
 		<item>hectárea</item>
 		<item>telecomunicación</item>
-		<item>colectivo, va</item>
+		<item>colectivo</item>
+		<item>colectiva</item>
 		<item>villa</item>
 		<item>cautela</item>
 		<item>correlación</item>
@@ -4854,10 +5636,12 @@
 		<item>kilómetro</item>
 		<item>cubrir</item>
 		<item>calendario</item>
-		<item>coordinador, ra</item>
+		<item>coordinador</item>
+		<item>coordinadra</item>
 		<item>mil</item>
 		<item>máquina</item>
-		<item>canelo, la</item>
+		<item>canelo</item>
+		<item>canela</item>
 		<item>conocimiento</item>
 		<item>rellenar</item>
 		<item>comercial</item>
@@ -4876,10 +5660,13 @@
 		<item>liga</item>
 		<item>pedido</item>
 		<item>manteca</item>
-		<item>telefónico, ca</item>
-		<item>conservador, ra</item>
+		<item>telefónico</item>
+		<item>telefónica</item>
+		<item>conservador</item>
+		<item>conservadra</item>
 		<item>llamado</item>
-		<item>gigantesco, ca</item>
+		<item>gigantesco</item>
+		<item>gigantesca</item>
 		<item>funcional</item>
 		<item>comprado</item>
 		<item>hortensia</item>
@@ -4887,7 +5674,8 @@
 		<item>concursar</item>
 		<item>signo</item>
 		<item>trayecto</item>
-		<item>segundo, da</item>
+		<item>segundo</item>
+		<item>segunda</item>
 		<item>imaginación</item>
 		<item>acusar</item>
 		<item>completamente</item>
@@ -4896,7 +5684,8 @@
 		<item>rociar</item>
 		<item>reparación</item>
 		<item>silueta</item>
-		<item>informativo, va</item>
+		<item>informativo</item>
+		<item>informativa</item>
 		<item>fundar</item>
 		<item>fiscalía</item>
 		<item>independientemente</item>
@@ -4907,49 +5696,59 @@
 		<item>retirada</item>
 		<item>rica</item>
 		<item>recuperar</item>
-		<item>lento, ta</item>
+		<item>lento</item>
+		<item>lenta</item>
 		<item>documentación</item>
 		<item>incidente</item>
 		<item>durar</item>
 		<item>susto</item>
 		<item>existir</item>
 		<item>cabo</item>
-		<item>publicitario, ria</item>
+		<item>publicitario</item>
+		<item>publicitaria</item>
 		<item>apartamento</item>
 		<item>texto</item>
 		<item>occidental</item>
 		<item>toma</item>
 		<item>entretanto</item>
-		<item>comisario, ria</item>
+		<item>comisario</item>
+		<item>comisaria</item>
 		<item>hegemonía</item>
 		<item>violación</item>
 		<item>reloj</item>
-		<item>avanzado, da</item>
+		<item>avanzado</item>
+		<item>avanzada</item>
 		<item>ventanilla</item>
 		<item>alcohol</item>
 		<item>deseo</item>
 		<item>debut</item>
-		<item>marcador, ra</item>
-		<item>guerrero, ra</item>
+		<item>marcador</item>
+		<item>marcadra</item>
+		<item>guerrero</item>
+		<item>guerrera</item>
 		<item>eliminar</item>
-		<item>olvidado, da</item>
+		<item>olvidado</item>
+		<item>olvidada</item>
 		<item>constituir</item>
 		<item>posición</item>
 		<item>textura</item>
 		<item>chofer</item>
 		<item>significativamente</item>
-		<item>menudo, da</item>
+		<item>menudo</item>
+		<item>menuda</item>
 		<item>metabolismo</item>
 		<item>coronel</item>
 		<item>deteriorar</item>
 		<item>leña</item>
-		<item>táctico, ca</item>
+		<item>táctico</item>
+		<item>táctica</item>
 		<item>superar</item>
 		<item>cesar</item>
 		<item>sospechar</item>
 		<item>productividad</item>
 		<item>responder</item>
-		<item>negro, gra</item>
+		<item>negro</item>
+		<item>negra</item>
 		<item>jornada</item>
 		<item>preocupar</item>
 		<item>salar</item>
@@ -4959,19 +5758,24 @@
 		<item>estímulo</item>
 		<item>implantación</item>
 		<item>plantear</item>
-		<item>acusado, da</item>
+		<item>acusado</item>
+		<item>acusada</item>
 		<item>provincia</item>
 		<item>organización</item>
 		<item>rato</item>
 		<item>marinar</item>
-		<item>fantástico, ca</item>
+		<item>fantástico</item>
+		<item>fantástica</item>
 		<item>asociación</item>
-		<item>observador, ra</item>
+		<item>observador</item>
+		<item>observadra</item>
 		<item>estable</item>
 		<item>protesta</item>
-		<item>compositor, ra</item>
+		<item>compositor</item>
+		<item>compositra</item>
 		<item>grasa</item>
-		<item>enseñado, da</item>
+		<item>enseñado</item>
+		<item>enseñada</item>
 		<item>remedio</item>
 		<item>embargar</item>
 		<item>divisa</item>
@@ -4980,16 +5784,20 @@
 		<item>ruta</item>
 		<item>ampliamente</item>
 		<item>taxi</item>
-		<item>cazador, ra</item>
+		<item>cazador</item>
+		<item>cazadra</item>
 		<item>nombramiento</item>
 		<item>socorrer</item>
 		<item>lectura</item>
-		<item>indirecto, ta</item>
+		<item>indirecto</item>
+		<item>indirecta</item>
 		<item>delante</item>
 		<item>dispersión</item>
 		<item>anguila</item>
-		<item>cónsul, lesa</item>
-		<item>femenino, na</item>
+		<item>cónsul</item>
+		<item>cólesa</item>
+		<item>femenino</item>
+		<item>femenina</item>
 		<item>vaso</item>
 		<item>renunciar</item>
 		<item>diciembre</item>
@@ -4998,7 +5806,8 @@
 		<item>ilegal</item>
 		<item>profundizar</item>
 		<item>tasa</item>
-		<item>rojo, ja</item>
+		<item>rojo</item>
+		<item>roja</item>
 		<item>diversidad</item>
 	</words>
 </Spanish>
