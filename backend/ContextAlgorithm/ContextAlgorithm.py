@@ -1,21 +1,22 @@
 import requests
-import xml.etree.cElementTree as et
+import xml.etree.cElementTree as ET
 import string
 import os
 import operator
+import time
 
 OUTPUT_LANG = 'en'
 
-# These three values will be filled by the input when it will be implemented
-INPUT_LANG = 'es'
+# These three values are filled by the sorted word list (result.xml).
+INPUT_LANG = ''
 WORD = ''
 WORD_DIFFICULTY = 0
 
 POSSIBLE_TITLE_FREQ = ['SpanishWordFrequencies.xml', 'DutchWordFrequencies.xml', 'GermanWordFrequencies.xml']
 POSSIBLE_LANGUAGES = ['es', 'nl', 'de']
 TITLE_FREQ = 'SpanishWordFrequencies.xml'
-TITLE_SHORTED_WORDS = 'result.xml'
-PATH_FREQ_LIST = "/home/antonio/Desktop/SE/FrecuencyList/"
+TITLE_SORTED_WORDS = 'result.xml'
+PATH_FREQ_LIST = "/home/antonio/3rdYear/SE/FrecuencyList/"
 PATH_INPUT_WORDS = ''
 MAX_LENGTH_SENTENCE = 15
 
@@ -85,14 +86,20 @@ def error_calculation(words_values):
     return error / len(words_values)
 
 
-# Calculates the difficult value for each word in a sentence
+# Calculates the difficult value for each word in a sentence. If it is a proper name difficulty will be 0
 def calculate_sentence_words_value(root, sentence):
     word_values = []
     for j in range(0, len(sentence.words)):
-        try:
-            word_values.append(int(root.find(sentence.words[j].lower()).text))
-        except AttributeError:
-            word_values.append(0)
+            if sentence.words[j][0].isupper() and j != 0:
+                word_values.append(0)
+
+            else:
+                for word in root.findall('Word'):
+                    if word.find('Word').text == sentence.words[j].lower():
+                        word_values.append(float(word.find('WordValue').text))
+                        break
+
+               # word_values.append(WORD_DIFFICULTY)
 
     return word_values
 
@@ -113,22 +120,44 @@ def better_sentences(possible_sentences):
     return {"chall_sntnc": challenging_sentence, "smpl_sntnc": simplest_sentence}
 
 
+# Writes in the XML file the word and the contexts of that word
+def writing_xml_file(root_output, useful_sentences):
+    global WORD
+    ET.SubElement(root_output, 'Word').text = WORD
+
+    challenging_sentences = ET.SubElement(root_output, 'Challenging_sentences')
+
+    for x in useful_sentences["chall_sntnc"]:
+        ET.SubElement(challenging_sentences, 'Sentence').text = x.sentence_string
+
+    simplest_sentences = ET.SubElement(root_output, 'Simplest_sentences')
+
+    for x in useful_sentences["smpl_sntnc"]:
+        ET.SubElement(simplest_sentences, 'Sentence').text = x.sentence_string
+
+    tree = ET.ElementTree(root_output)
+    tree.write("contexts.xml")
+
+
 def main():
     global PATH_FREQ_LIST, PATH_INPUT_WORDS, WORD, WORD_DIFFICULTY
 
     PATH_INPUT_WORDS = os.path.realpath(
-        os.path.join(os.getcwd(), os.path.dirname(TITLE_SHORTED_WORDS))) + '/' + TITLE_SHORTED_WORDS
+        os.path.join(os.getcwd(), os.path.dirname(TITLE_SORTED_WORDS))) + '/' + TITLE_SORTED_WORDS
 
-    root_input = et.parse(PATH_INPUT_WORDS).getroot()
+    root_input = ET.parse(PATH_INPUT_WORDS).getroot()
+
+    root_output = ET.Element('Contexts')
 
     for word in root_input.findall('Word'):
         WORD = word.find('Word').text
-        print(WORD)
         WORD_DIFFICULTY = float(word.find('WordValue').text)
 
         language = word.find('Language').text
 
         choose_language(language)
+
+        time.sleep(1)
 
         resp = requests.get('https://linguee-api.herokuapp.com/api?q='
                             + WORD + '&src=' + INPUT_LANG + '&dst=' + OUTPUT_LANG)
@@ -144,7 +173,7 @@ def main():
             print("Word not found in api")
             continue
 
-        root_freg = et.parse(PATH_FREQ_LIST + TITLE_FREQ).getroot()
+        root_freg = ET.parse(PATH_FREQ_LIST + TITLE_FREQ).getroot()
         possible_sentences = []
 
         print("\nThe word is: " + WORD + "\n")
@@ -153,22 +182,16 @@ def main():
         for i in range(0, len(sentences)):
             sentence_words = delete_punctuation(sentences[i]).split()
             sentence = Sentence(sentences[i], sentence_words)
-            sentence.add_values(calculate_sentence_words_value(root_freg, sentence))
+            sentence.add_values(calculate_sentence_words_value(root_input, sentence))
             sentence.set_difficulty(error_calculation(sentence.words_values))
 
             if len(sentence.words) <= MAX_LENGTH_SENTENCE and (int(sentence.difficulty)) <= WORD_DIFFICULTY:
                 possible_sentences.append(sentence)
-                print(sentence)
+
 
         useful_sentences = better_sentences(possible_sentences)
+        writing_xml_file(root_output, useful_sentences)
 
-        print("\nMost challenging sentences are: ")
-        for x in useful_sentences["chall_sntnc"]:
-            print(x)
-
-        print("\nThe simplest sentences are: ")
-        for x in useful_sentences["smpl_sntnc"]:
-            print(x)
 
 
 if __name__ == "__main__":
