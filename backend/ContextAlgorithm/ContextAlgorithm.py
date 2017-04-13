@@ -12,11 +12,9 @@ INPUT_LANG = ''
 WORD = ''
 WORD_DIFFICULTY = 0
 
-POSSIBLE_TITLE_FREQ = ['SpanishWordFrequencies.xml', 'DutchWordFrequencies.xml', 'GermanWordFrequencies.xml']
 POSSIBLE_LANGUAGES = ['es', 'nl', 'de']
 TITLE_FREQ = 'SpanishWordFrequencies.xml'
 TITLE_SORTED_WORDS = 'result.xml'
-PATH_FREQ_LIST = "/home/antonio/3rdYear/SE/FrecuencyList/"
 PATH_INPUT_WORDS = ''
 MAX_LENGTH_SENTENCE = 15
 
@@ -86,7 +84,8 @@ def error_calculation(words_values):
     return error / len(words_values)
 
 
-# Calculates the difficult value for each word in a sentence. If it is a proper name difficulty will be 0
+# Calculates the difficult value for each word in a sentence. If it is a proper name difficulty will be 0. If it is not
+# found no value will be added
 def calculate_sentence_words_value(root, sentence):
     word_values = []
     for j in range(0, len(sentence.words)):
@@ -140,7 +139,7 @@ def writing_xml_file(root_output, useful_sentences):
 
 
 def main():
-    global PATH_FREQ_LIST, PATH_INPUT_WORDS, WORD, WORD_DIFFICULTY
+    global PATH_INPUT_WORDS, WORD, WORD_DIFFICULTY
 
     PATH_INPUT_WORDS = os.path.realpath(
         os.path.join(os.getcwd(), os.path.dirname(TITLE_SORTED_WORDS))) + '/' + TITLE_SORTED_WORDS
@@ -173,7 +172,6 @@ def main():
             print("Word not found in api")
             continue
 
-        root_freg = ET.parse(PATH_FREQ_LIST + TITLE_FREQ).getroot()
         possible_sentences = []
 
         print("\nThe word is: " + WORD + "\n")
@@ -188,10 +186,8 @@ def main():
             if len(sentence.words) <= MAX_LENGTH_SENTENCE and (int(sentence.difficulty)) <= WORD_DIFFICULTY:
                 possible_sentences.append(sentence)
 
-
         useful_sentences = better_sentences(possible_sentences)
         writing_xml_file(root_output, useful_sentences)
-
 
 
 if __name__ == "__main__":
