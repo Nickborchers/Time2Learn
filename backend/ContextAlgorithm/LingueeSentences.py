@@ -19,8 +19,8 @@ def query_by_lang(url, src_lang, dst_lang, word):
     return query_site(url + src_lang + '-' + dst_lang + "/search", params, HTML)
 
 
-def main():
-    soup = query_by_lang(BASE_URL, SRC_LANG, DST_LANG, "casa")
+def obtain_sentences(word):
+    soup = query_by_lang(BASE_URL, SRC_LANG, DST_LANG, word)
     sentences = soup.findAll("td", {"class": "sentence left"})
 
     remove_list = []
@@ -39,5 +39,4 @@ def main():
     for sentence in spans:
         list.append(sentence.text)
 
-if __name__ == "__main__":
-    main()
+    return list

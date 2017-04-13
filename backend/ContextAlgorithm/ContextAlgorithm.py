@@ -64,13 +64,10 @@ def choose_language(language):
     global INPUT_LANG, TITLE_FREQ
     if language == 'Spanish':
         INPUT_LANG = POSSIBLE_LANGUAGES[0]
-        TITLE_FREQ = POSSIBLE_TITLE_FREQ[0]
     elif language == 'Dutch':
         INPUT_LANG = POSSIBLE_LANGUAGES[1]
-        TITLE_FREQ = POSSIBLE_TITLE_FREQ[1]
     else:
         INPUT_LANG = POSSIBLE_LANGUAGES[2]
-        TITLE_FREQ = POSSIBLE_TITLE_FREQ[2]
     return
 
 
@@ -93,11 +90,15 @@ def delete_punctuation(sentence):
     return sentence
 
 
-# Calculates the error regarding the word difficulty
+# Calculates the error regarding the word difficulty. If no word is found, return the word difficulty so that the
+# sentence won't be included
 def error_calculation(words_values):
     error = 0
     for x in range(0, len(words_values)):
         error += words_values[x] - WORD_DIFFICULTY
+
+    if len(words_values) == 0:
+        return WORD_DIFFICULTY
 
     return error / len(words_values)
 
@@ -190,9 +191,8 @@ def main():
 
         possible_sentences = []
 
-        print("\nThe word is: " + WORD + "\n")
+        print("The word is: " + WORD)
 
-        print("The possible sentences are:")
         for i in range(0, len(sentences)):
             sentence_words = delete_punctuation(sentences[i]).split()
             sentence = Sentence(sentences[i], sentence_words)
@@ -204,7 +204,6 @@ def main():
 
         useful_sentences = better_sentences(possible_sentences)
         writing_xml_file(root_output, useful_sentences)
-
 
 if __name__ == "__main__":
     main()
