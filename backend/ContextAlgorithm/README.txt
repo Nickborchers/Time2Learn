@@ -8,3 +8,5 @@ The context algorithm functionality is already implemented. However there are a 
 
 	3. Finally, the algorithm depends a lot from the input (the difficulty of each word). In the current input there are some words missing which are needed for having a better functionnality. At the moment, if the algorithm does not find a word in the input xml (result.xml) when it is looking for the difficulty of a word in a sentence, there is no value added, so it does not count to establish the difficulty of a sentence
 
+It is important to notice that there can be words without a context because they are too simple to find a simplest sentence.
+

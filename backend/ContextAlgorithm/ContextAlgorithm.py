@@ -5,6 +5,24 @@ import os
 import operator
 import time
 
+
+"""
+
+Structure of the output XML file
+
+        <Contexts>
+            <Word>idea</Word>
+                <Challenging_sentences>
+                    <Sentence>Los informes nacionales apoyan esta idea abrumadoramente.</Sentence>
+                </Challenging_sentences>
+                <Simplest_sentences>
+                    <Sentence>Los informes nacionales apoyan esta idea abrumadoramente.</Sentence>
+                </Simplest_sentences>
+        </Contexts>
+
+"""
+
+
 OUTPUT_LANG = 'en'
 
 # These three values are filled by the sorted word list (result.xml).
@@ -97,8 +115,6 @@ def calculate_sentence_words_value(root, sentence):
                     if word.find('Word').text == sentence.words[j].lower():
                         word_values.append(float(word.find('WordValue').text))
                         break
-
-               # word_values.append(WORD_DIFFICULTY)
 
     return word_values
 
