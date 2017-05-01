@@ -1,9 +1,7 @@
 from query import *
+import ContextAlgorithm
 
 BASE_URL = "http://www.linguee.com/"
-
-SRC_LANG = "spanish"
-DST_LANG = "english"
 
 def query_by_lang(url, src_lang, dst_lang, word):
     """Adds a language to the url of the query
@@ -19,8 +17,8 @@ def query_by_lang(url, src_lang, dst_lang, word):
     return query_site(url + src_lang + '-' + dst_lang + "/search", params, HTML)
 
 
-def obtain_sentences(word):
-    soup = query_by_lang(BASE_URL, SRC_LANG, DST_LANG, word)
+def obtain_sentences(word, input_languagge, output_language):
+    soup = query_by_lang(BASE_URL, input_languagge, output_language, word)
     sentences = soup.findAll("td", {"class": "sentence left"})
 
     remove_list = []
@@ -37,6 +35,6 @@ def obtain_sentences(word):
     spans = soup.findAll("span", {"class": "tag_s"})[1:]
 
     for sentence in spans:
-        list.append(sentence.text)
-
+        if word + " " in ContextAlgorithm.delete_punctuation(sentence.text):
+            list.append(sentence.text)
     return list

@@ -4,6 +4,7 @@ import string
 import os
 import operator
 import time
+import LingueeSentences
 
 
 """
@@ -168,30 +169,15 @@ def main():
     for word in root_input.findall('Word'):
         WORD = word.find('Word').text
         WORD_DIFFICULTY = float(word.find('WordValue').text)
-
         language = word.find('Language').text
 
+        print("The word is: " + WORD)
+
         choose_language(language)
-
-        time.sleep(1)
-
-        resp = requests.get('https://linguee-api.herokuapp.com/api?q='
-                            + WORD + '&src=' + INPUT_LANG + '&dst=' + OUTPUT_LANG)
-
-        output = resp.json()
-
-        sentences = []
-
-        try:
-            for example in output['real_examples']:
-                sentences.append(clean_sentence(sentence=example['src']))
-        except KeyError:
-            print("Word not found in api")
-            continue
+        time.sleep(10)
+        sentences = LingueeSentences.obtain_sentences(WORD, INPUT_LANG, OUTPUT_LANG)
 
         possible_sentences = []
-
-        print("The word is: " + WORD)
 
         for i in range(0, len(sentences)):
             sentence_words = delete_punctuation(sentences[i]).split()

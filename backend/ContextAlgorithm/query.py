@@ -22,8 +22,8 @@ def query_site(url, params, fmt=JSON):
 
     """
     r = requests.get(url, params=params)
-    #print ("requesting", r.url)
     if r.status_code == requests.codes.ok:
+        print(r.status_code)
         return {
             JSON: __get_json,
             HTML: __get_html
