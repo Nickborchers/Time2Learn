@@ -7,9 +7,9 @@
  */
 
 define(['battery', 'userData', 'time', 'weather', 'fireworks', 
-	'background', 'effects', 'settings', 'menu', 'profile'], 
+	'background', 'effects', 'settings', 'menu', 'profile', 'codeShow'], 
 	function(battery, userData, time, weather, fireworks, 
-		background, effects, settings, menu, profile) {
+		background, effects, settings, menu, profile, codeShow) {
 	
 	//definitions about text
 	var FONT = "px Arial";
@@ -57,7 +57,7 @@ define(['battery', 'userData', 'time', 'weather', 'fireworks',
 		canvasRevealPage.style.visibility = "visible";
 	}
 
-	function doubleTapHandler() {
+	function doubleTapHandler(page) {
 		if (doubleTapTimer === null) {
 			// handle single tap
 			doubleTapTimer = setTimeout(function () {
@@ -68,7 +68,11 @@ define(['battery', 'userData', 'time', 'weather', 'fireworks',
 			// handle double tap
 			clearTimeout(doubleTapTimer);
 			doubleTapTimer = null;
-			settings.show();
+			if (page === "time") {
+				settings.show();				
+			} else {
+				codeShow.changePage();
+			}
 		}
 	}
 
@@ -144,7 +148,11 @@ define(['battery', 'userData', 'time', 'weather', 'fireworks',
 			});
 			document.getElementById("time").addEventListener("click", function(e){
 				userData.saveClick(e.clientX, e.clientY, "time");
-				doubleTapHandler();
+				doubleTapHandler("time");
+			});
+			document.getElementById("codeShowPage").addEventListener("click", function(e){
+				userData.saveClick(e.clientX, e.clientY, "time");
+				doubleTapHandler("codeShowPage");
 			});
 	}
 

@@ -149,8 +149,9 @@ define(['userData', 'popup'], function(userData, popup) {
 	return function login(checkLogin) {
 
 		// uncomment this line to skip login
-//		localStorage.setItem("accountCode", "58924983");
+		localStorage.setItem("accountCode", "59961147");
 		// only valid codes will be saved
+//		localStorage.removeItem("accountCode");
 		if (localStorage.getItem("accountCode") !== null) {
 			userData.load();
 			// no login screen needed, because user already entered code.

@@ -82,6 +82,37 @@ html,body {
 	opacity: 0.9;
 }
 
+#codeShowPage {
+	z-index: 9;
+	width: 360px;
+	height: 360px;
+	background-image: url('../assets/background.png');
+	background-size: 360px 360px;
+}
+
+#codeShowDigits {
+	width: 360px;
+	height: 210px;
+}
+
+#pageIndication {
+	width: 360px;
+	height: 20px;
+}
+
+#backButtonInCodeShow {
+	width: 360px;
+	height: 60px;
+	border-radius: 0px;
+	background-image: url('../assets/back_button.png');
+	background-size: 360px 60px;
+}
+
+#codeShowHeader {
+	width: 360px;
+	height: 70px;
+}
+
 #revealedPage {
 	width: 360px;
 	height: 180px;
