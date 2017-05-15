@@ -7,9 +7,12 @@
  * made by Robin Sommer
  */
 
-define(['userData'], function(userData) {
+define(['userData', 'qrcode'], function(userData, qrcode) {
 	var page = 1;
 	var ctx;
+	var QRcode;
+	var numbersPrinted = false;
+	var qrCodePrinted = false;
 	
 	//definitions of screen variables
 	var SCREEN_WIDTH = 360;
@@ -35,11 +38,10 @@ define(['userData'], function(userData) {
 
 	var NUMBER_OF_CODE_NUMBERS_ON_PAGE = 8;
 
-	function placePageIcon() {
-		ctx = document.getElementById("pageIndicationCanvas").getContext("2d");
-		ctx.clearRect(0, 0, SCREEN_WIDTH, ICON_HEIGHT);
-	
+	function placePageIcon(page) {
 		if (page === 1) {
+			ctx = document.getElementById("pageIndicationDigitsCanvas").getContext("2d");
+			ctx.clearRect(0, 0, SCREEN_WIDTH, ICON_HEIGHT);		
 			ctx.beginPath();
 			ctx.arc(170, 7, 7, 0, 2 * Math.PI);
 			ctx.fillStyle = "#FFFFFF";
@@ -49,6 +51,8 @@ define(['userData'], function(userData) {
 			ctx.fillStyle = "#C3C3C3";
 			ctx.fill();
 		} else {
+			ctx = document.getElementById("pageIndicationQRCodeCanvas").getContext("2d");
+			ctx.clearRect(0, 0, SCREEN_WIDTH, ICON_HEIGHT);		
 			ctx.beginPath();
 			ctx.arc(170, 7, 7, 0, 2 * Math.PI);
 			ctx.fillStyle = "#C3C3C3";
@@ -78,9 +82,9 @@ define(['userData'], function(userData) {
 			ctx.fillText(number, POS_DIGIT_LEFT + DIGIT_SPACE*(position-4), POS_DIGIT_TOP+DIGIT_HEIGHT);
 		}
 	}
-
-	function printTitle(title){
-		ctx = document.getElementById("codeShowHeaderCanvas").getContext("2d");
+	
+	function printTitle(title, canvas){
+		ctx = document.getElementById(canvas).getContext("2d");
 		ctx.clearRect(0, 0, SCREEN_WIDTH, TITLE_HEIGHT);
 		
 		ctx.font = TITLE_FONT;
@@ -89,42 +93,72 @@ define(['userData'], function(userData) {
 		ctx.fillText(title, SCREEN_WIDTH/2, TITLE_TEXT_HEIGHT);
 	}
 
-	function showCode() {
-		document.getElementById("mainPage").style.display = "none";
-		document.getElementById("codeShowPage").style.display = "block";
-		printTitle("Your 8 digit code:");
-		placePageIcon();
-		
+	function initDigitPage() {
+		printTitle("Your 8 digit code:", "codeShowHeaderCanvas");
+		placePageIcon(1);
+
 		var accountCode = userData.getCode();
+		//		print code in numbers here
+		var digitToShow;
+		for (var i = 0; i < NUMBER_OF_CODE_NUMBERS_ON_PAGE ; i++) {
+			digitToShow = Math.floor(accountCode / Math.pow(10,7-i));
+			digitToShow = digitToShow - (Math.floor(digitToShow / 10) * 10);
+			printCodeNumber(i,digitToShow);
+		}
+		numbersPrinted = true;
+	}
+	
+	function initQRCodePage() {
+		printTitle("Your 8 digit code:", "qrcodeHeaderCanvas");
+		placePageIcon(2);
+		var accountCode = userData.getCode();
+
+		//		create QR Code here			
+		QRcode = new QRCode("imageQR", {
+		    text: accountCode.toString(),
+		    width: 200,
+		    height: 200,
+		    colorDark : "#000000",
+		    colorLight : "#ffffff",
+		});
+		qrCodePrinted = true;
+	}
+	
+	function activateBackButtons() {
+		document.getElementById("backButtonInCodeShow").addEventListener("click", function(){
+			document.getElementById("codeShowPage").style.display = "none";
+			document.getElementById("mainPage").style.display = "block";
+			QRcode.clear();
+		});
+		document.getElementById("backButtonInQRCode").addEventListener("click", function(){
+			document.getElementById("qrcodePage").style.display = "none";
+			document.getElementById("mainPage").style.display = "block";
+			QRcode.clear();
+		});
+	}
+	
+	function activateScreen(page) {
+		document.getElementById("mainPage").style.display = "none";
 		if (page === 1) {
-//			show code in numbers here
-			var digitToShow;
-			for (var i = 0; i < NUMBER_OF_CODE_NUMBERS_ON_PAGE ; i++) {
-				digitToShow = Math.floor(accountCode / Math.pow(10,7-i));
-				digitToShow = digitToShow - (Math.floor(digitToShow / 10) * 10);
-				printCodeNumber(i,digitToShow);				
-			}
+			document.getElementById("qrcodePage").style.display = "none";
+			document.getElementById("codeShowPage").style.display = "block";
 		} else {
-//			create and show QR Code here
-			console.log("QR code should be showed, but is not implemented yet");
-			for (var j = 0; j < NUMBER_OF_CODE_NUMBERS_ON_PAGE ; j++) {
-				printCodeNumber(j,9);				
-			}
+			document.getElementById("codeShowPage").style.display = "none";
+			document.getElementById("qrcodePage").style.display = "block";
 		}
 	}
-
+	
 	return {
 		show: function() {
-			document.getElementById("backButtonInCodeShow").addEventListener("click", function(){
-				document.getElementById("codeShowPage").style.display = "none";
-				document.getElementById("mainPage").style.display = "block";
-			});
-			showCode();
+			activateBackButtons();
+			if (!numbersPrinted) { initDigitPage(); }
+			if (!qrCodePrinted) { initQRCodePage(); }
+			activateScreen(1);
 		},
 	
 		changePage: function() {
 			page = (page === 1? 2 : 1);
-			showCode();
+			activateScreen(page);
 		}
 	};
 });
